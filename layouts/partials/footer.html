@@ -138,14 +138,11 @@
 <script>
 window.addEventListener('DOMContentLoaded', function (event) {
   const headings = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id]');
+  const activeClass = 'active';
 
   // Make the first header active
   let activeHeading = headings[0];
-  function getLinkByHeading(heading) {
-    const id = encodeURI(heading.getAttribute('id')).toLowerCase();
-    return document.querySelector(`.toc ul li a[href="#${id}"]`);
-  }
-  getLinkByHeading(activeHeading).classList.add('active');
+  getLinkByHeading(activeHeading).classList.add(activeClass);
 
   window.addEventListener('scroll', () => {
     const passedHeadings = [];
@@ -158,17 +155,21 @@ window.addEventListener('DOMContentLoaded', function (event) {
       }
     }
     if (passedHeadings.length > 0) {
-      activeHeading = passedHeadings[passedHeadings.length - 1];
+      newActiveHeading = passedHeadings[passedHeadings.length - 1];
+    } else {
+      newActiveHeading = headings[0];
     }
-
-    headings.forEach(heading => {
-      if (heading === activeHeading) {
-        getLinkByHeading(heading).classList.add('active');
-      } else {
-        getLinkByHeading(heading).classList.remove('active');
-      }
-    })
+    if (activeHeading != newActiveHeading) {
+      getLinkByHeading(activeHeading).classList.remove(activeClass);
+      activeHeading = newActiveHeading;
+      getLinkByHeading(activeHeading).classList.add(activeClass);
+    }
   }, false);
+
+  function getLinkByHeading(heading) {
+    const id = encodeURI(heading.getAttribute('id')).toLowerCase();
+    return document.querySelector(`.toc ul li a[href="#${id}"]`);
+  }
 
   function getOffsetTop(heading) {
     if (!heading.getClientRects().length) {
@@ -176,8 +177,6 @@ window.addEventListener('DOMContentLoaded', function (event) {
     }
     let rect = heading.getBoundingClientRect();
     return rect.top
-    // let win = heading.ownerDocument.defaultView;
-    // return rect.top + win.pageYOffset;
   }
 }, false);
 </script>
