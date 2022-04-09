@@ -263,18 +263,23 @@
     border-radius: var(--radius);
     padding: 0.4em;
 }
+@media screen and (min-width: 1000px) {
+    .toc.side {
+        position: fixed;
+        right: 50px;
+        top: 100px;
+        width: 300px;
+        font-size: .9em;
+    }
+}
 
 .dark .toc {
     background: var(--entry);
 }
 
 .toc details summary {
-    cursor: zoom-in;
+    cursor: pointer;
     margin-inline-start: 20px;
-}
-
-.toc details[open] summary {
-    cursor: zoom-out;
 }
 
 .toc .details {
