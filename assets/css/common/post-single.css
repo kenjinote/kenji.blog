@@ -270,6 +270,7 @@
         top: 100px;
         width: 300px;
         font-size: .9em;
+        z-index: 1;
     }
 }
 
@@ -294,6 +295,9 @@
 
 .toc li ul {
     margin-inline-start: var(--gap);
+}
+.toc li a.active {
+    text-decoration: underline;
 }
 
 .toc summary:focus {

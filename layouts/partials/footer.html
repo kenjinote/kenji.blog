@@ -133,3 +133,52 @@
     });
 </script>
 {{- end }}
+
+{{- if (and (eq .Kind "page") (.Param "ShowToc") (.Param "TocSide")) }}
+<script>
+window.addEventListener('DOMContentLoaded', function (event) {
+  const headings = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id]');
+
+  // Make the first header active
+  let activeHeading = headings[0];
+  function getLinkByHeading(heading) {
+    const id = encodeURI(heading.getAttribute('id')).toLowerCase();
+    return document.querySelector(`.toc ul li a[href="#${id}"]`);
+  }
+  getLinkByHeading(activeHeading).classList.add('active');
+
+  window.addEventListener('scroll', () => {
+    const passedHeadings = [];
+    for (const h of headings) {
+      // 5 px as a buffer
+      if (getOffsetTop(h) < 5) {
+        passedHeadings.push(h)
+      } else {
+        break;
+      }
+    }
+    if (passedHeadings.length > 0) {
+      activeHeading = passedHeadings[passedHeadings.length - 1];
+    }
+
+    headings.forEach(heading => {
+      if (heading === activeHeading) {
+        getLinkByHeading(heading).classList.add('active');
+      } else {
+        getLinkByHeading(heading).classList.remove('active');
+      }
+    })
+  }, false);
+
+  function getOffsetTop(heading) {
+    if (!heading.getClientRects().length) {
+      return 0;
+    }
+    let rect = heading.getBoundingClientRect();
+    return rect.top
+    // let win = heading.ownerDocument.defaultView;
+    // return rect.top + win.pageYOffset;
+  }
+}, false);
+</script>
+{{- end }}
