@@ -151,3 +151,11 @@
 {{- template "partials/templates/twitter_cards.html" . }}
 {{- template "partials/templates/schema_json.html" . }}
 {{- end -}}
+
+{{- /* InstantPage.js */}}
+{{- if (.Param "EnableInstantPage") }}
+{{- $instantpage := slice (resources.Get "js/instantpage.js") | resources.Concat "assets/js/instantpage.js" | minify }}
+<script defer crossorigin="anonymous" src="{{ $instantpage.RelPermalink }}" type="module"
+    {{- if site.Params.assets.disableFingerprinting }}integrity="{{ $instantpage.Data.Integrity }}"{{- end }}
+></script>
+{{- end }}
