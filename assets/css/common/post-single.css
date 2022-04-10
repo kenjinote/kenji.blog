@@ -69,8 +69,7 @@
     font-size: 12px;
 }
 
-.post-content a,
-.toc a:hover {
+.post-content a {
     box-shadow: 0 1px 0;
 }
 
@@ -266,7 +265,7 @@
 @media screen and (min-width: 1000px) {
     .toc.side {
         position: fixed;
-        right: 50px;
+        right: 30px;
         top: 100px;
         width: 300px;
         font-size: .9em;
@@ -297,6 +296,9 @@
     margin-inline-start: var(--gap);
 }
 .toc li a.active {
+    box-shadow: 0 2px 0 var(--secondary);
+}
+.toc a:hover {
     text-decoration: underline;
 }
 
