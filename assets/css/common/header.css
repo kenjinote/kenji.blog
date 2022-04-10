@@ -67,10 +67,12 @@ body:not(.dark) #sun {
 
 #menu a {
     font-size: 16px;
+    font-weight: 500;
+    color: var(--secondary);
 }
 
 #menu .active {
-    font-weight: 500;
+    color: var(--primary);
     border-bottom: 2px solid currentColor;
 }
 
