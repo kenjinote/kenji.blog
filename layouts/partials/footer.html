@@ -146,7 +146,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
   let activeHeading = headings[0];
   getLinkByHeading(activeHeading).classList.add(activeClass);
 
-  window.addEventListener('scroll', () => {
+  const onScroll = () => {
     const passedHeadings = [];
     for (const h of headings) {
       // 5 px as a buffer
@@ -166,6 +166,14 @@ window.addEventListener('DOMContentLoaded', function (event) {
       activeHeading = newActiveHeading;
       getLinkByHeading(activeHeading).classList.add(activeClass);
     }
+  }
+
+  let timer = null;
+  window.addEventListener('scroll', () => {
+    if (timer !== null) {
+      clearTimeout(timer)
+    }
+    timer = setTimeout(onScroll, 50)
   }, false);
 
   function getLinkByHeading(heading) {
