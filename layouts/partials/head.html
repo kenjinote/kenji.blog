@@ -102,6 +102,15 @@
 <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
 {{ end -}}
 
+{{- /* Misc */}}
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+{{- template "_internal/google_analytics.html" . }}
+{{- end -}}
+{{- template "partials/templates/opengraph.html" . }}
+{{- template "partials/templates/twitter_cards.html" . }}
+{{- template "partials/templates/schema_json.html" . }}
+
+{{- partial "extend_head.html" . }}
 <noscript>
     <style>
         #theme-toggle,
@@ -141,13 +150,3 @@
     </style>
     {{- end }}
 </noscript>
-
-{{- partial "extend_head.html" . -}}
-
-{{- /* Misc */}}
-{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
-{{- template "_internal/google_analytics.html" . }}
-{{- end -}}
-{{- template "partials/templates/opengraph.html" . }}
-{{- template "partials/templates/twitter_cards.html" . }}
-{{- template "partials/templates/schema_json.html" . }}
