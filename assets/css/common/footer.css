@@ -58,3 +58,8 @@
 #theme-toggle:focus {
     outline: 0;
 }
+
+/* InstantClick css */
+#instantclick-bar {
+    background: var(--tertiary);
+}
