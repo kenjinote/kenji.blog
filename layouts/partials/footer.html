@@ -138,12 +138,26 @@
 </script>
 {{- end }}
 
-{{- if (and (eq .Kind "page") (.Content) (.Param "ShowToc") (.Param "TocSide")) }}
+
 <script>
-window.addEventListener('DOMContentLoaded', function (event) {
-  if (!document.querySelector('.toc')) {
-    return;
+// NOTE use closure instead of DOMContentLoaded because of InstantClick,
+// every page loaded by InstantClick should run the <script> tags again.
+(function() {
+  const enableTocScroll = '{{- if (and (eq .Kind "page") (.Content) (.Param "ShowToc") (.Param "TocSide")) }}1{{ end }}' == '1'
+  let scrollListeners = window.scrollListeners
+  if (scrollListeners === undefined) {
+    scrollListeners = []
+    window.scrollListeners = scrollListeners
   }
+
+  if (!enableTocScroll || !document.querySelector('.toc')) {
+    // console.log('disable toc scroll', scrollListeners)
+    for (const listener of scrollListeners) {
+      window.removeEventListener('scroll', listener)
+    }
+    return
+  }
+
   const headings = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id]');
   const activeClass = 'active';
 
@@ -174,12 +188,14 @@ window.addEventListener('DOMContentLoaded', function (event) {
   }
 
   let timer = null;
-  window.addEventListener('scroll', () => {
+  const scrollListener = () => {
     if (timer !== null) {
       clearTimeout(timer)
     }
     timer = setTimeout(onScroll, 50)
-  }, false);
+  }
+  window.addEventListener('scroll', scrollListener, false);
+  scrollListeners.push(scrollListener)
 
   function getLinkByHeading(heading) {
     const id = encodeURI(heading.getAttribute('id')).toLowerCase();
@@ -193,7 +209,7 @@ window.addEventListener('DOMContentLoaded', function (event) {
     let rect = heading.getBoundingClientRect();
     return rect.top
   }
-}, false);
+})();
 </script>
 {{- end }}
 
