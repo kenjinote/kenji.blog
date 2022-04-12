@@ -13,9 +13,6 @@ assignees: ''
 
 Please fill the template below
 - **DO NOT** ask for instructions.
-- Use Discussions section if you need help
-- See project wiki https://github.com/adityatelange/hugo-PaperMod/wiki
-- Read FAQs section https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs
 - Search for previous issues/ pull requests
 
 -->
