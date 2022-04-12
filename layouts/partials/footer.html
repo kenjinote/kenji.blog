@@ -4,11 +4,11 @@
     <span>{{ site.Copyright | markdownify }}</span>
     {{- else }}
     <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
-    {{- end }}
-    <span>
+    {{- end -}}
+    <span style="display: inline-block; margin-left: 1em;">
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+        <a href="https://github.com/reorx/hugo-PaperMod" rel="noopener" target="_blank">PaperMod</a>
     </span>
 </footer>
 {{- end }}
@@ -24,6 +24,7 @@
 {{- partial "extend_footer.html" . }}
 
 <script>
+  (function() {
     let menu = document.getElementById('menu')
     if (menu) {
         menu.scrollLeft = localStorage.getItem("menu-scroll-position");
@@ -32,17 +33,20 @@
         }
     }
 
+    const disableSmoothScroll = '{{- if (.Param "DisableSmoothScroll") -}}1{{- end -}}' == '1';
+    const enableInstantClick = '{{- if (.Param "EnableInstantClick") -}}1{{- end -}}' == '1';
+    // instant click and smooth scroll are mutually exclusive
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || disableSmoothScroll || enableInstantClick) {
+      return;
+    }
+    // only run this code if smooth scroll should be enabled
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener("click", function (e) {
             e.preventDefault();
             var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
+            document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                behavior: "smooth"
+            });
             if (id === "top") {
                 history.replaceState(null, null, " ");
             } else {
@@ -50,7 +54,7 @@
             }
         });
     });
-
+  })();
 </script>
 
 {{- if (not site.Params.disableScrollToTop) }}
@@ -132,4 +136,69 @@
         }
     });
 </script>
+{{- end }}
+
+{{- if (and (eq .Kind "page") (.Param "ShowToc") (.Param "TocSide")) }}
+<script>
+window.addEventListener('DOMContentLoaded', function (event) {
+  const headings = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id]');
+  const activeClass = 'active';
+
+  // Make the first header active
+  let activeHeading = headings[0];
+  getLinkByHeading(activeHeading).classList.add(activeClass);
+
+  const onScroll = () => {
+    const passedHeadings = [];
+    for (const h of headings) {
+      // 5 px as a buffer
+      if (getOffsetTop(h) < 5) {
+        passedHeadings.push(h)
+      } else {
+        break;
+      }
+    }
+    if (passedHeadings.length > 0) {
+      newActiveHeading = passedHeadings[passedHeadings.length - 1];
+    } else {
+      newActiveHeading = headings[0];
+    }
+    if (activeHeading != newActiveHeading) {
+      getLinkByHeading(activeHeading).classList.remove(activeClass);
+      activeHeading = newActiveHeading;
+      getLinkByHeading(activeHeading).classList.add(activeClass);
+    }
+  }
+
+  let timer = null;
+  window.addEventListener('scroll', () => {
+    if (timer !== null) {
+      clearTimeout(timer)
+    }
+    timer = setTimeout(onScroll, 50)
+  }, false);
+
+  function getLinkByHeading(heading) {
+    const id = encodeURI(heading.getAttribute('id')).toLowerCase();
+    return document.querySelector(`.toc ul li a[href="#${id}"]`);
+  }
+
+  function getOffsetTop(heading) {
+    if (!heading.getClientRects().length) {
+      return 0;
+    }
+    let rect = heading.getBoundingClientRect();
+    return rect.top
+  }
+}, false);
+</script>
+{{- end }}
+
+{{- /* InstantClick.js */}}
+{{- if (.Param "EnableInstantClick") }}
+{{- $instantclick := slice (resources.Get "js/instantclick.js") | resources.Concat "assets/js/instantclick.js" | minify }}
+<script src="{{ $instantclick.RelPermalink }}" data-no-instant
+    {{- if site.Params.assets.disableFingerprinting }}integrity="{{ $instantclick.Data.Integrity }}"{{- end }}
+></script>
+<script data-no-instant>InstantClick.init();</script>
 {{- end }}

@@ -69,8 +69,7 @@
     font-size: 12px;
 }
 
-.post-content a,
-.toc a:hover {
+.post-content a {
     box-shadow: 0 1px 0;
 }
 
@@ -263,18 +262,24 @@
     border-radius: var(--radius);
     padding: 0.4em;
 }
+@media screen and (min-width: 1000px) {
+    .toc.side {
+        position: fixed;
+        right: 30px;
+        top: 100px;
+        width: 300px;
+        font-size: .9em;
+        z-index: 1;
+    }
+}
 
 .dark .toc {
     background: var(--entry);
 }
 
 .toc details summary {
-    cursor: zoom-in;
+    cursor: pointer;
     margin-inline-start: 20px;
-}
-
-.toc details[open] summary {
-    cursor: zoom-out;
 }
 
 .toc .details {
@@ -289,6 +294,12 @@
 
 .toc li ul {
     margin-inline-start: var(--gap);
+}
+.toc li a.active {
+    box-shadow: 0 2px 0 var(--secondary);
+}
+.toc a:hover {
+    text-decoration: underline;
 }
 
 .toc summary:focus {
