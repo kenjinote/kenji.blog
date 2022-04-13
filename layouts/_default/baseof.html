@@ -3,6 +3,7 @@
 
 <head>
     {{- partial "head.html" . }}
+    {{- block "head" . }}{{ end }}
 </head>
 
 <body class="
@@ -18,6 +19,7 @@
         {{- block "main" . }}{{ end }}
     </main>
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "ShowCodeCopyButtons") -}}
+    {{- block "body_end" . }}{{ end }}
 </body>
 
 </html>
