@@ -7,7 +7,7 @@
         <p>{{ .Content | markdownify }}</p>
     </section>
     <footer class="entry-footer">
-        {{ partial "social_icons.html" site.Params.socialIcons }}
+        {{ partial "social_icons.html" (dict "icons" site.Params.socialIcons "svg" $.Site.Data.svg) }}
     </footer>
 </article>
 {{- end -}}
