@@ -16,10 +16,12 @@ By adding config:
 
 ```yaml
 params:
-  TocSide: true
+  TocSide: 'left'  # or 'right'
 ```
 
-ToC will float on the right side of the page.
+ToC will float on the left/right side of the page.
+The ToC box is responsive, it only shows on the side when minimum screen size is 1440px.
+
 this feature is enabled on this site.
 
 
