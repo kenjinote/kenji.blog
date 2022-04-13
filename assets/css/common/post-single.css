@@ -295,16 +295,22 @@ h6:hover .anchor {
     border: 1px solid var(--border);
     background: var(--code-bg);
     border-radius: var(--radius);
-    padding: 0.4em;
+    padding: 0.4em 0;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1440px) {
     .toc.side {
         position: fixed;
-        right: 30px;
-        top: 100px;
-        width: 300px;
-        font-size: .9em;
+        top: 118px;
+        font-size: .8em;
         z-index: 1;
+    }
+    .toc.side.left {
+        left: 0px;
+        width: 250px;
+    }
+    .toc.side.right {
+        right: 15px;
+        width: 265px;
     }
 }
 
@@ -314,7 +320,7 @@ h6:hover .anchor {
 
 .toc details summary {
     cursor: pointer;
-    margin-inline-start: 20px;
+    margin-inline-start: 15px;
 }
 
 .toc .details {
@@ -323,12 +329,11 @@ h6:hover .anchor {
 }
 
 .toc .inner {
-    margin: 0 20px;
-    padding: 10px 20px;
+    padding: 10px 15px 5px 35px;
 }
 
 .toc li ul {
-    margin-inline-start: var(--gap);
+    margin-inline-start: 20px;
 }
 .toc li a.active {
     box-shadow: 0 2px 0 var(--secondary);
