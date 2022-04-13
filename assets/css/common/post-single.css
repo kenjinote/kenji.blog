@@ -305,7 +305,7 @@ h6:hover .anchor {
         z-index: 1;
     }
     .toc.side.left {
-        left: 0px;
+        left: 15px;
         width: 250px;
     }
     .toc.side.right {
