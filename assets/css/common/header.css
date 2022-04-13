@@ -8,7 +8,7 @@
     line-height: var(--header-height);
 }
 
-.nav a {
+.logo a {
     display: block;
 }
 
@@ -69,11 +69,16 @@ body:not(.dark) #sun {
     font-size: 16px;
     font-weight: 500;
     color: var(--secondary);
+    display: inline-block;
+    line-height: 1.5em;
+}
+#menu a:hover {
+    color: var(--link-hover-color);
 }
 
 #menu .active {
     color: var(--primary);
-    border-bottom: 2px solid currentColor;
+    box-shadow: 0 2px 0 var(--primary);
 }
 
 .lang-switch li,

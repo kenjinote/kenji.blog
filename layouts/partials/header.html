@@ -126,12 +126,11 @@
             <li>
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
                 {{- if $is_search -}}data-no-instant{{- end -}}
-                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
-                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
-                        {{- .Pre }}
-                        {{- .Name -}}
-                        {{ .Post -}}
-                    </span>
+                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}
+                {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
+                    {{- .Pre }}
+                    {{- .Name -}}
+                    {{ .Post -}}
                 </a>
             </li>
             {{- end }}

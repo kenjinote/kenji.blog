@@ -70,13 +70,48 @@
 }
 
 .post-content a {
-    box-shadow: 0 1px 0;
+    font-weight: 500;
+    color: var(--primary);
+    box-shadow: var(--link-underline-shadow);
+}
+.post-content a:hover {
+    color: var(--link-hover-color);
+    box-shadow: var(--link-hover-underline-shadow);
+}
+.post-content a.anchor:hover {
+    color: var(--primary);
+    box-shadow: 0 -2px 0 var(--secondary) inset;
 }
 
 .post-content a code {
     margin: auto 0;
     border-radius: 0;
     box-shadow: 0 -1px 0 var(--primary) inset;
+}
+.post-content a:hover code {
+    box-shadow: 0 -1px 0 var(--link-hover-underline-color) inset, 0 1px 0 var(--link-hover-underline-color);
+}
+
+h1 .anchor,
+h2 .anchor,
+h3 .anchor,
+h4 .anchor,
+h5 .anchor,
+h6 .anchor {
+    box-shadow: none;
+    user-select: none;
+}
+
+h1:hover .anchor,
+h2:hover .anchor,
+h3:hover .anchor,
+h4:hover .anchor,
+h5:hover .anchor,
+h6:hover .anchor {
+    color: var(--secondary);
+    margin-inline-start: 8px;
+    font-weight: 500;
+    display: inline-flex;
 }
 
 .post-content del {
@@ -366,18 +401,6 @@
     transform: scale(0.96);
 }
 
-h1:hover .anchor,
-h2:hover .anchor,
-h3:hover .anchor,
-h4:hover .anchor,
-h5:hover .anchor,
-h6:hover .anchor {
-    display: inline-flex;
-    color: var(--secondary);
-    margin-inline-start: 8px;
-    font-weight: 500;
-    user-select: none;
-}
 
 .post-content :not(table) ::-webkit-scrollbar-thumb {
     border: 2px solid var(--hljs-bg);
