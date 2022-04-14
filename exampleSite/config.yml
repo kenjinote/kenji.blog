@@ -58,28 +58,27 @@ languages:
               ☄️ 快速 | ☁️ 流畅 | 📖 可读性 | 📱 响应式
             buttons:
                 - name: 文档
-                  url: posts
+                  url: docs
                 - name: 标签
                   url: tags
         menu:
             main:
-                - name: 归档
-                  url: archives/
-                  weight: 5
+                - name: 文档
+                  url: docs
+                  weight: 1
                 - name: 标签
-                  url: tags
-                  weight: 10
-                - name: 分类
-                  url: categories
-                  weight: 10
-                - name: 系列
-                  url: series
-                  weight: 10
+                  url: tags/
+                  weight: 4
+                - name: 归档
+                  url: archives
+                  weight: 5
                 - name: 搜索
                   url: search/
-                  weight: 20
-                - name: "@Author"
+                  weight: 10
+                - name: "@作者"
                   url: "https://reorx.com"
+                  params:
+                    external: true
 
 outputs:
     home:

@@ -1,13 +1,12 @@
 ---
-title: "PaperModX New Features"
+title: "PaperModX 新功能说明"
 date: 2022-04-12T23:37:00+08:00
-summary: This page explains the new features and changes of PaperModX comparing to the original PaperMod.
+summary: 本文档描述 PaperModX 相比原版 PaperMod 增加的新功能和变化。
 weight: 1
 ---
 
 
-This page explains the new features and changes of PaperModX
-comparing to the original PaperMod.
+本文档描述 PaperModX 相比原版 PaperMod 增加的新功能和变化。
 
 
 ## Table of Contents (ToC) floating on the side
