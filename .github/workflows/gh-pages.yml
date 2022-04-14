@@ -6,7 +6,6 @@ on:
       - "README.md"
     branches:
       - master
-      - exampleSite
 
 jobs:
   deploy:
@@ -14,21 +13,18 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: exampleSite
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          fetch-depth: 1
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.91.2'
-          # extended: true
 
       - name: Build
-        run: hugo -D --verbose --minify
+        run: cd exampleSite && hugo -D --verbose --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./exampleSite/public
