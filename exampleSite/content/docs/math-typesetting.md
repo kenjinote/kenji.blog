@@ -1,8 +1,12 @@
 ---
-author: Hugo Authors
 title: Math Typesetting
 date: 2019-03-08
+author: Hugo Authors
 description: A brief guide to setup KaTeX
+tags:
+  - math
+  - syntax
+  - example
 math: true
 ShowBreadCrumbs: false
 ---

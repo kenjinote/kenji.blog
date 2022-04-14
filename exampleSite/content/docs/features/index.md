@@ -1,12 +1,12 @@
 ---
-title: "Features"
-summary: Learn About All Features in PaperMod
+title: "PaperMod Features"
+summary: Learn About All Features in original PaperMod
 date: 2021-01-20
-weight: 2
-aliases: ["/papermod-features"]
-tags: ["PaperMod"]
+weight: 3
 author: "Aditya Telange"
 ---
+
+> source: https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-features/
 
 ### Intro
 
@@ -74,7 +74,7 @@ Create a page with `archive.md` in `content` directory with following content
 │   └── posts/
 ├── static/
 └── themes/
-    └── PaperMod/
+    └── PaperModX/
 ```
 
 and add the following to it
@@ -90,8 +90,6 @@ summary: archives
 ```
 
 **Note:** Archives Layout does not support Multilingual Month Translations.
-
-ex: [archives.md](https://raw.githubusercontent.com/adityatelange/hugo-PaperMod/exampleSite/content/archives.md)
 
 ---
 
@@ -122,13 +120,11 @@ params:
           url: "<link2>"
 ```
 
-ex. [config.yml#L106](https://github.com/adityatelange/hugo-PaperMod/blob/exampleSite/config.yml#L106)
-
 ---
 
 ### Profile Mode
 
-![profile](https://raw.githubusercontent.com/adityatelange/hugo-PaperMod/exampleSite/content/posts/papermod/papermod-features/images/profile.jpg)
+![profile](images/profile.jpg)
 
 Shows Index/Home page as Full Page with Social Links and Image
 
@@ -161,7 +157,7 @@ params:
 
 ### Search Page
 
-PaperMod uses [Fuse.js Basic](https://fusejs.io/getting-started/different-builds.html#explanation-of-different-builds) for seach functionality
+PaperModX uses [Fuse.js Basic](https://fusejs.io/getting-started/different-builds.html#explanation-of-different-builds) for seach functionality
 
 Add the following to site config, `config.yml`
 
@@ -192,8 +188,6 @@ To hide a particular page from being searched, add it in post's fron't matter
 ---
 searchHidden: true
 ```
-
-ex: [search.md](https://raw.githubusercontent.com/adityatelange/hugo-PaperMod/exampleSite/content/search.md)
 
 > Search Page also has Key bindings:
 >

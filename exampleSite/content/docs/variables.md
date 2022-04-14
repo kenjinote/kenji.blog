@@ -1,8 +1,7 @@
 ---
 title: "Variables | Front Matter"
-summary: List of Front Matter variables used by PaperMod
+summary: List of Front Matter variables used by PaperModX
 date: 2021-01-20
-tags: ["PaperMod"]
 author: "Aditya Telange"
 draft: true
 weight: 5

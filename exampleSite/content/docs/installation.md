@@ -2,10 +2,7 @@
 title: "Installation | Update"
 summary: Read Install and Update instructions here
 date: 2021-01-20
-series: ["PaperMod"]
-weight: 1
-aliases: ["/papermod-installation"]
-tags: ["PaperMod"]
+weight: 3
 author: "Aditya Telange"
 TocSide: left
 ---
@@ -34,7 +31,7 @@ After you have created a new site, at [Step 3](https://gohugo.io/getting-started
 Inside the folder of your Hugo site, run:
 
 ```bash
-git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1
+git clone https://github.com/reorx/hugo-PaperModX themes/PaperModX --depth=1
 ```
 
 **Note**: You may use ` --branch v5.0` to end of above command if you want to stick to specific release.
@@ -42,7 +39,7 @@ git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth
 > Updating theme :
 >
 > ```bash
-> cd themes/PaperMod
+> cd themes/PaperModX
 > git pull
 > ```
 
@@ -51,7 +48,7 @@ git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth
 You can use as [submodule](https://www.atlassian.com/git/tutorials/git-submodule) with
 
 ```bash
-git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1
+git submodule add https://github.com/reorx/hugo-PaperModX.git themes/PaperModX --depth=1
 git submodule update --init --recursive # needed when you reclone your repo (submodules may not get cloned automatically)
 ```
 
@@ -69,36 +66,36 @@ Or you can Download as Zip from Github Page and extract in your themes directory
 
 Direct Links:
 
--   [Master Branch (Latest)](https://github.com/adityatelange/hugo-PaperMod/archive/master.zip)
--   [v5.0](https://github.com/adityatelange/hugo-PaperMod/archive/v5.0.zip)
--   [v4.0](https://github.com/adityatelange/hugo-PaperMod/archive/v4.0.zip)
--   [v3.0](https://github.com/adityatelange/hugo-PaperMod/archive/v3.0.zip)
--   [v2.0](https://github.com/adityatelange/hugo-PaperMod/archive/v2.0.zip)
--   [v1.0](https://github.com/adityatelange/hugo-PaperMod/archive/v1.0.zip)
+-   [Master Branch (Latest)](https://github.com/reorx/hugo-PaperModX/archive/master.zip)
+-   [v5.0](https://github.com/reorx/hugo-PaperModX/archive/v5.0.zip)
+-   [v4.0](https://github.com/reorx/hugo-PaperModX/archive/v4.0.zip)
+-   [v3.0](https://github.com/reorx/hugo-PaperModX/archive/v3.0.zip)
+-   [v2.0](https://github.com/reorx/hugo-PaperModX/archive/v2.0.zip)
+-   [v1.0](https://github.com/reorx/hugo-PaperModX/archive/v1.0.zip)
 
 ### Finally ...
 
 Add in `config.yml`:
 
 ```yml
-theme: "PaperMod"
+theme: "PaperModX"
 ```
 ### Method 4
 
  - Install [Go programming language](https://go.dev/doc/install) in your operating system.
 
  - Intialize your own hugo mod
- 
+
 ```
 hugo mod init YOUR_OWN_GIT_REPOSITORY
 ```
 
- - Add PaperMod in your `config.yml` file
+ - Add PaperModX in your `config.yml` file
 
 ```
 module:
   imports:
-  - path: github.com/adityatelange/hugo-PaperMod
+  - path: github.com/reorx/hugo-PaperModX
 ```
  - Update theme
 
@@ -118,13 +115,13 @@ hugo mod get -u
 
 -   ### [Papermod - Icons](../papermod-icons)
 
--   ### [ChangeLog](https://github.com/adityatelange/hugo-PaperMod/releases)
+-   ### [ChangeLog](https://github.com/reorx/hugo-PaperModX/releases)
 
 ---
 
 ## Sample `config.yml`
 
-> **Example Site Structure is present here**: [exampleSite](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/)
+> **Example Site Structure is present here**: [exampleSite](https://github.com/reorx/hugo-PaperModX/tree/exampleSite/)
 
 **Use appropriately**
 
@@ -132,7 +129,7 @@ hugo mod get -u
 baseURL: "https://examplesite.com/"
 title: ExampleSite
 paginate: 5
-theme: PaperMod
+theme: PaperModX
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -150,7 +147,7 @@ params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: ExampleSite
     description: "ExampleSite description"
-    keywords: [Blog, Portfolio, PaperMod]
+    keywords: [Blog, Portfolio, PaperModX]
     author: Me
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -255,7 +252,7 @@ menu:
           name: example.org
           url: https://example.org
           weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# Read: https://github.com/reorx/hugo-PaperModX/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
 #     highlight:

@@ -6,7 +6,7 @@ weight: 1
 
 
 This page explains the new features and changes of PaperModX
-comparing to it's origin PaperMod.
+comparing to the original PaperMod.
 
 
 ## Table of Contents (ToC) floating on the side
@@ -19,11 +19,11 @@ params:
 ```
 
 ToC will float on the left/right side of the page.
-You can take a look at how `'right'` feels like in [Installation | Update](../papermod/papermod-installation).
+You can take a look at how `'right'` feels like in [Installation | Update](https://reorx.github.io/hugo-PaperModX/docs/installation/).
 
 The ToC box is responsive, it only shows on the side when minimum screen size is 1440px.
 
-this feature is enabled on this site.
+This feature is enabled on this site.
 
 
 ## InstantClick integration
@@ -50,6 +50,54 @@ so it has to give way to InstantCllick.
 This feature is enabled on this site.
 
 
+## Give links an accent color.
+
+Though PaperModX is designed to be minimal, accent color is still essential.
+It's a good way to show personality and make your site feels more delightful.
+
+The default color is a purple vibe,
+you can customize the colors of link, link underline and their hover variants
+by override the following css variables in `assets/css/extended/custom.css` of your site.
+
+```css
+:root {
+  --link-color: var(--primary);
+  --link-hover-color: #573eaa;
+  --link-underline-shadow: 0 1px 0 var(--link-color);
+  --link-hover-underline-color: #573eaa;
+  --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
+}
+```
+
+
+## Customize pagniator size
+
+In section pages, if you want the paginator size be different from the
+[global config](https://gohugo.io/templates/pagination/#configure-pagination),
+you can add `paginate` in the frontmatter to customize.
+
+```yaml
+---
+paginate: 10
+---
+```
+
+
+## Menus external link
+
+You can add `external: true` to a menu item's params to mark it as an external link,
+this will add a small icon to the end, and make the link open in new tab when clicked.
+
+```yaml
+menu:
+  main:
+    - name: "@Author"
+      url: "https://reorx.com"
+      params:
+        external: true
+```
+
+
 ## Social icons from Simple Icons
 
 Add social icons with `-simple` suffix from [Simple Icons](https://simpleicons.org/).
@@ -63,7 +111,8 @@ Available icons:
 
 The icons are moved from `layouts/partials/svg.html` to `data/svg.toml`,
 makes it easier to maintain, it's now possible to have an index page
-to show all the icons, check it out at: [Icons Preview](../../icons)
+to show all the icons, check it out at: [Icons Preview](https://reorx.github.io/hugo-PaperModX/docs/icons_preview/)
+
 
 ## Opinionated UI enhancements
 

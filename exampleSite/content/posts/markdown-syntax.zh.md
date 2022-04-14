@@ -3,9 +3,10 @@ author: "markdown.xyz"
 title: "Markdown 入门指南"
 date: "2022-04-12"
 description: "Markdown 概述、工作原理以及用途。"
-tags: ["markdown", "css", "html", "themes"]
-categories: ["themes", "syntax"]
-series: ["Themes Guide"]
+tags:
+  - markdown
+  - syntax
+  - example
 ShowToc: true
 TocOpen: true
 ---
