@@ -91,6 +91,9 @@ params:
     description: "Theme PaperModX - https://github.com/reorx/hugo-PaperModX"
     author:
      - Reorx
+    mainSections:
+      - docs
+      - posts
 
     defaultTheme: auto
     # disableThemeToggle: true
