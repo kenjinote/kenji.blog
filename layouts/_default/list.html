@@ -30,7 +30,13 @@
 {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- end }}
 
-{{- $paginator := .Paginate $pages }}
+{{/* related issue: https://github.com/gohugoio/hugo/issues/9003 */}}
+{{ $paginator := "" }}
+{{ if (.Param "paginate") }}
+  {{- $paginator = .Paginate $pages (.Param "paginate") }}
+{{ else }}
+  {{- $paginator = .Paginate $pages }}
+{{ end }}
 
 {{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
 {{- partial "home_info.html" . }}
