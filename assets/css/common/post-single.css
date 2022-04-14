@@ -193,7 +193,6 @@ h6:hover .anchor {
 
 .post-content .highlight:not(table) {
     margin: 10px auto;
-    background: var(--hljs-bg) !important;
     border-radius: var(--radius);
 }
 
@@ -230,22 +229,27 @@ h6:hover .anchor {
     display: none;
 }
 
+/* code block */
+.post-content .chroma {
+    border-radius: var(--radius);
+}
+/* TODO refactor this shit */
 .post-content code {
+    /* inline code */
+    background-color: var(--code-bg);
+
     margin: auto 4px;
     padding: 4px 6px;
     font-size: 0.78em;
     line-height: 1.5;
-    background: var(--code-bg);
     border-radius: 2px;
 }
-
 .post-content pre code {
+    /* reset inline code */
+    background-color: unset;
     display: block;
     margin: auto 0;
     padding: 10px;
-    color: rgb(213, 213, 214);
-    background: var(--hljs-bg) !important;
-    border-radius: var(--radius);
     overflow-x: auto;
     word-break: break-all;
 }
@@ -416,7 +420,7 @@ h6:hover .anchor {
 
 
 .post-content :not(table) ::-webkit-scrollbar-thumb {
-    border: 2px solid var(--hljs-bg);
+    border: 2px solid var(--code-bg);
     background: rgb(113, 113, 117);
 }
 

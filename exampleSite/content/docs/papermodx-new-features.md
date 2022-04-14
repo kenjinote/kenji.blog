@@ -99,6 +99,18 @@ menu:
 ```
 
 
+## Highlight code with Chroma, no bullshit
+
+PaperMod uses highlight.js to highlight code blocks.
+In PaperModX, we use Chroma which is the recommended way in Hugo's
+[official docs](https://gohugo.io/content-management/syntax-highlighting/#:~:text=Hugo%20uses%20Chroma%20as%20its%20code%20highlighter%3B%20it%20is%20built%20in%20Go%20and%20is%20really%2C%20really%20fast),
+thus changing theme is easily supported.
+
+By default the themes are `github` for light and `dracula` for dark,
+you can change it by adding `chroma-light.css` and `chroma-dark.css`
+in site's `assets/css/lib` directory.
+
+
 ## Social icons from Simple Icons
 
 Add social icons with `-simple` suffix from [Simple Icons](https://simpleicons.org/).

@@ -11,7 +11,6 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
-pygmentsUseClasses: true
 # googleAnalytics: UA-123-45
 
 minify:
@@ -94,6 +93,7 @@ params:
     mainSections:
       - docs
       - posts
+    disableAnchoredHeadings: true
 
     defaultTheme: auto
     # disableThemeToggle: true
@@ -188,13 +188,10 @@ markup:
     goldmark:
         renderer:
             unsafe: true
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         # noClasses: false
-#         style: monokai
+    highlight:
+        style: dracula
+        lineNos: true
+        noClasses: false
 
 privacy:
     vimeo:
