@@ -158,8 +158,10 @@
     for (const listener of scrollListeners) {
       window.removeEventListener('scroll', listener)
     }
+    window.scrollListeners = []
     return
   }
+  // console.log('enable toc scroll')
 
   const headings = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id]');
   const activeClass = 'active';

@@ -1,2 +1,2 @@
 run-example:
-	cd exampleSite && hugo server -D -p 13131
+	cd exampleSite && hugo server -D --gc -p 13131
