@@ -250,15 +250,7 @@ ex.
 
 ## Using Hugo's Syntax highlighter "chroma"
 
-1. Disable Highlight.js in site `config.yml`
-
-    ```yml
-    params:
-        assets:
-            disableHLJS: true
-    ```
-
-2. Set hugo's markdown styling in site `config.yml`
+1. Set hugo's markdown styling in site `config.yml`
 
     ```yml
     markup:
@@ -271,7 +263,7 @@ ex.
             style: monokai
     ```
 
-3. If you want `lineNos: true`, the background won't be proper.
+2. If you want `lineNos: true`, the background won't be proper.
    This will only work with `noClasses: false` or `pygmentsUseClasses: true`.
    Read [Generate Syntax Highlighter CSS](https://gohugo.io/content-management/syntax-highlighting/#generate-syntax-highlighter-css)
 

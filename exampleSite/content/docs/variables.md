@@ -94,7 +94,6 @@ profileMode:
 | name                           | type    | example       | Description                                  |
 | ------------------------------ | ------- | ------------- | -------------------------------------------- |
 | `assets.favicon`               | string  | 'icon.ico'    | To set favicon, can be path or external link |
-| `assets.disableHLJS`           | boolean | true \| false | To disable Highlight.js loading              |
 | `assets.disableFingerprinting` | boolean | true \| false | To disable Sub-Resource integrity for assets |
 
 #### cover
@@ -163,7 +162,6 @@ editPost:
 | `description`             | string        | 'description text'              | Show Post Description under Title                                                   |
 | `canonicalURL`            | string        | "https://canonical.url/to/page" | To add canonical URL to posts                                                       |
 | `disableShare`            | boolean       | true \| false                   | To hide/show share icons under a page                                               |
-| `disableHLJS`             | boolean       | true \| false                   | To disable Highlight.js loading                                                     |
 | `disableAnchoredHeadings` | boolean       | true \| false                   | To disable Anchored Headings                                                        |
 | `searchHidden`            | boolean       | true \| false                   | Hide page from search                                                               |
 | `hideSummary`             | boolean       | true \| false                   | To Hide summary being shown in list pages                                           |
