@@ -49,6 +49,54 @@ so it has to give way to InstantCllick.
 This feature is enabled on this site.
 
 
+## Give links an accent color.
+
+Though PaperModX is designed to be minimal, accent color is still essential.
+It's a good way to show personality and make your site feels more delightful.
+
+The default color is a purple vibe,
+you can customize the colors of link, link underline and the hover variants of them
+by override the following css variables in `assets/css/extended/custom.css` of your site.
+
+```css
+:root {
+  --link-color: var(--primary);
+  --link-hover-color: #573eaa;
+  --link-underline-shadow: 0 1px 0 var(--link-color);
+  --link-hover-underline-color: #573eaa;
+  --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
+}
+```
+
+
+## Customize pagniator size
+
+In section pages, if you want the paginator size be different from the
+[global config](https://gohugo.io/templates/pagination/#configure-pagination),
+you can add `paginate` in the frontmatter to customize.
+
+```yaml
+---
+paginate: 10
+---
+```
+
+
+## Menus external link
+
+You can add `external: true` to a menu item's params to mark it as an external link,
+this will add a small icon to the end, and make the link open in new tab when clicked.
+
+```yaml
+menu:
+  main:
+    - name: "@Author"
+      url: "https://reorx.com"
+      params:
+        external: true
+```
+
+
 ## Social icons from Simple Icons
 
 Add social icons with `-simple` suffix from [Simple Icons](https://simpleicons.org/).
@@ -59,6 +107,7 @@ Available icons:
 - telegram-simple
 - twitter-simple
 - pinboard-simple
+
 
 ## Opinionated UI enhancements
 
