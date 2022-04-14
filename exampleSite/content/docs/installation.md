@@ -107,13 +107,13 @@ hugo mod get -u
 
 ## Quick Links
 
--   ### [Papermod - Features](../papermod-features)
+-   ### [Papermod - Features](../features)
 
--   ### [Papermod - FAQs](../papermod-how-to)
+-   ### [Papermod - FAQs](../faq)
 
--   ### [Papermod - Variables](../papermod-variables)
+-   ### [Papermod - Variables](../variables)
 
--   ### [Papermod - Icons](../papermod-icons)
+-   ### [Papermod - Icons](../icons)
 
 -   ### [ChangeLog](https://github.com/reorx/hugo-PaperModX/releases)
 
