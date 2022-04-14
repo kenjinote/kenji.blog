@@ -38,6 +38,8 @@ languages:
                   weight: 10
                 - name: "@Author"
                   url: "https://reorx.com"
+                  params:
+                    external: true
 
     zh:
         languageName: ":cn:"

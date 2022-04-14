@@ -127,10 +127,13 @@
                 <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
                 {{- if $is_search -}}data-no-instant{{- end -}}
                 {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}
-                {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
+                {{- if eq $menu_item_url $page_url }} class="active" {{- end }}
+                {{- if .Params.External }} target="_blank" {{- end }}
+                >
                     {{- .Pre }}
                     {{- .Name -}}
                     {{ .Post -}}
+                    {{- if .Params.External }}<span class="external-link">{{ safeHTML (index $.Site.Data.svg "external-link") }}</span>{{- end }}
                 </a>
             </li>
             {{- end }}

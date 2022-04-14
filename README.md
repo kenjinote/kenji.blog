@@ -20,9 +20,11 @@ params:
 ```
 
 ToC will float on the left/right side of the page.
+You can take a look at how `'right'` feels like in [Installation | Update](https://reorx.github.io/hugo-PaperModX/docs/installation/).
+
 The ToC box is responsive, it only shows on the side when minimum screen size is 1440px.
 
-this feature is enabled on this site.
+This feature is enabled on this site.
 
 
 ## InstantClick integration
@@ -55,7 +57,7 @@ Though PaperModX is designed to be minimal, accent color is still essential.
 It's a good way to show personality and make your site feels more delightful.
 
 The default color is a purple vibe,
-you can customize the colors of link, link underline and the hover variants of them
+you can customize the colors of link, link underline and their hover variants
 by override the following css variables in `assets/css/extended/custom.css` of your site.
 
 ```css
@@ -107,6 +109,10 @@ Available icons:
 - telegram-simple
 - twitter-simple
 - pinboard-simple
+
+The icons are moved from `layouts/partials/svg.html` to `data/svg.toml`,
+makes it easier to maintain, it's now possible to have an index page
+to show all the icons, check it out at: [Icons Preview](https://reorx.github.io/hugo-PaperModX/docs/icons_preview/)
 
 
 ## Opinionated UI enhancements

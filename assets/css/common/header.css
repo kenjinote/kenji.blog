@@ -85,6 +85,17 @@ body:not(.dark) #sun {
     box-shadow: 0 2px 0 var(--primary);
 }
 
+#menu .external-link {
+    position: relative;
+}
+#menu .external-link svg {
+    width: 13px;
+    height: auto;
+    position: relative;
+    top: 1px;
+    margin-left: 3px;
+}
+
 .lang-switch li,
 .lang-switch ul,
 .logo-switches {
