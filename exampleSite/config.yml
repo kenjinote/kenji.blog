@@ -24,20 +24,17 @@ languages:
         weight: 1
         menu:
             main:
+                - name: Docs
+                  url: docs
+                  weight: 1
+                - name: Tags
+                  url: tags/
+                  weight: 4
                 - name: Archive
                   url: archives
                   weight: 5
                 - name: Search
                   url: search/
-                  weight: 10
-                - name: Tags
-                  url: tags/
-                  weight: 10
-                - name: Categories
-                  url: categories/
-                  weight: 10
-                - name: Icons
-                  url: icons/
                   weight: 10
                 - name: "@Author"
                   url: "https://reorx.com"
@@ -125,12 +122,14 @@ params:
 
     homeInfoParams:
         Title: "PaperModX"
-        Content: >
-            Welcome to demo of hugo's theme PaperModX.
+        Content: |
+          Welcome to demo of hugo's theme PaperModX.
 
-            - **PaperModX** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+          - **PaperModX** is a simple but fast and responsive theme with useful feature-set that enhances UX.
 
-            - PaperModX is based on theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
+          - PaperModX is based on theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
+
+          To get started, please head to the [Docs](docs).
 
     socialIcons:
         - name: github-simple

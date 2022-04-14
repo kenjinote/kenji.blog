@@ -7,6 +7,10 @@
     margin-inline-end: auto;
     line-height: var(--header-height);
 }
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
 
 .logo a {
     display: block;

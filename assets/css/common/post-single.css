@@ -332,6 +332,10 @@ h6:hover .anchor {
     padding: 10px 15px 5px 35px;
 }
 
+.toc ul {
+    margin: 0;
+    padding: 0;
+}
 .toc li ul {
     margin-inline-start: 20px;
 }
