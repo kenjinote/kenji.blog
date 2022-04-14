@@ -90,7 +90,8 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Theme PaperModX - https://github.com/reorx/hugo-PaperModX"
-    author: ["reorx", "adityatelange"]
+    author:
+     - Reorx
 
     defaultTheme: auto
     # disableThemeToggle: true
@@ -132,6 +133,8 @@ params:
           - PaperModX is based on theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
 
           To get started, please head to the [Docs](docs).
+
+          To see examples of different contents, head to [examples tag](tags/example).
 
     socialIcons:
         - name: github-simple
