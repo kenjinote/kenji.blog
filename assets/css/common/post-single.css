@@ -21,6 +21,10 @@
     flex-wrap: wrap;
 }
 
+.post-meta ul {
+    margin: 0;
+    padding: 0;
+}
 .post-meta .i18n_list li {
     display: inline-flex;
     list-style: none;
