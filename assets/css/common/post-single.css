@@ -393,7 +393,6 @@ h6:hover .anchor {
     margin-top: 56px;
 }
 
-.share-buttons,
 .paginav {
     border-radius: var(--radius);
     background: var(--code-bg);
@@ -405,7 +404,7 @@ h6:hover .anchor {
 }
 
 .share-buttons {
-    margin: 14px 0;
+    margin-bottom: 14px;
     padding-inline-start: var(--radius);
     display: flex;
     justify-content: center;
@@ -413,7 +412,6 @@ h6:hover .anchor {
 }
 
 .share-buttons a {
-    margin-top: 10px;
 }
 
 .share-buttons a:not(:last-of-type) {
@@ -500,4 +498,10 @@ h6:hover .anchor {
     position: relative;
     right: 50%;
     width: 100vw;
-  }
+}
+
+.comments-divider {
+    margin: calc(var(--content-gap) * 1) 0;
+    height: 1px;
+    background-color: var(--secondary);
+}
