@@ -31,3 +31,6 @@
 
 - id: code_copied
   translation: "已复制！"
+
+- id: comments
+  translation: "评论"
