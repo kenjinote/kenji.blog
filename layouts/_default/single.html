@@ -14,6 +14,20 @@
     {{- end }}
     {{- if not (.Param "hideMeta") }}
     <div class="post-meta">
+      {{- if not .Date.IsZero -}}
+        <span>{{ .Date | time.Format (default "January 2, 2006" site.Params.DateFormat) }}</span>
+        <span class="delimiter">&nbsp;·&nbsp;</span>
+      {{- end }}
+
+      {{- if .Params.tags }}
+        <span class="post-tags">
+          {{- range ($.GetTerms "tags") -}}
+          <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+          {{- end -}}
+        </span>
+        <span class="delimiter">&nbsp;·&nbsp;</span>
+      {{- end }}
+
       {{- partial "post_meta.html" . -}}
       {{- partial "translation_list.html" . -}}
       {{- partial "edit_post.html" . -}}
@@ -36,13 +50,6 @@
   {{- end }}
 
   <footer class="post-footer">
-    {{- if .Params.tags }}
-    <ul class="post-tags">
-      {{- range ($.GetTerms "tags") }}
-      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
-      {{- end }}
-    </ul>
-    {{- end }}
     {{- if (.Param "ShowPostNavLinks") }}
     {{- partial "post_nav_links.html" . }}
     {{- end }}
