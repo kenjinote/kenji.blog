@@ -36,13 +36,23 @@
     padding: 12px 0;
 }
 
+.social-icons a {
+    display: inline-block;
+    line-height: 20px;
+    transition: var(--link-transition);
+}
+
 .social-icons a:not(:last-of-type) {
-    margin-inline-end: 12px;
+    margin-right: 12px;
 }
 
 .social-icons a svg {
     height: 26px;
     width: 26px;
+}
+.social-icons a:hover {
+    color: var(--link-hover-color);
+    box-shadow: var(--link-hover-underline-shadow);
 }
 
 code {
