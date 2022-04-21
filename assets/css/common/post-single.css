@@ -390,21 +390,11 @@ h6:hover .anchor {
 }
 
 .post-footer {
-    margin-top: 56px;
-}
-
-.paginav {
-    border-radius: var(--radius);
-    background: var(--code-bg);
-    border: 1px solid var(--border);
-}
-
-.paginav a:hover {
-    background: var(--border);
+    margin-top: calc(var(--content-gap) * 1.5);
 }
 
 .share-buttons {
-    margin: 14px 0;
+    margin: var(--content-gap) 0;
     padding-inline-start: var(--radius);
     display: flex;
     justify-content: center;
@@ -453,16 +443,17 @@ h6:hover .anchor {
 }
 
 .paginav {
-    margin: 10px 0;
+    margin: var(--content-gap) 0;
     display: flex;
     line-height: 30px;
     border-radius: var(--radius);
 }
 
-.paginav a {
-    padding-inline-start: 14px;
-    padding-inline-end: 14px;
-    border-radius: var(--radius);
+.paginav svg {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: -0.125em;
 }
 
 .paginav .title {
@@ -477,7 +468,7 @@ h6:hover .anchor {
     width: 50%;
 }
 
-.paginav span:hover:not(.title) {
+.paginav a:hover span:not(.title) {
     box-shadow: 0 1px 0;
 }
 
@@ -519,6 +510,7 @@ h6:hover .anchor {
       11.1px 11.1px 17.7px -2.5px hsl(var(--shadow-color) / 0.11);
 }
 .disqus-container {
+    margin: calc(var(--content-gap) * 2) 0;
     background-color: var(--code-bg);
     border-radius: 10px;
     padding: 1.5em;

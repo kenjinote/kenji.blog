@@ -5,6 +5,7 @@
     max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
     padding: var(--gap);
+    padding-bottom: 0;
 }
 /* for post page */
 .main.post {
