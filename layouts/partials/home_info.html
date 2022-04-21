@@ -4,7 +4,7 @@
         <h1>{{ .Title | markdownify }}</h1>
     </header>
     <section class="entry-content">
-        <p>{{ .Content | markdownify }}</p>
+        {{- trim .Content "\n" | markdownify -}}
     </section>
     <footer class="entry-footer">
         {{ partial "social_icons.html" (dict "icons" site.Params.socialIcons "svg" $.Site.Data.svg) }}
