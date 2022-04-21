@@ -228,6 +228,15 @@
 </script>
 {{- end -}}
 
+{{- if (.Param "EnableImageZoom") }}
+{{- $imagezoom := resources.Get "js/medium-zoom.min.js" }}
+<script src="{{ $imagezoom.RelPermalink }}" data-no-instant
+    {{- if site.Params.assets.disableFingerprinting }}integrity="{{ $imagezoom.Data.Integrity }}"{{- end }}
+></script>
+<script>
+  mediumZoom('.post-content img');
+</script>
+{{- end }}
 
 {{ if (.Param "comments") }}
 {{ partial "comments_js.html" . }}
@@ -250,7 +259,7 @@
 
 {{- /* InstantClick.js */}}
 {{- if (.Param "EnableInstantClick") }}
-{{- $instantclick := slice (resources.Get "js/instantclick.js") | resources.Concat "assets/js/instantclick.js" | minify }}
+{{- $instantclick := resources.Get "js/instantclick.js" }}
 <script src="{{ $instantclick.RelPermalink }}" data-no-instant
     {{- if site.Params.assets.disableFingerprinting }}integrity="{{ $instantclick.Data.Integrity }}"{{- end }}
 ></script>
