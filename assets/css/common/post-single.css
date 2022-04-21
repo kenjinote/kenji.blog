@@ -84,6 +84,7 @@
     font-weight: 500;
     color: var(--primary);
     box-shadow: var(--link-underline-shadow);
+    transition: var(--link-transition);
 }
 .post-content a:hover {
     color: var(--link-hover-color);
@@ -288,6 +289,10 @@ h6:hover .anchor {
     margin: 1rem auto;
 }
 
+.post-content video {
+    width: 100%;
+}
+
 .post-content figure.align-center {
     text-align: center;
 }
@@ -485,3 +490,13 @@ h6:hover .anchor {
 [dir="rtl"] .paginav .next {
     text-align: left;
 }
+
+.full-width {
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 100vw;
+    position: relative;
+    right: 50%;
+    width: 100vw;
+  }
