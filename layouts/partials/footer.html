@@ -223,10 +223,15 @@
 <script>
   document.querySelectorAll('.masked-email').forEach((el) => {
     el.innerText = atob(el.innerText);
+    el.classList.remove('masked-email')
   })
 </script>
 {{- end -}}
 
+
+{{ if (.Param "comments") }}
+{{ partial "comments_js.html" . }}
+{{ end }}
 
 {{- /* Search */}}
 {{- if (eq .Layout `search`) -}}
@@ -249,7 +254,15 @@
 <script src="{{ $instantclick.RelPermalink }}" data-no-instant
     {{- if site.Params.assets.disableFingerprinting }}integrity="{{ $instantclick.Data.Integrity }}"{{- end }}
 ></script>
-<script data-no-instant>InstantClick.init();</script>
+<script data-no-instant>
+  // http://instantclick.io/scripts
+  // InstantClick.on('change', function(isInitialLoad) {
+  //   if (isInitialLoad) {
+  //     return;
+  //   }
+  // });
+  InstantClick.init();
+</script>
 {{- end }}
 
 {{- end -}}
