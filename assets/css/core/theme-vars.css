@@ -19,7 +19,7 @@
     --link-color: var(--primary);
     --link-hover-color: #573eaa;
     --link-underline-shadow: 0 1px 0 var(--link-color);
-    --link-hover-underline-color: #573eaa;
+    --link-hover-underline-color: #6549c0;
     --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
 }
 
