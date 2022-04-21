@@ -29,7 +29,7 @@
         {{- end }}
         <h1>{{ .title | default site.Title | markdownify }}</h1>
         <span>{{ .subtitle | markdownify }}</span>
-        {{- partial "social_icons.html" (dict "icons" site.Params.socialIcons "svg" $.Site.Data.svg) -}}
+        {{- partial "social_icons.html" (dict "icons" site.Params.socialIcons "svg" $.Site.Data.svg "MaskedEmail" site.Params.MaskedEmail) -}}
 
         {{- with .buttons }}
         <div class="buttons">

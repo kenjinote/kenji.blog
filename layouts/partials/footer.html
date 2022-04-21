@@ -217,6 +217,17 @@
 })();
 </script>
 
+
+{{- /* Base64Email */}}
+{{- if (.Param "MaskedEmail") }}
+<script>
+  document.querySelectorAll('.masked-email').forEach((el) => {
+    el.innerText = atob(el.innerText);
+  })
+</script>
+{{- end -}}
+
+
 {{- /* Search */}}
 {{- if (eq .Layout `search`) -}}
 <link crossorigin="anonymous" rel="preload" as="fetch" href="../index.json">
