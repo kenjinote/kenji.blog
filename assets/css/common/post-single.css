@@ -1,16 +1,19 @@
 .page-header,
 .post-header {
-    margin: 24px auto var(--content-gap) auto;
+    margin: 32px 0;
 }
 
 .post-title {
-    margin-bottom: 2px;
     font-size: 40px;
+    margin: var(--content-gap) 0;
 }
 
 .post-description {
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin: var(--content-gap) 0;
+    color: var(--secondary);
+    opacity: .8;
+    padding-left: .5em;
+    border-left: 3px solid var(--tertiary);
 }
 
 .post-meta,
@@ -30,6 +33,10 @@
     list-style: none;
     margin: auto 3px;
     box-shadow: 0 1px 0 var(--secondary);
+}
+.post-meta .delimiter {
+    margin-inline-start: .5em;
+    margin-inline-end: .5em;
 }
 
 .breadcrumbs a {
@@ -263,7 +270,7 @@ h6:hover .anchor {
 .post-content hr {
     margin: 30px 0;
     height: 2px;
-    background: var(--tertiary);
+    background: var(--tertiary-bg);
     border-top: 0;
     border-bottom: 0;
 }

@@ -42,7 +42,7 @@
     bottom: 60px;
     right: 30px;
     z-index: 99;
-    background: var(--tertiary);
+    background: var(--tertiary-bg);
     width: 42px;
     height: 42px;
     padding: 12px;
@@ -63,5 +63,5 @@
 
 /* InstantClick css */
 #instantclick-bar {
-    background: var(--tertiary);
+    background: var(--tertiary-bg);
 }

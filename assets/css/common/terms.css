@@ -7,12 +7,12 @@
 .terms-tags a {
     display: block;
     padding: 3px 10px;
-    background: var(--tertiary);
+    background: var(--tertiary-bg);
     border-radius: 6px;
     transition: transform 0.1s;
 }
 
 .terms-tags a:active {
-    background: var(--tertiary);
+    background: var(--tertiary-bg);
     transform: scale(0.96);
 }

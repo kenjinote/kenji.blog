@@ -5,11 +5,11 @@
 {{- end }}
 
 {{- if (.Param "ShowReadingTime") -}}
-{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "<span>%d min</span>" .ReadingTime))) }}
 {{- end }}
 
 {{- if (.Param "ShowWordCount") -}}
-{{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
+{{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "<span>%d words</span>" .WordCount))) }}
 {{- end }}
 
 {{- with (partial "author.html" .) }}
@@ -17,5 +17,5 @@
 {{- end }}
 
 {{- with ($scratch.Get "meta") }}
-{{- delimit . "&nbsp;·&nbsp;" -}}
+{{- delimit . "<span class=\"delimiter\">&nbsp;·&nbsp;</span>" -}}
 {{- end -}}

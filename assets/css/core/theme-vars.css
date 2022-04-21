@@ -12,7 +12,8 @@
     --entry: rgb(255, 255, 255);
     --primary: rgb(30, 30, 30);
     --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
+    --tertiary: rgb(158, 158, 158);
+    --tertiary-bg: rgb(214, 214, 214);
     --content: rgb(31, 31, 31);
     --code-bg: rgb(245, 245, 245);
     --border: rgb(238, 238, 238);
@@ -29,7 +30,8 @@
     --entry: rgb(46, 46, 51);
     --primary: rgb(218, 218, 219);
     --secondary: rgb(155, 156, 157);
-    --tertiary: rgb(65, 66, 68);
+    --tertiary: rgb(123, 124, 124);
+    --tertiary-bg: rgb(65, 66, 68);
     --content: rgb(196, 196, 197);
     --code-bg: rgb(55, 56, 62);
     --border: rgb(51, 51, 51);

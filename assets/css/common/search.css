@@ -3,7 +3,7 @@
     width: 100%;
     color: var(--primary);
     font-weight: bold;
-    border: 2px solid var(--tertiary);
+    border: 2px solid var(--tertiary-bg);
     border-radius: var(--radius);
 }
 
@@ -41,5 +41,5 @@
 
 #searchResults .focus {
     transform: scale(0.98);
-    border: 2px solid var(--tertiary);
+    border: 2px solid var(--tertiary-bg);
 }
