@@ -24,10 +24,17 @@
 </div>
 {{- end }}
 
+
 {{- $pages := .Pages }}
 
 {{- if .IsHome }}
-{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{/* first language is the main language, get all pages */}}
+  {{- if (eq site.Language (index site.Languages 0)) }}
+    {{- $pages = where site.AllPages "Kind" "page" }}
+  {{- else }}
+    {{- $pages = site.RegularPages }}
+  {{- end }}
+  {{- $pages = where $pages "Type" "in" site.Params.mainSections }}
 {{- end }}
 
 {{/* related issue: https://github.com/gohugoio/hugo/issues/9003 */}}
