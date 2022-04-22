@@ -1,7 +1,7 @@
 baseURL: "https://reorx.github.io/hugo-PaperModX/"
 title: PaperModX
 paginate: 5
-theme: hugo-PaperModX
+theme: PaperModX
 # NOTE remove this line if you copy exampleSite outof hugo-PaperModX
 themesdir: ../..
 
