@@ -82,3 +82,37 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+.meta-item * {
+    color: var(--secondary);
+}
+
+.meta-item:not(:last-of-type):after {
+    content: "·";
+    margin-inline-start: .3em;
+    margin-inline-end: .3em;
+}
+
+.meta-item svg {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: -0.15em;
+}
+
+.meta-item a {
+    transition: var(--link-transition);
+}
+.meta-item a:hover {
+    color: var(--primary);
+    box-shadow: 0 1px 0 var(--secondary);
+}
+.meta-item .post-tags a:not(:last-of-type) {
+    margin-inline-end: .3em;
+}
+.meta-item .post-tags a:not(:last-of-type):after {
+    content: ",";
+}
+.meta-item .post-tags a:before {
+    content: "#";
+}

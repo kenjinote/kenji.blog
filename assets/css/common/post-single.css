@@ -20,35 +20,6 @@
 .breadcrumbs {
     font-size: 15px;
 }
-.post-meta * {
-    color: var(--secondary);
-}
-
-.post-meta .item:not(:last-of-type):after {
-    content: "·";
-    margin-inline-start: .3em;
-    margin-inline-end: .3em;
-}
-
-.post-meta svg {
-    width: 1em;
-    height: 1em;
-    display: inline-block;
-    vertical-align: -0.15em;
-}
-
-.post-tags a:hover {
-    color: var(--primary);
-}
-.post-tags a:not(:last-of-type) {
-    margin-inline-end: .3em;
-}
-.post-tags a:not(:last-of-type):after {
-    content: ",";
-}
-.post-tags a:before {
-    content: "#";
-}
 
 .breadcrumbs {
     display: flex;
@@ -467,6 +438,9 @@ h6:hover .anchor {
     width: 50%;
 }
 
+.paginav a span {
+    transition: var(--link-transition);
+}
 .paginav a:hover span:not(.title) {
     box-shadow: 0 1px 0;
 }
