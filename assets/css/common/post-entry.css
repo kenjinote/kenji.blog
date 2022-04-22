@@ -81,7 +81,8 @@
     -webkit-line-clamp: 2;
 }
 
-.entry-footer {
+.entry-footer,
+.entry-footer span > a {
     color: var(--secondary);
     font-size: 13px;
 }

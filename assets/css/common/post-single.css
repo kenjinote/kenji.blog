@@ -19,26 +19,22 @@
 .post-meta,
 .breadcrumbs {
     font-size: 15px;
-    display: flex;
-    flex-wrap: wrap;
 }
 .post-meta * {
     color: var(--secondary);
 }
 
-.post-meta ul {
-    margin: 0;
-    padding: 0;
+.post-meta .item:not(:last-of-type):after {
+    content: "·";
+    margin-inline-start: .3em;
+    margin-inline-end: .3em;
 }
-.post-meta .i18n_list li {
-    display: inline-flex;
-    list-style: none;
-    margin: auto 3px;
-    box-shadow: 0 1px 0 var(--secondary);
-}
-.post-meta .delimiter {
-    margin-inline-start: .5em;
-    margin-inline-end: .5em;
+
+.post-meta svg {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: -0.15em;
 }
 
 .post-tags a:hover {
@@ -52,9 +48,12 @@
 }
 .post-tags a:before {
     content: "#";
-    margin-inline-end: 2px;
 }
 
+.breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+}
 .breadcrumbs a {
     font-size: 16px;
 }
