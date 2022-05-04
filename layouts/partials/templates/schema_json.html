@@ -75,7 +75,7 @@
   "inLanguage": {{ .Language.Lang | default "en-us" }},
   {{ if .Params.cover.image -}}
   "image":
-    {{- if (ne .Params.cover.relative true) -}}
+    {{- if (eq .Params.cover.absolute true) }}
     {{ .Params.cover.image | absURL }},
     {{- else -}}
     {{ (path.Join .RelPermalink .Params.cover.image ) | absURL }},

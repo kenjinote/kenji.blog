@@ -3,7 +3,7 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 {{- if .Params.cover.image -}}
-{{- if (ne .Params.cover.relative true) }}
+{{- if (eq .Params.cover.absolute true) }}
 <meta property="og:image" content="{{ .Params.cover.image | absURL }}" />
 {{- else}}
 <meta property="og:image" content="{{ (path.Join .RelPermalink .Params.cover.image ) | absURL }}" />
