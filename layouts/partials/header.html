@@ -94,6 +94,7 @@
                 </button>
                 {{- end }}
 
+                {{- if not site.Params.DisableLanguageSwitch }}
                 {{- $lang := .Lang}}
                 {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
                 {{- with site.Home.AllTranslations }}
@@ -114,6 +115,7 @@
                     {{- end -}}
                     {{- end}}
                 </ul>
+                {{- end }}
                 {{- end }}
             </span>
         </div>
