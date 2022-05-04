@@ -44,7 +44,7 @@
     {{- end }}
   </footer>
 
-  {{- if (.Param "comments") }}
+  {{- if not (.Param "noComments") }}
   {{- partial "comments.html" . }}
   {{- end }}
 </article>
