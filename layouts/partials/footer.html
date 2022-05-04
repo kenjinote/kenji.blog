@@ -234,6 +234,7 @@
     {{- if site.Params.assets.disableFingerprinting }}integrity="{{ $imagezoom.Data.Integrity }}"{{- end }}
 ></script>
 <script>
+  mediumZoom('.entry-cover img');
   mediumZoom('.post-content img');
 </script>
 {{- end }}
