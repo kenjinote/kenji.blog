@@ -241,9 +241,11 @@ h6:hover .anchor {
     line-height: 1.5;
     border-radius: 2px;
 }
+.post-content .chroma code {
+    background-color: inherit;
+}
 .post-content pre code {
     /* reset inline code */
-    background-color: unset;
     display: block;
     margin: auto 0;
     padding: 10px;
