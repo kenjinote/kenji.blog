@@ -1,0 +1,6 @@
+<div class="image-size-control" style="
+{{- with (.Get "width") }}width: {{ . }};{{ end -}}
+{{- with (.Get "height") }}height: {{ . }};{{ end -}}
+">
+  {{ .Inner | markdownify }}
+</div>

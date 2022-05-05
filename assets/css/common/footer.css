@@ -66,3 +66,11 @@
 #instantclick-bar {
     background: var(--tertiary-bg);
 }
+
+/* make zoom overlay and image higher than toc */
+.medium-zoom-overlay {
+    z-index: 2;
+}
+.medium-zoom-image--opened {
+    z-index: 3;
+}

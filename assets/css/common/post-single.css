@@ -273,7 +273,7 @@ h6:hover .anchor {
 
 .post-content img {
     border-radius: 4px;
-    margin: 1rem 0;
+    margin: 1rem auto;
 }
 
 .post-content img[src*="#center"] {
@@ -519,4 +519,9 @@ h6:hover .anchor {
     border-radius: 10px;
     padding: 1.5em;
     box-shadow: var(--shadow-elevation-low);
+}
+
+.image-size-control > img {
+    width: inherit;
+    height: inherit;
 }
