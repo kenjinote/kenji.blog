@@ -308,11 +308,13 @@ h6:hover .anchor {
     border-radius: var(--radius);
     padding: 0.4em 0;
 }
+.toc.side {
+    font-size: .8em;
+}
 @media screen and (min-width: 1440px) {
     .toc.side {
         position: fixed;
         top: 118px;
-        font-size: .8em;
         z-index: 1;
         max-height: calc(100% - 150px);
         overflow: auto;
@@ -351,10 +353,16 @@ h6:hover .anchor {
 .toc li ul {
     margin-inline-start: 20px;
 }
-.toc li a.active {
-    box-shadow: 0 2px 0 var(--secondary);
+.toc li a {
+    line-height: 1.5em;
+    padding: .1em .4em;
+    border-radius: 5px;
+    display: block;
 }
-.toc a:hover {
+.toc li a.active {
+    background-color: var(--link-background-color);
+}
+.toc li a:hover {
     text-decoration: underline;
 }
 
