@@ -239,7 +239,7 @@
 </script>
 {{- end }}
 
-{{ if (.Param "comments") }}
+{{- if not (.Param "noComments") }}
 {{ partial "comments_js.html" . }}
 {{ end }}
 
