@@ -314,6 +314,11 @@ h6:hover .anchor {
         top: 118px;
         font-size: .8em;
         z-index: 1;
+        max-height: calc(100% - 150px);
+        overflow: auto;
+    }
+    .toc.side::-webkit-scrollbar-thumb {
+        border: 5px solid var(--code-bg);
     }
     .toc.side.left {
         left: 15px;
@@ -323,10 +328,6 @@ h6:hover .anchor {
         right: 15px;
         width: 265px;
     }
-}
-
-.dark .toc {
-    background: var(--entry);
 }
 
 .toc details summary {
