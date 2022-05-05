@@ -1,0 +1,18 @@
+<div class="social-links">
+  {{ with .Params.socialLinks.twitter }}
+    <div class="tweet-container">
+      <div class="title">
+        Discuss on twitter
+      </div>
+      {{- template "render-tweet" (dict "id" .id "user" .user "dnt" true) -}}
+    </div>
+  {{ end }}
+</div>
+
+{{- define "render-tweet" -}}
+  {{- $url := printf "https://twitter.com/%v/status/%v" .user .id -}}
+  {{- $query := querify "url" $url "dnt" .dnt -}}
+  {{- $request := printf "https://publish.twitter.com/oembed?%s" $query -}}
+  {{- $json := getJSON $request -}}
+  {{- replaceRE "<script.+/script>" "" $json.html | safeHTML -}}
+{{- end -}}

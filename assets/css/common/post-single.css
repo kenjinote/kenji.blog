@@ -483,7 +483,36 @@ h6:hover .anchor {
       1.8px 1.8px 2.9px -0.8px hsl(var(--shadow-color) / 0.11),
       4.6px 4.6px 7.3px -1.7px hsl(var(--shadow-color) / 0.11),
       11.1px 11.1px 17.7px -2.5px hsl(var(--shadow-color) / 0.11);
+
+    --twitter-color: #4a99e9;
 }
+
+.social-links {
+    margin: calc(var(--content-gap) * 2) 0;
+    background-color: var(--code-bg);
+    border-left: 3px solid var(--twitter-color);
+    padding: 1em;
+}
+.social-links .title {
+    margin-bottom: .5em;
+    font-weight: 500;
+}
+
+.social-links blockquote {
+    font-size: .8em;
+    margin: 0 0 0 1em;
+}
+.social-links blockquote a {
+    font-weight: 500;
+    color: var(--primary);
+    box-shadow: var(--link-underline-shadow);
+    transition: var(--link-transition);
+}
+.social-links blockquote > a:hover {
+    color: var(--twitter-color);
+    box-shadow: 0 2px 0 var(--twitter-color);
+}
+
 .disqus-container {
     margin: calc(var(--content-gap) * 2) 0;
     background-color: var(--code-bg);
