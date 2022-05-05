@@ -83,14 +83,17 @@ pre:hover .copy-code {
     display: block;
 }
 
+.meta-item {
+    display: inline-block;
+}
 .meta-item * {
     color: var(--secondary);
 }
 
 .meta-item:not(:last-of-type):after {
     content: "·";
-    margin-inline-start: .3em;
-    margin-inline-end: .3em;
+    margin-inline-start: .5em;
+    margin-inline-end: .5em;
 }
 
 .meta-item svg {
