@@ -1,3 +1,4 @@
+{{ with .page }}
 {{ if .IsHome }}
 <script type="application/ld+json">
 {
@@ -60,7 +61,7 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": {{ .Title | plainify}},
+  "headline": {{ $.pageTitle | plainify}},
   "name": "{{ .Title | plainify }}",
   "description": {{ with .Description | plainify }}{{ . }}{{ else }}{{ .Summary | plainify  }}{{ end -}},
   "keywords": [
@@ -70,7 +71,6 @@
     {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
     {{- end }}
   ],
-  "articleBody": {{ .Content | safeJS | htmlUnescape | plainify }},
   "wordCount" : "{{ .WordCount }}",
   "inLanguage": {{ .Language.Lang | default "en-us" }},
   {{ if .Params.cover.image -}}
@@ -116,4 +116,5 @@
 </script>
 {{- end }}{{/* .IsPage end */}}
 
+{{- end -}}
 {{- end -}}

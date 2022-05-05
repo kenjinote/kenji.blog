@@ -8,7 +8,11 @@
 {{- end }}
 
 {{- /* Title */}}
-<title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
+{{- $pageTitle := site.Title }}
+{{- if (and .Title (not .IsHome)) }}
+  {{- $pageTitle = printf "%s | %s" .Title $pageTitle }}
+{{- end }}
+<title>{{ $pageTitle }}</title>
 
 {{- /* Meta */}}
 {{- if .IsHome }}
@@ -73,19 +77,17 @@
 
 {{- /* https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started */}}
 {{- if .Params.cover.image }}
-  <meta name="twitter:card" property="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="{{ (path.Join .RelPermalink .Params.cover.image ) | absURL }}" />
-  <meta name="twitter:title" content="{{ .Title }}" />
-  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}" />
-  <meta name="twitter:site" content="@novoreorx" />
-  <meta name="twitter:creator" content="@novoreorx" />
-{{- else -}}
-  {{- template "_internal/twitter_cards.html" . -}}
 {{- end -}}
+<meta name="twitter:card" property="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ $pageTitle }}" />
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}" />
+<meta name="twitter:site" content="@novoreorx" />
+<meta name="twitter:creator" content="@novoreorx" />
 
-{{- template "partials/templates/opengraph.html" . }}
+{{- template "partials/templates/opengraph.html" (dict "page" . "pageTitle" $pageTitle) }}
 
-{{- template "partials/templates/schema_json.html" . }}
+{{- template "partials/templates/schema_json.html" (dict "page" . "pageTitle" $pageTitle) }}
 
 {{- partial "extend_head.html" . }}
 <noscript>
