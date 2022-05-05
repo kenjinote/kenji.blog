@@ -48,6 +48,7 @@
     padding: 12px;
     border-radius: 64px;
     transition: visibility 0.5s, opacity 0.8s linear;
+    line-height: 1.5;
 }
 
 .top-link,
