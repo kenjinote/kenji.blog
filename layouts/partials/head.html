@@ -73,12 +73,12 @@
 
 {{- /* https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started */}}
 {{- if .Params.cover.image }}
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" property="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="{{ (path.Join .RelPermalink .Params.cover.image ) | absURL }}" />
   <meta name="twitter:title" content="{{ .Title }}" />
-  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
-  <meta name="twitter:site" content="@novoreorx"/>
-  <meta name="twitter:creator" content="@novoreorx"/>
+  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}" />
+  <meta name="twitter:site" content="@novoreorx" />
+  <meta name="twitter:creator" content="@novoreorx" />
 {{- else -}}
   {{- template "_internal/twitter_cards.html" . -}}
 {{- end -}}
