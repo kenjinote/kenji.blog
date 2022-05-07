@@ -60,7 +60,7 @@
 {{- end }}
 
 {{- /* Favicons */}}
-<link rel="icon" href="{{ site.Params.assets.favicon | default "favicon.ico" | absURL }}">
+<link rel="icon" href="{{ site.Params.favicon | default "favicon.ico" | absURL }}">
 
 {{- /* RSS */}}
 {{ range .AlternativeOutputFormats -}}
