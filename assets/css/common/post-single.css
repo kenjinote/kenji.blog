@@ -134,6 +134,11 @@ h6:hover .anchor {
     padding-inline-start: 20px;
 }
 
+.post-content li > ol,
+.post-content li > ul {
+    margin-bottom: 0;
+}
+
 .post-content li {
     margin-top: 5px;
 }
