@@ -121,6 +121,17 @@ pre:hover .copy-code {
 }
 
 
+/* images */
+
+figure > img {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.post-content img {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+
 /* effects */
 :root {
     --shadow-color: 0deg 0% 0%;
