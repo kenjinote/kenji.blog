@@ -78,12 +78,13 @@
 {{- /* https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started */}}
 {{- if .Params.cover.image }}
   <meta name="twitter:image" content="{{ (path.Join .RelPermalink .Params.cover.image ) | absURL }}" />
+  <meta name="twitter:card" property="twitter:card" content="summary_large_image" />
 {{- else }}
   {{- with site.Params.images -}}
     <meta name="twitter:image" content="{{ index . 0 | absURL }}" />
+    <meta name="twitter:card" property="twitter:card" content="summary" />
   {{- end }}
 {{- end }}
-<meta name="twitter:card" property="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{{ $pageTitle }}" />
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}" />
 <meta name="twitter:site" content="@novoreorx" />
