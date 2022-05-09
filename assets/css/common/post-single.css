@@ -487,21 +487,6 @@ h6:hover .anchor {
     background-color: var(--secondary);
 }
 
-:root {
-    --shadow-color: 0deg 0% 0%;
-    --shadow-elevation-low:
-      0.6px 0.6px 1px hsl(var(--shadow-color) / 0.1),
-      0.9px 0.9px 1.4px -1.2px hsl(var(--shadow-color) / 0.1),
-      2.2px 2.2px 3.5px -2.5px hsl(var(--shadow-color) / 0.1);
-    --shadow-elevation-medium:
-      0.6px 0.6px 1px hsl(var(--shadow-color) / 0.11),
-      1.8px 1.8px 2.9px -0.8px hsl(var(--shadow-color) / 0.11),
-      4.6px 4.6px 7.3px -1.7px hsl(var(--shadow-color) / 0.11),
-      11.1px 11.1px 17.7px -2.5px hsl(var(--shadow-color) / 0.11);
-
-    --twitter-color: #4a99e9;
-}
-
 .social-links {
     margin: calc(var(--content-gap) * 2) 0;
     background-color: var(--code-bg);
