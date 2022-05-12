@@ -1,11 +1,13 @@
 <div class="social-links">
   {{ with .Params.socialLinks.twitter }}
+    {{ if (and .id .user) }}
     <div class="tweet-container">
       <div class="title">
         Discuss on twitter
       </div>
       {{- template "render-tweet" (dict "id" .id "user" .user "dnt" true) -}}
     </div>
+    {{ end }}
   {{ end }}
 </div>
 
