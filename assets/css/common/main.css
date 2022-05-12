@@ -195,3 +195,11 @@ figure > img {
     margin-inline-start: .5em;
     margin-inline-end: .5em;
 }
+
+/* shortcodes */
+
+.standout {
+    font-size: 24px;
+    padding: .5em;
+    text-align: center;
+}
