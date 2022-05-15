@@ -195,7 +195,7 @@ h6:hover .anchor {
 }
 
 .post-content .highlight:not(table) {
-    margin: 10px auto;
+    margin: var(--content-gap) auto;
     border-radius: var(--radius);
 }
 
@@ -240,23 +240,22 @@ h6:hover .anchor {
 .post-content code {
     /* inline code */
     background-color: var(--code-bg);
-
-    margin: auto 4px;
-    padding: 4px 6px;
-    font-size: 0.78em;
-    line-height: 1.5;
-    border-radius: 2px;
-}
-.post-content .chroma code {
-    background-color: inherit;
+    margin: 0 3px;
+    padding: 4px 5px;
+    border-radius: 3px;
+    font-size: 16px;
 }
 .post-content pre code {
     /* reset inline code */
     display: block;
     margin: auto 0;
-    padding: 10px;
+    padding: 15px;
     overflow-x: auto;
+    border-radius: var(--radius);
     word-break: break-all;
+}
+.post-content .chroma code {
+    background-color: inherit;
 }
 
 .post-content blockquote {
@@ -365,7 +364,7 @@ h6:hover .anchor {
 }
 .toc li a {
     line-height: 1.5em;
-    padding: .1em .4em;
+    padding: 3px 5px;
     border-radius: 5px;
     display: block;
 }
