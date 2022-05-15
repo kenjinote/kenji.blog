@@ -265,6 +265,10 @@ h6:hover .anchor {
     border-inline-start: 3px solid var(--primary);
 }
 
+.post-content sup {
+    line-height: 1;
+}
+
 .post-content hr {
     margin: 30px 0;
     height: 2px;
