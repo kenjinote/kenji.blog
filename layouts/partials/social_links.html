@@ -1,20 +1,7 @@
 <div class="social-links">
-  {{ with .Params.socialLinks.twitter }}
-    {{ if (and .id .user) }}
-    <div class="tweet social-quote">
-      <div class="title">
-        Discuss on twitter
-      </div>
-      {{- template "render-tweet" (dict "id" .id "user" .user "dnt" true) -}}
-    </div>
-    {{ end }}
-  {{ end }}
+  {{- with .Params.socialLinks.twitter }}
+    {{- if (and .id .user) }}
+    {{ partial "social_quote_tweet.html" (dict "user" .user "id" .id "title" "Discuss on Twitter") }}
+    {{- end }}
+  {{- end }}
 </div>
-
-{{- define "render-tweet" -}}
-  {{- $url := printf "https://twitter.com/%v/status/%v" .user .id -}}
-  {{- $query := querify "url" $url "dnt" .dnt -}}
-  {{- $request := printf "https://publish.twitter.com/oembed?%s" $query -}}
-  {{- $json := getJSON $request -}}
-  {{- replaceRE "<script.+/script>" "" $json.html | safeHTML -}}
-{{- end -}}

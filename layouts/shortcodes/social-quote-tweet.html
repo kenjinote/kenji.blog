@@ -1,16 +1,1 @@
-<div class="tweet social-quote">
-  <div class="title">
-    {{ safeHTML (index $.Site.Data.svg "twitter-simple") }}
-    {{ with .Inner }}<span>{{ . }}</span>{{ end }}
-  </div>
-  {{ $user := .Get "user" }}
-  {{ $id := .Get "id" }}
-  {{ $dnt := true }}
-  {{- .Inner -}}{{/* not required, only to not break Obsidian highlight by adding `/` before `>` */}}
-
-  {{- $url := printf "https://twitter.com/%v/status/%v" $user $id -}}
-  {{- $query := querify "url" $url "dnt" $dnt -}}
-  {{- $request := printf "https://publish.twitter.com/oembed?%s" $query -}}
-  {{- $json := getJSON $request -}}
-  {{- replaceRE "<script.+/script>" "" $json.html | safeHTML -}}
-</div>
+{{ partial "social_quote_tweet.html" (dict "user" (.Get "user") "id" (.Get "id") "title" .Inner) }}
