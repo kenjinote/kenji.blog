@@ -72,7 +72,12 @@
 
 {{- /* Misc */}}
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
-{{- template "_internal/google_analytics.html" . }}
+  {{- if site.GoogleAnalytics }}
+    {{- template "_internal/google_analytics.html" . }}
+  {{- end -}}
+  {{- if site.Params.useCustomAnalytics }}
+    {{- partialCached "custom_analytics.html" . "custom_analytics.html" }}
+  {{- end -}}
 {{- end -}}
 
 {{- /* https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started */}}
