@@ -3,7 +3,7 @@
     {{- $icon_name := ( trim .name " " | lower )}}
 
     {{- if (eq .url "email") }}
-    <a href="mailto:{{ $.MaskedEmail }}" title="{{ .name | title }}">
+    <a href="mailto:{{ $.MaskedEmail | default $.Email }}" title="{{ .name | title }}">
         {{ safeHTML (index $.svg $icon_name | default $.svg.default) }}
     </a>
     {{- else }}
