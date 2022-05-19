@@ -57,10 +57,13 @@
   // every page loaded by InstantClick should run the <script> tags again.
   (function() {
     const enableTocScroll = '{{- if (and (eq .Kind "page") (.Content) (.Param "ShowToc") (.Param "TocSide")) }}1{{ end }}' == '1'
-    // always get an array here
-    let scrollListeners = window.scrollListeners
+    if (!enableTocScroll) {
+      return
+    }
     // console.log('enable toc scroll')
 
+    // always get an array here
+    const scrollListeners = window.scrollListeners
     const headings = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id]');
     const activeClass = 'active';
 
