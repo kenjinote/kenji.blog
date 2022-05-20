@@ -1,1 +1,9 @@
-<img loading="lazy" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}" {{ end }} />
+{{- $img := .Page.Resources.GetMatch .Destination -}}
+{{- if and (not $img) .Page.File -}}
+  {{ $path := path.Join .Page.File.Dir .Destination }}
+  {{- $img = resources.Get $path -}}
+{{- end -}}
+
+{{- with $img -}}
+  <img loading="lazy" src="{{ $img.RelPermalink }}" alt="{{ $.Text }}" {{ with $.Title}} title="{{ . }}" {{ end }} />
+{{- end -}}
