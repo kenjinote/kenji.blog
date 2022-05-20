@@ -4,6 +4,8 @@
   {{- $img = resources.Get $path -}}
 {{- end -}}
 
-{{- with $img -}}
+{{- if $img -}}
   <img loading="lazy" src="{{ $img.RelPermalink }}" alt="{{ $.Text }}" {{ with $.Title}} title="{{ . }}" {{ end }} />
+{{- else -}}
+  {{- warnf "No image found for %s from %s" .Destination .Page.File }}
 {{- end -}}
