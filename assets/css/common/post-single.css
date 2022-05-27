@@ -539,7 +539,8 @@ h6:hover .anchor {
     box-shadow: 0 2px 0 var(--twitter-color);
 }
 
-.disqus-container {
+.disqus-container,
+.telegram-widget-container {
     margin: calc(var(--content-gap) * 2) 0;
     background-color: var(--code-bg);
     border-radius: 10px;

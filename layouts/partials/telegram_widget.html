@@ -1,7 +1,51 @@
 {{- with site.Params.commentSystem.telegramWidget }}
-<script async
-  src="https://telegram.org/js/telegram-widget.js?19"
-  data-telegram-discussion="{{ .channel }}"
-  data-comments-limit="{{ .limit | default 10 }}"
-  {{ with .accentColor }}data-color="{{ . }}"{{ end }}></script>
+<div class="telegram-widget-container"></div>
+
+<script>
+  (function() {
+    const attrs = {
+      'data-telegram-discussion': "{{ .channel }}",
+      'data-comments-limit': "{{ .limit | default 10 }}",
+      // prevent the <script> from loading mutiple times by InstantClick
+      'data-no-instant': '',
+    }
+    const accentColor = '{{ with .accentColor }}{{ . }}{{ end }}';
+    if (accentColor) {
+      attrs['data-color'] = accentColor;
+    }
+    if (isDarkTheme()) {
+      attrs['data-dark'] = '1'
+    }
+
+    var d = document, s = d.createElement('script');
+    s.src = "https://telegram.org/js/telegram-widget.js?19";
+    for (const key in attrs) {
+      s.setAttribute(key, attrs[key]);
+    }
+
+    const container = document.querySelector('.telegram-widget-container')
+    container.innerHTML = '';
+    container.appendChild(s);
+  })();
+</script>
+
+<script data-no-instant>
+  (function() {
+    if (!toggleThemeCallbacks) {
+      return;
+    }
+
+    toggleThemeCallbacks.push((isDark) => {
+      // console.log('window toggle-theme for telegram widget')
+      if (!window.Telegram) {
+        return;
+      }
+      if (isDark) {
+        Telegram.setWidgetOptions({'nodark': 1})
+      } else {
+        Telegram.setWidgetOptions({'dark': 1})
+      }
+    });
+  })();
+</script>
 {{- end }}
