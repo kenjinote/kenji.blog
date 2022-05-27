@@ -26,6 +26,27 @@
 
 {{- partial "extend_footer.html" . }}
 
+{{/* Load delegate script */}}
+{{- $delegate := resources.Get "js/delegate-it.js" }}
+<script src="{{ $delegate.RelPermalink }}" data-no-instant
+  {{- if site.Params.assets.disableFingerprinting }}integrity="{{ $delegate.Data.Integrity }}"{{- end }}
+></script>
+
+<script>
+  (function() {
+    /* theme toggle */
+    const disableThemeToggle = '{{ if site.Params.disableThemeToggle }}1{{ end }}' == '1';
+    if (disableThemeToggle) {
+      return;
+    }
+
+    // listen to toggle button
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+      window.dispatchEvent(new CustomEvent('toggle-theme'));
+    });
+  })();
+</script>
+
 <script>
   (function () {
     let menu = document.getElementById('menu')
@@ -72,20 +93,6 @@
       mybutton.style.opacity = "0";
     }
   };
-</script>
-{{- end }}
-
-{{- if (not site.Params.disableThemeToggle) }}
-<script>
-  document.getElementById("theme-toggle").addEventListener("click", () => {
-    if (document.body.className.includes("dark")) {
-      document.body.classList.remove('dark');
-      localStorage.setItem("pref-theme", 'light');
-    } else {
-      document.body.classList.add('dark');
-      localStorage.setItem("pref-theme", 'dark');
-    }
-  })
 </script>
 {{- end }}
 
