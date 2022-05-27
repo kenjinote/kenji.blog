@@ -1,0 +1,5 @@
+{{- /* You can add your own layouts/comments_script.html to override this file */ -}}
+
+{{- with site.Params.commentSystem.disqus -}}
+  {{ partial "disqus_script.html" . }}
+{{- end -}}

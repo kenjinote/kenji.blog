@@ -1,3 +1,9 @@
-{{- /* Comments area start */ -}}
-{{- /* to add comments read => https://gohugo.io/content-management/comments/ */ -}}
-{{- /* Comments area end */ -}}
+{{- /* You can add your own layouts/comments.html to override this file */ -}}
+
+{{- with site.Params.commentSystem.disqus -}}
+  {{- partial "disqus.html" . }}
+{{- end -}}
+
+{{- with site.Params.commentSystem.telegramWidget -}}
+  {{- partial "telegram_widget.html" . }}
+{{- end -}}
