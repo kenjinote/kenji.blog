@@ -17,6 +17,7 @@ var InstantClick = function(document, location) {
       $title = false,
       $mustRedirect = false,
       $body = false,
+      $head = false,
       $timing = {},
       $isPreloading = false,
       $isWaitingForCompletion = false,
@@ -125,11 +126,14 @@ var InstantClick = function(document, location) {
     return returnValue
   }
 
-  function changePage(title, body, newUrl, scrollY) {
+  function changePage(title, body, headCache, newUrl, scrollY) {
     document.documentElement.replaceChild(body, document.body)
     /* We cannot just use `document.body = doc.body`, it causes Safari (tested
        5.1, 6.0 and Mobile 7.0) to execute script tags directly.
     */
+
+    // updateHead
+    updateHead(headCache)
 
     if (newUrl) {
       history.pushState(null, null, newUrl)
@@ -188,6 +192,51 @@ var InstantClick = function(document, location) {
      * things happen with implicitly closed elements (see the Noscript test).
      */
     return html.replace(/<noscript[\s\S]+<\/noscript>/gi, '')
+  }
+
+  const stylesheetRegex = /stylesheet/
+
+  function loopHeadTags(head, callback) {
+    for (const i of head.children) {
+      let v
+      switch (i.tagName) {
+      case 'LINK':
+        const rel = i.getAttribute('rel') || ''
+        if (rel && !stylesheetRegex.test(rel)) {
+          v = rel
+        }
+        break;
+      case 'META':
+        const name = i.getAttribute('name') || ''
+        const property = i.getAttribute('property') || ''
+        if (name || property) {
+          v = `${name}-${property}`
+        }
+        break;
+      }
+
+      if (v) {
+        callback(i, `${i.tagName}-${v}`)
+      }
+    }
+  }
+
+  function makeHeadCache(head) {
+    const cache = {}
+    loopHeadTags(head, (i, key) => {
+      cache[key] = i.outerHTML
+    })
+    return cache
+  }
+
+  function updateHead(headCache) {
+    // console.log('update head', headCache)
+    loopHeadTags(document.head, (i, key) => {
+      const headTag = headCache[key]
+      if (headTag) {
+        i.outerHTML = headTag
+      }
+    })
   }
 
 
@@ -292,6 +341,7 @@ var InstantClick = function(document, location) {
       doc.documentElement.innerHTML = removeNoscriptTags($xhr.responseText)
       $title = doc.title
       $body = doc.body
+      $head = makeHeadCache(doc.head)
 
       var alteredOnReceive = triggerPageEvent('receive', $url, $body, $title)
       if (alteredOnReceive) {
@@ -304,9 +354,11 @@ var InstantClick = function(document, location) {
       }
 
       var urlWithoutHash = removeHash($url)
+      // console.log('set history 2', urlWithoutHash, $head)
       $history[urlWithoutHash] = {
         body: $body,
         title: $title,
+        head: $head,
         scrollY: urlWithoutHash in $history ? $history[urlWithoutHash].scrollY : 0
       }
 
@@ -493,7 +545,7 @@ var InstantClick = function(document, location) {
     }
     $history[$currentLocationWithoutHash].scrollY = pageYOffset
     setPreloadingAsHalted()
-    changePage($title, $body, $url)
+    changePage($title, $body, $head, $url)
   }
 
 
@@ -695,8 +747,10 @@ var InstantClick = function(document, location) {
     $history[$currentLocationWithoutHash] = {
       body: document.body,
       title: document.title,
+      head: makeHeadCache(document.head),
       scrollY: pageYOffset
     }
+    // console.log('set history 1', $currentLocationWithoutHash)
 
     var elems = document.head.children,
         elem,
@@ -736,7 +790,7 @@ var InstantClick = function(document, location) {
 
       $history[$currentLocationWithoutHash].scrollY = pageYOffset
       $currentLocationWithoutHash = loc
-      changePage($history[loc].title, $history[loc].body, false, $history[loc].scrollY)
+      changePage($history[loc].title, $history[loc].body, $history[loc].head, false, $history[loc].scrollY)
     })
   }
 

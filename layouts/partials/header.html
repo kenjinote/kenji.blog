@@ -30,7 +30,7 @@ function setPrefTheme(theme) {
 
 const toggleThemeCallbacks = []
 toggleThemeCallbacks.push((isDark) => {
-  // console.log('window toggle-theme')
+  // console.log('window toggle-theme 1')
   if (isDark) {
     setPrefTheme('light');
   } else {
@@ -42,6 +42,7 @@ toggleThemeCallbacks.push((isDark) => {
 // because window is never changed by InstantClick,
 // we add the listener to window to ensure the event is always received
 window.addEventListener('toggle-theme', function() {
+  // console.log('window toggle-theme')
   const isDark = isDarkTheme()
   toggleThemeCallbacks.forEach(callback => callback(isDark))
 });

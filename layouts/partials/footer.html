@@ -147,6 +147,9 @@
 {{- /* InstantClick.js */}}
 {{- if (.Param "EnableInstantClick") }}
 {{- $instantclick := resources.Get "js/instantclick.js" }}
+{{- if hugo.IsProduction }}
+  {{- $instantclick = minify $instantclick }}
+{{- end }}
 <script src="{{ $instantclick.RelPermalink }}" data-no-instant
   {{- if site.Params.assets.disableFingerprinting }}integrity="{{ $instantclick.Data.Integrity }}"{{- end }}
 ></script>
