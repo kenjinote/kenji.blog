@@ -110,6 +110,7 @@
     border-radius: var(--radius);
     width: 100%;
     height: auto;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .entry-cover a {
