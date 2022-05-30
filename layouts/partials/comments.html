@@ -1,9 +1,13 @@
 {{- /* You can add your own layouts/comments.html to override this file */ -}}
 
-{{- with site.Params.commentSystem.disqus -}}
-  {{- partial "disqus.html" . }}
+{{- with site.Params.commentSystem.remark42 -}}
+  {{- partial "remark42.html" . }}
 {{- end -}}
 
 {{- with site.Params.commentSystem.telegramWidget -}}
   {{- partial "telegram_widget.html" . }}
+{{- end -}}
+
+{{- with site.Params.commentSystem.disqus -}}
+  {{- partial "disqus.html" . }}
 {{- end -}}
