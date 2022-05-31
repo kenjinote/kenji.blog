@@ -23,10 +23,11 @@
 
 .first-entry .entry-content {
     margin: 14px 0;
-    font-size: 16px;
+    font-size: 17px;
     color: var(--primary);
-    line-height: 1.5em;
+    line-height: 1.6em;
     display: block;
+    overflow: initial;  /* fix <mark> edge get cut */
 }
 
 .first-entry .entry-content p,
@@ -36,6 +37,21 @@
 
 .first-entry .entry-footer {
     font-size: 14px;
+}
+
+.telegram-channel a {
+    font-weight: bold;
+    display: inline-block;
+    transition: var(--link-transition);
+    text-decoration: underline;
+}
+.telegram-channel a:hover {
+    color: #0088CC;
+}
+.telegram-channel svg {
+    width: 25px;
+    height: auto;
+    vertical-align: text-bottom;
 }
 
 .home-info .entry-content {

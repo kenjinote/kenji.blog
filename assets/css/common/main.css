@@ -7,6 +7,26 @@
     padding: var(--gap);
     padding-bottom: 0;
 }
+
+.mark-line {
+    display: inline-block;
+    background: var(--line-yellow) bottom left/100% 0.3em no-repeat;
+}
+mark {
+    margin: 0 -0.4em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    background: transparent;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 225, 0, 0.1),
+      rgba(255, 225, 0, 0.7) 4%,
+      rgba(255, 225, 0, 0.3)
+    );
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
 /* for post page */
 .main.post {
     max-width: calc(var(--post-width) + var(--gap) * 2);
