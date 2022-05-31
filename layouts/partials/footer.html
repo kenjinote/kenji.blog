@@ -26,12 +26,6 @@
 
 {{- partial "extend_footer.html" . }}
 
-{{/* Load delegate script */}}
-{{- $delegate := resources.Get "js/delegate-it.js" }}
-<script src="{{ $delegate.RelPermalink }}" data-no-instant
-  {{- if site.Params.assets.disableFingerprinting }}integrity="{{ $delegate.Data.Integrity }}"{{- end }}
-></script>
-
 <script>
   (function() {
     /* theme toggle */
