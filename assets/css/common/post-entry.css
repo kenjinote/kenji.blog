@@ -30,28 +30,15 @@
     overflow: initial;  /* fix <mark> edge get cut */
 }
 
-.first-entry .entry-content p,
-.first-entry .entry-content li {
+.first-entry .entry-content p {
     margin-bottom: .8em;
+}
+.first-entry .entry-content li p {
+    margin-bottom: .5em;
 }
 
 .first-entry .entry-footer {
     font-size: 14px;
-}
-
-.telegram-channel a {
-    font-weight: bold;
-    display: inline-block;
-    transition: var(--link-transition);
-    text-decoration: underline;
-}
-.telegram-channel a:hover {
-    color: #0088CC;
-}
-.telegram-channel svg {
-    width: 25px;
-    height: auto;
-    vertical-align: text-bottom;
 }
 
 .home-info .entry-content {
