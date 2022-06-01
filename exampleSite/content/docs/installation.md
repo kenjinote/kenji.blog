@@ -2,7 +2,6 @@
 title: "Installation | Update"
 summary: Read Install and Update instructions here
 date: 2021-01-20
-weight: 3
 author: "Aditya Telange"
 TocSide: left
 ---

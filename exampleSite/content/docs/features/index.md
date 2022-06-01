@@ -2,7 +2,6 @@
 title: "PaperMod Features"
 summary: Learn About All Features in original PaperMod
 date: 2021-01-20
-weight: 3
 author: "Aditya Telange"
 ---
 

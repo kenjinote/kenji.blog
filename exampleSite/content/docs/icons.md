@@ -2,7 +2,6 @@
 title: "Icons"
 summary: Explain how to use icons in PaperModX
 date: 2021-01-20
-weight: 4
 tags:
   - icons
 ---

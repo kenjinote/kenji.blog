@@ -4,7 +4,6 @@ summary: List of Front Matter variables used by PaperModX
 date: 2021-01-20
 author: "Aditya Telange"
 draft: true
-weight: 5
 ---
 
 **Below are variables used with this theme...**
