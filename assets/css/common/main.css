@@ -223,3 +223,8 @@ figure > img {
     padding: .5em;
     text-align: center;
 }
+
+.image-size-control > img {
+    width: inherit;
+    height: inherit;
+}

@@ -547,8 +547,3 @@ h6:hover .anchor {
     padding: 1.5em;
     box-shadow: var(--shadow-elevation-low);
 }
-
-.image-size-control > img {
-    width: inherit;
-    height: inherit;
-}
