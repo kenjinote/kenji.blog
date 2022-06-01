@@ -1,5 +1,5 @@
 <figure class="center align-center">
-  {{ .Inner | markdownify }}
+  {{ .Page.RenderString .Inner }}
 
   <figcaption><p>{{ .Get 0 | markdownify }}</p></figcaption>
 </figure>
