@@ -11,7 +11,109 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
-# googleAnalytics: UA-123-45
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Theme PaperModX - https://github.com/reorx/hugo-PaperModX"
+  author:
+    - Reorx
+  mainSections:
+    - docs
+    - posts
+  disableAnchoredHeadings: true
+  images: ["cover.png"]
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowWordCount: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: true
+  TocSide: "right"
+  EnableInstantClick: true
+  EnableImageZoom: true
+
+  commentSystems:
+    disqus:
+      shortname: reorx
+    remark42:
+      url: https://remark42.reorx.com
+      site: reorx.github.io
+    telegramWidget:
+      channel: reorx_share
+      accentColor: "9077e1"
+      limit: 20
+  defaultCommentSystems:
+    remark42: true
+
+  profileMode:
+    enabled: false
+    title: PaperModX
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: /archives/
+      - name: Tags
+        url: /tags/
+
+  homeInfoParams:
+    Title: "PaperModX"
+    Content: |
+      Welcome to demo of hugo's theme PaperModX.
+
+      - **PaperModX** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+
+      - PaperModX is based on theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
+
+      To get started, please head to the [Docs](docs).
+
+      To see examples of different contents, head to [examples tag](tags/example).
+
+  socialIcons:
+    - name: github-simple
+      url: "https://github.com/reorx/hugo-PaperModX"
+    - name: rss-simple
+      url: "index.xml"
+
+  editPost:
+    URL: "https://github.com/reorx/hugo-PaperModX/tree/exampleSite/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # label:
+  #     text: "Home"
+  #     icon: icon.png
+  #     iconHeight: 35
+
+  # assets:
+  #     favicon: "<link / abs url>"
+  #     favicon16x16: "<link / abs url>"
+  #     favicon32x32: "<link / abs url>"
+  #     apple_touch_icon: "<link / abs url>"
+  #     safari_pinned_tab: "<link / abs url>"
+
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
+
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
 
 minify:
   disableXML: true
@@ -85,96 +187,6 @@ outputs:
     - RSS
     - JSON
 
-params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperModX - https://github.com/reorx/hugo-PaperModX"
-  author:
-    - Reorx
-  mainSections:
-    - docs
-    - posts
-  disableAnchoredHeadings: true
-
-  defaultTheme: auto
-  # disableThemeToggle: true
-  ShowShareButtons: true
-  ShowReadingTime: true
-  # disableSpecial1stPost: true
-  displayFullLangName: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-  ShowToc: true
-  TocOpen: true
-  TocSide: "right"
-  # DisableSmoothScroll: true
-  EnableInstantClick: true
-  # comments: false
-  images: ["cover.png"]
-
-  profileMode:
-    enabled: false
-    title: PaperModX
-    imageUrl: "#"
-    imageTitle: my image
-    # imageWidth: 120
-    # imageHeight: 120
-    buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
-
-  homeInfoParams:
-    Title: "PaperModX"
-    Content: |
-      Welcome to demo of hugo's theme PaperModX.
-
-      - **PaperModX** is a simple but fast and responsive theme with useful feature-set that enhances UX.
-
-      - PaperModX is based on theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
-
-      To get started, please head to the [Docs](docs).
-
-      To see examples of different contents, head to [examples tag](tags/example).
-
-  socialIcons:
-    - name: github-simple
-      url: "https://github.com/reorx/hugo-PaperModX"
-    - name: rss-simple
-      url: "index.xml"
-
-  editPost:
-    URL: "https://github.com/reorx/hugo-PaperModX/tree/exampleSite/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
-
-  # label:
-  #     text: "Home"
-  #     icon: icon.png
-  #     iconHeight: 35
-
-  # assets:
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
-  #     safari_pinned_tab: "<link / abs url>"
-
-  # cover:
-  #     hidden: true # hide everywhere but not in structured data
-  #     hiddenInList: true # hide on list pages and home
-  #     hiddenInSingle: true # hide on single page
-
-  # fuseOpts:
-  #     isCaseSensitive: false
-  #     shouldSort: true
-  #     location: 0
-  #     distance: 1000
-  #     threshold: 0.4
-  #     minMatchCharLength: 0
-  #     keys: ["title", "permalink", "summary", "content"]
-
 taxonomies:
   category: categories
   tag: tags
@@ -186,7 +198,7 @@ markup:
       unsafe: true
   highlight:
     style: dracula
-    lineNos: true
+    lineNos: false
     noClasses: false
 
 privacy:
