@@ -1,4 +1,6 @@
-<div class="telegram-widget-container"></div>
+<div class="comments-box">
+  <div id="telegram-widget-container"></div>
+</div>
 
 <script>
   (function() {
@@ -22,8 +24,9 @@
       s.setAttribute(key, attrs[key]);
     }
 
-    const container = document.querySelector('.telegram-widget-container')
+    const container = document.querySelector('#telegram-widget-container')
     container.innerHTML = '';
+    // telegram widget script must be added to the position where you want it to be displayed
     container.appendChild(s);
   })();
 </script>
@@ -31,9 +34,6 @@
 <script data-no-instant>
   (function() {
     if (!toggleThemeCallbacks) {
-      return;
-    }
-    if (document.getElementsByClassName('telegram-widget-container').length === 0) {
       return;
     }
 

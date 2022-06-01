@@ -128,7 +128,3 @@
   mediumZoom('.post-content img:not([no-zoom])');
 </script>
 {{- end }}
-
-{{- if not (.Param "noComments") }}
-  {{- partial "comments_script.html" . }}
-{{ end }}
