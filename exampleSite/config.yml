@@ -14,205 +14,201 @@ enableEmoji: true
 # googleAnalytics: UA-123-45
 
 minify:
-    disableXML: true
-    # minifyOutput: true
+  disableXML: true
+  # minifyOutput: true
 
 languages:
-    en:
-        languageName: "English"
-        weight: 1
-        menu:
-            main:
-                - name: Docs
-                  url: docs
-                  weight: 1
-                - name: Tags
-                  url: tags/
-                  weight: 4
-                - name: Archive
-                  url: archives
-                  weight: 5
-                - name: Search
-                  url: search/
-                  weight: 10
-                - name: "@Author"
-                  url: "https://reorx.com"
-                  params:
-                    external: true
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: Docs
+          url: /docs/
+          weight: 1
+        - name: Tags
+          url: /tags/
+          weight: 4
+        - name: Archive
+          url: /archives/
+          weight: 5
+        - name: Search
+          url: /search/
+          weight: 10
+        - name: "@Author"
+          url: "https://reorx.com"
+          params:
+            external: true
 
-    zh:
-        languageName: ":cn:"
-        languageAltTitle: 中文
-        weight: 2
-        title: PaperModX
-        profileMode:
-            enabled: true
-            title: PaperModX
-            # imageUrl: "#"
-            # imageTitle: my image
-            # imageWidth: 120
-            # imageHeight: 120
-            subtitle: >
-              <p>Hugo 主题</p>
-              ☄️ 快速 | ☁️ 流畅 | 📖 可读性 | 📱 响应式
-            buttons:
-                - name: 文档
-                  url: docs
-                - name: 标签
-                  url: tags
-        menu:
-            main:
-                - name: 文档
-                  url: docs
-                  weight: 1
-                - name: 标签
-                  url: tags/
-                  weight: 4
-                - name: 归档
-                  url: archives
-                  weight: 5
-                - name: 搜索
-                  url: search/
-                  weight: 10
-                - name: "@作者"
-                  url: "https://reorx.com"
-                  params:
-                    external: true
+  zh:
+    languageName: ":cn:"
+    languageAltTitle: 中文
+    weight: 2
+    title: PaperModX
+    profileMode:
+      enabled: true
+      title: PaperModX
+      # imageUrl: "#"
+      # imageTitle: my image
+      # imageWidth: 120
+      # imageHeight: 120
+      subtitle: >
+        <p>Hugo 主题</p>
+        ☄️ 快速 | ☁️ 流畅 | 📖 可读性 | 📱 响应式
+      buttons:
+        - name: 文档
+          url: docs
+        - name: 标签
+          url: tags
+    menu:
+      main:
+        - name: 文档
+          url: docs
+          weight: 1
+        - name: 标签
+          url: tags/
+          weight: 4
+        - name: 归档
+          url: archives
+          weight: 5
+        - name: 搜索
+          url: search/
+          weight: 10
+        - name: "@作者"
+          url: "https://reorx.com"
+          params:
+            external: true
 
 outputs:
-    home:
-        - HTML
-        - RSS
-        - JSON
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 params:
-    env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    description: "Theme PaperModX - https://github.com/reorx/hugo-PaperModX"
-    author:
-     - Reorx
-    mainSections:
-      - docs
-      - posts
-    disableAnchoredHeadings: true
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  description: "Theme PaperModX - https://github.com/reorx/hugo-PaperModX"
+  author:
+    - Reorx
+  mainSections:
+    - docs
+    - posts
+  disableAnchoredHeadings: true
 
-    defaultTheme: auto
-    # disableThemeToggle: true
-    ShowShareButtons: true
-    ShowReadingTime: true
-    # disableSpecial1stPost: true
-    displayFullLangName: true
-    ShowPostNavLinks: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    ShowToc: true
-    TocOpen: true
-    TocSide: 'right'
-    # DisableSmoothScroll: true
-    EnableInstantClick: true
-    # comments: false
-    images: ["cover.png"]
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: true
+  TocSide: "right"
+  # DisableSmoothScroll: true
+  EnableInstantClick: true
+  # comments: false
+  images: ["cover.png"]
 
-    profileMode:
-        enabled: false
-        title: PaperModX
-        imageUrl: "#"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Archives
-              url: archives
-            - name: Tags
-              url: tags
+  profileMode:
+    enabled: false
+    title: PaperModX
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
 
-    homeInfoParams:
-        Title: "PaperModX"
-        Content: |
-          Welcome to demo of hugo's theme PaperModX.
+  homeInfoParams:
+    Title: "PaperModX"
+    Content: |
+      Welcome to demo of hugo's theme PaperModX.
 
-          - **PaperModX** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+      - **PaperModX** is a simple but fast and responsive theme with useful feature-set that enhances UX.
 
-          - PaperModX is based on theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
+      - PaperModX is based on theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
 
-          To get started, please head to the [Docs](docs).
+      To get started, please head to the [Docs](docs).
 
-          To see examples of different contents, head to [examples tag](tags/example).
+      To see examples of different contents, head to [examples tag](tags/example).
 
-    socialIcons:
-        - name: github-simple
-          url: "https://github.com/reorx/hugo-PaperModX"
-        - name: rss-simple
-          url: "index.xml"
+  socialIcons:
+    - name: github-simple
+      url: "https://github.com/reorx/hugo-PaperModX"
+    - name: rss-simple
+      url: "index.xml"
 
-    editPost:
-        URL: "https://github.com/reorx/hugo-PaperModX/tree/exampleSite/content"
-        Text: "Suggest Changes" # edit text
-        appendFilePath: true # to append file path to Edit link
+  editPost:
+    URL: "https://github.com/reorx/hugo-PaperModX/tree/exampleSite/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
 
-    # label:
-    #     text: "Home"
-    #     icon: icon.png
-    #     iconHeight: 35
+  # label:
+  #     text: "Home"
+  #     icon: icon.png
+  #     iconHeight: 35
 
-    # analytics:
-    #     google:
-    #         SiteVerificationTag: "XYZabc"
+  # assets:
+  #     favicon: "<link / abs url>"
+  #     favicon16x16: "<link / abs url>"
+  #     favicon32x32: "<link / abs url>"
+  #     apple_touch_icon: "<link / abs url>"
+  #     safari_pinned_tab: "<link / abs url>"
 
-    # assets:
-    #     favicon: "<link / abs url>"
-    #     favicon16x16: "<link / abs url>"
-    #     favicon32x32: "<link / abs url>"
-    #     apple_touch_icon: "<link / abs url>"
-    #     safari_pinned_tab: "<link / abs url>"
+  # cover:
+  #     hidden: true # hide everywhere but not in structured data
+  #     hiddenInList: true # hide on list pages and home
+  #     hiddenInSingle: true # hide on single page
 
-    # cover:
-    #     hidden: true # hide everywhere but not in structured data
-    #     hiddenInList: true # hide on list pages and home
-    #     hiddenInSingle: true # hide on single page
-
-    # fuseOpts:
-    #     isCaseSensitive: false
-    #     shouldSort: true
-    #     location: 0
-    #     distance: 1000
-    #     threshold: 0.4
-    #     minMatchCharLength: 0
-    #     keys: ["title", "permalink", "summary", "content"]
+  # fuseOpts:
+  #     isCaseSensitive: false
+  #     shouldSort: true
+  #     location: 0
+  #     distance: 1000
+  #     threshold: 0.4
+  #     minMatchCharLength: 0
+  #     keys: ["title", "permalink", "summary", "content"]
 
 taxonomies:
-    category: categories
-    tag: tags
-    series: series
+  category: categories
+  tag: tags
+  series: series
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        style: dracula
-        lineNos: true
-        noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: dracula
+    lineNos: true
+    noClasses: false
 
 privacy:
-    vimeo:
-        disabled: false
-        simple: true
+  vimeo:
+    disabled: false
+    simple: true
 
-    twitter:
-        disabled: false
-        enableDNT: true
-        simple: true
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
 
-    instagram:
-        disabled: false
-        simple: true
+  instagram:
+    disabled: false
+    simple: true
 
-    youtube:
-        disabled: false
-        privacyEnhanced: true
+  youtube:
+    disabled: false
+    privacyEnhanced: true
 
 services:
-    instagram:
-        disableInlineCSS: true
-    twitter:
-        disableInlineCSS: true
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
