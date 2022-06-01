@@ -9,7 +9,7 @@
 {{- with site.Params.commentSystems -}}
   {{- if $pageCommentSystems.remark42 -}}
   {{- with .remark42 -}}
-    {{- partial "remark42.html" . }}
+    {{- partial "remark42.html" (dict "page" $page "ctx" .) }}
   {{- end -}}
   {{- end -}}
 
@@ -21,7 +21,7 @@
 
   {{- if $pageCommentSystems.disqus -}}
   {{- with .disqus -}}
-    {{- partial "disqus.html" (dict "page" $page "disqus" .) }}
+    {{- partial "disqus.html" (dict "page" $page "ctx" .) }}
   {{- end -}}
   {{- end -}}
 {{- end -}}

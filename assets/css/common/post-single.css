@@ -544,6 +544,29 @@ h6:hover .anchor {
     margin: calc(var(--content-gap) * 2) 0;
     background-color: var(--code-bg);
     border-radius: 10px;
-    padding: 1.5em;
     box-shadow: var(--shadow-elevation-low);
+}
+
+.comments-box.telegram-widget {
+    padding: .8em;
+}
+
+.comments {
+    border-top: 1px solid var(--tertiary);
+}
+.comments {
+    margin: 40px 0 20px;
+}
+.comments .title {
+    margin: 20px 0;
+    font-size: 1.5em;
+}
+.comments .title > span {
+    line-height: 1.5rem;
+}
+.comments .title .counter {
+    color: var(--link-hover-color);
+    font-size: 1rem;
+    font-weight: bold;
+    vertical-align: super;
 }

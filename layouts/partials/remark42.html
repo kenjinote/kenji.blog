@@ -1,10 +1,17 @@
-<div id="remark42"></div>
+<div class="comments">
+  <div class="title">
+    <span>Comments</span>
+    <span class="counter"><span class="remark42__counter" data-url="{{ .page.Permalink }}"></span></span>
+  </div>
+  <div id="remark42">
+  </div>
+</div>
 
 <script>
   var remark_config = {
-    host: '{{ .url }}',
-    site_id: '{{ .site }}',
-    components: ['embed'],
+    host: '{{ .ctx.url }}',
+    site_id: '{{ .ctx.site }}',
+    components: ['embed', 'counter'],
     max_shown_comments: 20,
     theme: 'light',
     // page_title: 'My custom title for a page',
