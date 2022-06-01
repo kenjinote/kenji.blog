@@ -34,10 +34,11 @@
       return;
     }
 
+    let button = document.getElementById("theme-toggle")
+    // remove the listeners first to prevent adding duplicated listener when history goes back and forth
+    button.removeEventListener('click', toggleThemeListener)
     // listen to toggle button
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-      window.dispatchEvent(new CustomEvent('toggle-theme'));
-    });
+    button.addEventListener('click', toggleThemeListener)
   })();
 </script>
 

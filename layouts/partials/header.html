@@ -48,6 +48,13 @@ window.addEventListener('toggle-theme', function() {
     toggleThemeCallbacks[key](isDark)
   }
 });
+
+// this function is used as the event listener for toggle-theme button click
+function toggleThemeListener() {
+  // console.log('click theme-toggle')
+  window.dispatchEvent(new CustomEvent('toggle-theme'));
+}
+
 </script>
 <script>
   // load theme, as early as possible
