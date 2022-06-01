@@ -4,6 +4,24 @@
 
 <script>
   (function() {
+    // toogle theme callback
+    const key = 'telegram-widget'
+    if (!toggleThemeCallbacks.hasOwnProperty(key)) {
+      toggleThemeCallbacks[key] = (isDark) => {
+        // console.log('window toggle-theme for telegram widget')
+        const telegram = window.Telegram
+        if (!telegram || !document.querySelector('#telegram-widget-container')) {
+          return;
+        }
+        if (isDark) {
+          telegram.setWidgetOptions({'nodark': 1})
+        } else {
+          telegram.setWidgetOptions({'dark': 1})
+        }
+      }
+    }
+
+    // telegram widget config attrs
     const attrs = {
       'data-telegram-discussion': "{{ .channel }}",
       'data-comments-limit': "{{ .limit | default 10 }}",
@@ -18,6 +36,8 @@
       attrs['data-dark'] = '1'
     }
 
+    // because Telegram does not provide a function to reset the widget from existing instance,
+    // we have to add the widget script every time.
     var d = document, s = d.createElement('script');
     s.src = "https://telegram.org/js/telegram-widget.js?19";
     for (const key in attrs) {
@@ -28,25 +48,5 @@
     container.innerHTML = '';
     // telegram widget script must be added to the position where you want it to be displayed
     container.appendChild(s);
-  })();
-</script>
-
-<script data-no-instant>
-  (function() {
-    if (!toggleThemeCallbacks) {
-      return;
-    }
-
-    toggleThemeCallbacks.push((isDark) => {
-      // console.log('window toggle-theme for telegram widget')
-      if (!window.Telegram) {
-        return;
-      }
-      if (isDark) {
-        Telegram.setWidgetOptions({'nodark': 1})
-      } else {
-        Telegram.setWidgetOptions({'dark': 1})
-      }
-    });
   })();
 </script>

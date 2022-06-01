@@ -28,15 +28,15 @@ function setPrefTheme(theme) {
   localStorage.setItem("pref-theme", theme);
 }
 
-const toggleThemeCallbacks = []
-toggleThemeCallbacks.push((isDark) => {
+const toggleThemeCallbacks = {}
+toggleThemeCallbacks['main'] = (isDark) => {
   // console.log('window toggle-theme 1')
   if (isDark) {
     setPrefTheme('light');
   } else {
     setPrefTheme('dark');
   }
-})
+}
 
 // listen to set-theme event,
 // because window is never changed by InstantClick,
@@ -44,7 +44,9 @@ toggleThemeCallbacks.push((isDark) => {
 window.addEventListener('toggle-theme', function() {
   // console.log('window toggle-theme')
   const isDark = isDarkTheme()
-  toggleThemeCallbacks.forEach(callback => callback(isDark))
+  for (const key in toggleThemeCallbacks) {
+    toggleThemeCallbacks[key](isDark)
+  }
 });
 </script>
 <script>
