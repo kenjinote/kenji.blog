@@ -142,11 +142,11 @@ h6:hover .anchor {
 }
 
 .post-content li {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .post-content li p {
-    margin-bottom: 0;
+    margin-bottom: .5em;
 }
 
 .post-content dl {
