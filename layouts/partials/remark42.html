@@ -14,9 +14,8 @@
     components: ['embed', 'counter'],
     max_shown_comments: 20,
     theme: 'light',
-    // page_title: 'My custom title for a page',
-    // show_email_subscription: false,
-    simple_view: true
+    simple_view: true,
+    admonition: JSON.stringify(['Please subscribe by email to receive reply notifications.']),
   };
   if (isDarkTheme()) {
     remark_config.theme = 'dark'
