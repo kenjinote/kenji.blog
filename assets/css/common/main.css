@@ -224,6 +224,10 @@ figure > img {
     text-align: center;
 }
 
+.image-size-control {
+    margin-left: auto;
+    margin-right: auto;
+}
 .image-size-control > img {
     width: inherit;
     height: inherit;
