@@ -498,6 +498,9 @@ h6:hover .anchor {
 .social-quote {
     padding: 1em;
 }
+.post-content .social-quote {
+    margin-bottom: var(--content-gap);
+}
 .social-quote.tweet {
     background-color: var(--code-bg);
     border-left: 3px solid var(--twitter-color);
