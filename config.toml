@@ -1,5 +1,5 @@
 baseURL = "https://kenji.blog/"
 languageCode = "ja"
 DefaultContentLanguage = "ja"
-title = "kenji.blog"
+title = "私のメモ帳"
 theme = "PaperMod"
