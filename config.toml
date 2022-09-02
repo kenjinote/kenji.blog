@@ -3,3 +3,7 @@ languageCode = "ja"
 DefaultContentLanguage = "ja"
 title = "私のメモ帳"
 theme = "PaperMod"
+
+[params.homeInfoParams]
+	Title = "Hi there 👋 🐵"
+	Content = "My name is kenji, this is me thinking about life and software, discovering old lessons and learning new stuff."
