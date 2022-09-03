@@ -3,6 +3,7 @@ languageCode = "ja"
 DefaultContentLanguage = "ja"
 title = "私のメモ帳"
 theme = "PaperMod"
+googleAnalytics = "UA-60997585-5"
 
 [params]
     dateFormat= "2006.1.2(Mon)"
