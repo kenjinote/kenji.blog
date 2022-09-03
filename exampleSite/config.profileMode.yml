@@ -55,17 +55,20 @@ params:
     remark42: true
 
   profileMode:
-    enabled: false
+    enabled: true
     title: PaperModX
-    imageUrl: "#"
-    imageTitle: my image
+    # imageUrl: "#"
+    # imageTitle: my image
     # imageWidth: 120
     # imageHeight: 120
+    subtitle: >
+      <p>Hugo 主题</p>
+      ☄️ 快速 | ☁️ 流畅 | 📖 可读性 | 📱 响应式
     buttons:
-      - name: Archives
-        url: /archives/
-      - name: Tags
-        url: /tags/
+      - name: 文档
+        url: docs
+      - name: 标签
+        url: tags
 
   homeInfoParams:
     Title: "PaperModX"
@@ -149,21 +152,6 @@ languages:
     languageAltTitle: 中文
     weight: 2
     title: PaperModX
-    profileMode:
-      enabled: true
-      title: PaperModX
-      # imageUrl: "#"
-      # imageTitle: my image
-      # imageWidth: 120
-      # imageHeight: 120
-      subtitle: >
-        <p>Hugo 主题</p>
-        ☄️ 快速 | ☁️ 流畅 | 📖 可读性 | 📱 响应式
-      buttons:
-        - name: 文档
-          url: docs
-        - name: 标签
-          url: tags
     menu:
       main:
         - name: 文档
