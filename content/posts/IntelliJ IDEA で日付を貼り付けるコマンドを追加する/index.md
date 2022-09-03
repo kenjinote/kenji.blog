@@ -5,9 +5,9 @@ draft: false
 ---
 
 # はじめに
-このブログを書くときは、IntelliJ IDEAを使っている。Gitとの相性も良いし、マークダウンのプロビューを表示してくれるから便利です。
-毎回ブログを書く際にmdのヘッダーにdateを記述しなければならないが、その日付挿入のショーカットはないみたいなので、下記のサイトを参考に
-日付を挿入するコマンドを作成してみました。
+このブログを書くときは、IntelliJ IDEAを使っています。Gitとの相性も良いし、マークダウンのプロビューを表示してくれるから便利です。
+毎回ブログを書く際にmdのヘッダーにdateを記述しなければならないので、その日付挿入のショーカットはないみたいなので、下記のサイトを参考に
+日付を挿入するコマンドを作成してみました。参考になりましたら幸いです。
 
 [Is there a shortcut for inserting date/time in IntelliJ IDEA?](https://stackoverflow.com/questions/8714779/is-there-a-shortcut-for-inserting-date-time-in-intellij-idea)
 
