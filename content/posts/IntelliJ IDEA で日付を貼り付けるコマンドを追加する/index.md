@@ -9,7 +9,7 @@ draft: false
 毎回ブログを書く際にmdのヘッダーにdateを記述しなければならないが、その日付挿入のショーカットはないみたいなので、下記のサイトを参考に
 日付を挿入するコマンドを作成してみました。
 
-![Is there a shortcut for inserting date/time in IntelliJ IDEA?](https://stackoverflow.com/questions/8714779/is-there-a-shortcut-for-inserting-date-time-in-intellij-idea)
+[Is there a shortcut for inserting date/time in IntelliJ IDEA?](https://stackoverflow.com/questions/8714779/is-there-a-shortcut-for-inserting-date-time-in-intellij-idea)
 
 # 設定手順
 1. メニューの「File」>「Settings...」を開く  
