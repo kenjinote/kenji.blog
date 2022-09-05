@@ -269,6 +269,24 @@ h6:hover .anchor {
 .post-content sup {
     line-height: 1;
 }
+.post-content sup a {
+    box-shadow: none;
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--link-hover-color);
+}
+.post-content sup a:hover {
+    box-shadow: none;
+    text-decoration: underline;
+}
+.post-content sup a:before {
+    content: "[";
+}
+.post-content sup a:after {
+    content: "]";
+}
+.post-content sup:target {
+    background-color: var(--link-background-color);
+}
 
 .post-content hr {
     margin: 30px 0;
@@ -572,4 +590,40 @@ h6:hover .anchor {
     font-size: 1rem;
     font-weight: bold;
     vertical-align: super;
+}
+
+.footnotes {
+    font-size: .8em;
+    color: var(--primary-dim);
+    font-weight: 400;
+    padding: 1em;
+    background-color: var(--code-bg);
+}
+
+.footnotes a {
+    color: var(--primary-dim);
+    font-weight: 400;
+}
+
+.footnotes hr {
+    display: none;
+}
+.footnotes ol {
+    margin: 0;
+}
+.footnotes ol li {
+    margin: 0 0 6px 0;
+}
+.footnotes ol li p {
+    line-height: 1.5em;
+    margin: 0;
+}
+.footnotes ol li:target p {
+    background-color: var(--link-background-color);
+}
+.footnotes ol:before {
+    content: "Footnotes";
+    font-size: 1.5em;
+    margin-left: -1em;
+    font-weight: 200;
 }
