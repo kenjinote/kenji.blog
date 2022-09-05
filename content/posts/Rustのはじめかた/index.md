@@ -32,3 +32,10 @@ fn main() {
 
 コマンドプロンプトまたはターミナルから`rustc main.rs`を実行すると、
 コンパイルされ、`./main`（Windowsの場合は`main.exe`）を実行すると`Hello, world!`と出力されます。
+
+# 日本語ドキュメント
+
+[The Rust Programming Language 日本語版](https://doc.rust-jp.rs/book-ja/)
+
+Rustを学ぶうえで必要となる解説は上記のリンク（日本語訳版）に集約されています。
+Rustのテキストを購入する必要がないくらい充実しています。
