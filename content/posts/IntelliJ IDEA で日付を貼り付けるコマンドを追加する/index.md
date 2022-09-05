@@ -1,6 +1,7 @@
 ---
 title: 'IntelliJ IDEA で日付を挿入するコマンドを追加する'
 date: 2022-09-04T05:59:04+09:00
+tags: ["IntelliJ IDEA"]
 draft: false
 ---
 
