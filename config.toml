@@ -36,6 +36,11 @@ googleAnalytics = "UA-60997585-5"
     name = "Rss"
     url = "index.xml"
 
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
 #[[menu.main]]
 #    name = "About"
 #    url = "/about"
