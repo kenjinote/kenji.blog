@@ -513,6 +513,7 @@ h6:hover .anchor {
 .social-links {
     margin: calc(var(--content-gap) * 2) 0;
 }
+/* shortcode */
 .social-quote {
     padding: 1em;
 }
@@ -608,6 +609,14 @@ h6:hover .anchor {
 .footnotes hr {
     display: none;
 }
+.footnotes a {
+    box-shadow: none;
+    text-decoration: underline;
+}
+.footnotes a:hover {
+    box-shadow: none;
+    text-decoration: underline;
+}
 .footnotes ol {
     margin: 0;
 }
@@ -618,7 +627,11 @@ h6:hover .anchor {
     line-height: 1.5em;
     margin: 0;
 }
-.footnotes ol li:target p {
+/* fix tweet-ref makes the li markers sink at the bottom */
+.footnotes ol li > * {
+    vertical-align: top;
+}
+.footnotes ol li:target {
     background-color: var(--link-background-color);
 }
 .footnotes ol:before {
@@ -626,4 +639,19 @@ h6:hover .anchor {
     font-size: 1.5em;
     margin-left: -1em;
     font-weight: 200;
+}
+
+/* shortcode */
+.tweet-ref {
+    width: calc(100% - 2em);
+    display: inline-block;
+}
+.tweet-ref blockquote {
+    margin: 3px 0 0 0;
+    border-inline-color: var(--tertiary);
+    line-height: 1.5em;
+}
+
+.tweet-ref blockquote a {
+    text-decoration: none;
 }
