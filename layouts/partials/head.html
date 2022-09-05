@@ -93,8 +93,10 @@
 {{- end }}
 <meta name="twitter:title" content="{{ $pageTitle }}" />
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}" />
-<meta name="twitter:site" content="@novoreorx" />
-<meta name="twitter:creator" content="@novoreorx" />
+{{- with site.Params.socialAccounts.twitter }}
+  <meta name="twitter:site" content="@{{ .username }}" />
+  <meta name="twitter:creator" content="@{{ .username }}" />
+{{- end }}
 
 {{- template "partials/templates/opengraph.html" (dict "page" . "pageTitle" $pageTitle) }}
 
