@@ -26,10 +26,10 @@
 
 
 {{- $pages := .Pages }}
-
 {{- if .IsHome }}
   {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{- end }}
+{{- $pages = where $pages "Params.hidden" "!=" true }}
 
 {{/* related issue: https://github.com/gohugoio/hugo/issues/9003 */}}
 {{ $paginator := "" }}
