@@ -8,9 +8,12 @@ googleAnalytics = "UA-60997585-5"
 [params]
     dateFormat= "2006.1.2(Mon)"
 
+[params.label]
+    text = "🏠 Home"
+
 [params.homeInfoParams]
-    Title = "Hi there 😊"
-    Content = "My name is kenji, this is me thinking about life and software, discovering old lessons and learning new stuff."
+    Title = "Hello world! 😊"
+    Content = "こんにちは世界。kenjiと申します。考えたことや技術的な小話を短めの記事に整理して投稿していきます。このブログはPaperModというテーマを使っています。"
 
 [[params.socialIcons]]
     name = "twitter"
