@@ -40,3 +40,6 @@ draft: false
 ・2022/09/06 13:13頃　3分から5分ぐらい
 ・2022/09/06 13:30頃　3分から5分ぐらい
 ![ネットワーク診断](images/trouble_shooting.png)
+
+DNSが問題みたいなので、[ここ](https://internet.watch.impress.co.jp/docs/column/shimizu/1367271.html)を参考にDNSサーバを設定しました。
+これでどうなるか・・・
