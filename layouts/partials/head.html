@@ -47,10 +47,11 @@
 {{- /* order is important */}}
 {{- $core := (slice $theme_vars $reset $common $commonHighlight $media) | resources.Concat "assets/css/core.css" }}
 {{- $extended := (resources.Match "css/extended/*.css") | resources.Concat "assets/css/extended.css" }}
+{{- $extendedScss := (resources.Match "css/extended/*.scss") | resources.Concat "assets/css/extended.scss" | resources.ToCSS }}
 
 {{- /* bundle all required css */}}
 {{- /* Add extended css after theme style */ -}}
-{{- $stylesheet := (slice $core $extended) | resources.Concat "assets/css/stylesheet.css" | minify }}
+{{- $stylesheet := (slice $core $extended $extendedScss) | resources.Concat "assets/css/stylesheet.css" | minify }}
 
 {{- if not site.Params.assets.disableFingerprinting }}
 {{- $stylesheet := $stylesheet | fingerprint }}

@@ -1,40 +1,19 @@
+{{/* section is AKA list */}}
+{{- define "bodyClass" }} theme-newsletter{{- end }}
+
 {{- define "main" }}
+<div class="main-logo">@</div>
 
-{{- if (and site.Params.profileMode.enabled .IsHome) }}
-{{- partial "index_profile.html" . }}
-{{- else }} {{/* if not profileMode */}}
-
-{{- if not .IsHome | and .Title }}
 <header class="page-header">
-  {{- partial "breadcrumbs.html" . }}
-  <h1>{{ .Title }}</h1>
-  {{- if .Description }}
-  <div class="post-description">
-    {{ .Description | markdownify }}
-  </div>
-  {{- end }}
+  <h1>{{ .Title }} Newsletter</h1>
   {{- with .Param "archivesSlug" }}
   <div>
     <a href="{{ $.RelPermalink }}{{ . }}/">Archives</a>
   </div>
   {{- end }}
 </header>
-{{- end }}
 
-{{- if .Content }}
-<div class="post-content">
-  {{- if not (.Param "disableAnchoredHeadings") }}
-  {{- partial "anchored_headings.html" .Content -}}
-  {{- else }}{{ .Content }}{{ end }}
-</div>
-{{- end }}
-
-
-{{- $pages := .Pages }}
-{{- if .IsHome }}
-  {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- end }}
-{{- $pages = where $pages "Params.hidden" "!=" true }}
+{{- $pages := where .Pages "Params.hidden" "!=" true }}
 
 {{/* related issue: https://github.com/gohugoio/hugo/issues/9003 */}}
 {{ $paginator := "" }}
@@ -44,25 +23,9 @@
   {{- $paginator = .Paginate $pages }}
 {{ end }}
 
-{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
-{{- partial "home_info.html" . }}
-{{- end }}
 
-{{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
-
-{{- $class := "post-entry" }}
-
-{{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
-{{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
-{{- $class = "first-entry" }}
-{{- else if $term }}
-{{- $class = "post-entry tag-entry" }}
-{{- end }}
-
-<article class="{{ $class }}">
-  {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
-  {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
+<article class="post-entry">
   <header class="entry-header">
     <h2>
       {{- .Title }}
@@ -101,6 +64,4 @@
 </footer>
 {{- end }}
 
-{{- end }}{{/* end profileMode */}}
-
-{{- end }}{{- /* end main */ -}}
+{{ end }}
