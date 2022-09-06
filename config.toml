@@ -1,7 +1,7 @@
 baseURL = "https://kenji.blog/"
 languageCode = "ja"
 DefaultContentLanguage = "ja"
-title = "すべての記憶がとんだとき用"
+title = ""
 theme = "PaperMod"
 googleAnalytics = "UA-60997585-5"
 
