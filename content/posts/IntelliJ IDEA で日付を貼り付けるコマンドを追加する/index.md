@@ -4,7 +4,7 @@ date: 2022-09-04T05:59:04+09:00
 tags: ["IntelliJ IDEA"]
 draft: false
 ---
-![img.png](images/IntelliJ_logo.png)
+![IntelliJ_logo](images/IntelliJ_logo.png)
 # はじめに
 このブログを書くときは、IntelliJ IDEAを使っています。Gitとの相性も良いし、マークダウンのプロビューを表示してくれるから便利です。
 毎回ブログを書く際にmdのヘッダーにdateを記述しなければならないので、その日付挿入のショーカットはないみたいなので、下記のサイトを参考に
@@ -14,14 +14,14 @@ draft: false
 
 # 設定手順
 1. メニューの「File」>「Settings...」を開く  
-   ![](./images/settings.png)
+   ![settings](./images/settings.png)
 2. 「HTML/XML」を選択した状態で「+」をクリック
 3. Live Templateを選択
 4. Abbreviationに「date」を入力
 5. Descriptionに「日付時刻を挿入する」を入力
 6. Template Textに「$date$」を入力
 7. Edit Variablesボタンをクリック  
-   ![](./images/edit_template_variables.png)
+   ![edit_template_variables](./images/edit_template_variables.png)
 8. Nameに「date」を入力
 9. Expressionに「date("yyyy-MM-dd'T'HH:mm:ss'+09:00'")」と入力
 10. OKでダイアログを閉じる
