@@ -11,6 +11,7 @@ body.type-newsletter {
   --signature-bg-dim: rgba(203, 58, 87, 0.147);
   --main-border: 5px solid var(--signature);
   --link-hover-color: var(--signature);
+  --icon-length: 50px;
 
 
   /* regular page layout */
@@ -27,11 +28,11 @@ body.type-newsletter.kind-section {
     max-width: calc(var(--nav-width));
   }
 
-  .main-logo {
+  .main-icon {
     position: absolute;
     left: 0; top: 0;
-    width: 50px;
-    height: 50px;
+    width: var(--icon-length);
+    height: var(--icon-length);
     line-height: 45px;
     border-right: var(--main-border);
     border-bottom: var(--main-border);
@@ -49,13 +50,13 @@ body.type-newsletter.kind-page {
     transition: var(--link-transition);
     font-size: 32px;
     margin-bottom: calc(var(--content-gap) * 2);
-    line-height: 50px;
+    line-height: var(--icon-length);
 
     .icon, .name {
-      height: 50px;
+      height: var(--icon-length);
     }
     .icon {
-      width: 50px;
+      width: var(--icon-length);
       color: var(--theme);
       text-align: center;
       background-color: var(--signature);
