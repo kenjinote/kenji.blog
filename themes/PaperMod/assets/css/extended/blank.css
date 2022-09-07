@@ -5,6 +5,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 */
 
 :root {
+    --radius: 32px;
     --entry: #fbf7ef;
     --primary: rgba(113, 103, 91, 1.00);
     --secondary: rgba(113, 103, 91, 0.95);
