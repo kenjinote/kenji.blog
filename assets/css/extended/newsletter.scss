@@ -5,20 +5,29 @@ color candidates:
 #F20C00 石榴紅
 #FF2D51 火紅
 */
+
+$medium: 960px;
+$small: 500px;
+
 body.type-newsletter {
   --signature: #CB3A56;
   --signature-bg: rgba(203, 58, 87, 0.239);
   --signature-bg-dim: rgba(203, 58, 87, 0.147);
   --main-border: 5px solid var(--signature);
   --icon-length: 50px;
+  --icon-font-size: 32px;
 
   // override theme-vars
   --link-hover-color: var(--signature);
   --link-hover-underline-color: var(--signature);
   --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
 
-  .main {
+  @media screen and (max-width: $small) {
+    --icon-length: 40px;
+    --icon-font-size: 24px;
+  }
 
+  .main {
     a {
       font-weight: 500;
       color: var(--primary);
@@ -38,9 +47,8 @@ body.type-newsletter {
     margin: calc(var(--content-gap) * 1.5) 0;
     form {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
       line-height: 1.2em;
+      flex-wrap: wrap;
     }
     input {
       border: 3px solid var(--signature-bg-dim);
@@ -49,9 +57,8 @@ body.type-newsletter {
       appearance: none;
       outline: none;
       background-color: var(--theme);
+      flex-grow: 1;
       padding: 9px 15px;
-      max-width: 100%;
-      width: 100%;
       transition: var(--link-transition);
 
       &:focus {
@@ -68,6 +75,15 @@ body.type-newsletter {
       white-space: nowrap;
     }
   }
+  @media screen and (max-width: $small) {
+    .sub-form {
+      button {
+        margin-left: 0;
+        margin-top: calc(var(--content-gap)/2);
+        flex-grow: 1;
+      }
+    }
+  }
 }
 
 body.type-newsletter.kind-section {
@@ -79,7 +95,12 @@ body.type-newsletter.kind-section {
     margin-top: var(--content-gap);
     padding-bottom: var(--icon-length);
     min-height: calc(100vh - var(--header-height) - var(--footer-height) - var(--content-gap));
-    max-width: calc(var(--nav-width));
+    max-width: var(--nav-width);
+
+    @media screen and (max-width: $medium) {
+      margin-left: var(--gap);
+      margin-right: var(--gap);
+    }
   }
 
   .main-icon {
@@ -87,12 +108,12 @@ body.type-newsletter.kind-section {
     left: 0; top: 0;
     width: var(--icon-length);
     height: var(--icon-length);
-    line-height: 45px;
+    line-height: calc(var(--icon-length) - 3px);
     border-right: var(--main-border);
     border-bottom: var(--main-border);
     background-color: var(--signature);
     color: var(--theme);
-    font-size: 32px;
+    font-size: var(--icon-font-size);
     text-align: center;
   }
 
@@ -104,6 +125,10 @@ body.type-newsletter.kind-section {
 
     .first-entry {
       margin-bottom: 0;
+
+      @media screen and (max-width: $small) {
+        margin-top: calc(var(--icon-length));
+      }
 
       .entry-header {
         text-align: center;
@@ -165,6 +190,24 @@ body.type-newsletter.kind-section {
         .issueno {
           width: 50px;
           text-align: right;
+        }
+      }
+    }
+    @media screen and (max-width: $small) {
+      .list {
+        .item {
+          flex-wrap: wrap;
+          .date {
+            flex-grow: 1;
+            order: 1;
+          }
+          .issueno {
+            order: 2;
+          }
+          .title {
+            order: 3;
+            flex-grow: 1;
+          }
         }
       }
     }
