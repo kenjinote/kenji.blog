@@ -13,12 +13,10 @@
     {{- partial "newsletter_sub_form.html"}}
   </div>
 
-  {{- $pages := where .Pages "Params.hidden" "!=" true }}
-
   <h2>最近更新</h2>
 
   <div class="list">
-  {{- range first 5 $pages }}
+  {{- range first 5 (where .Pages "Params.hidden" "!=" true) }}
     <div class="item">
       <div class="date">
         {{- if not .Date.IsZero -}}
