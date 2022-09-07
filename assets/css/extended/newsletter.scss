@@ -221,8 +221,9 @@ body.type-newsletter.kind-page {
     background-color: var(--signature-bg-dim);
     transition: var(--link-transition);
     font-size: 32px;
-    margin-bottom: calc(var(--content-gap) * 2);
+    // margin-bottom: calc(var(--content-gap) * 2);
     line-height: var(--icon-length);
+    box-shadow: none; // reset
 
     .icon, .name {
       height: var(--icon-length);
@@ -253,6 +254,7 @@ body.type-newsletter.kind-page {
     }
 
     &:hover, &:active {
+      box-shadow: none; // reset
       background-color: var(--signature-bg);
       .arrow {
         color: var(--signature);
