@@ -32,7 +32,7 @@
 
 {{- $pages := .Pages }}
 {{- if .IsHome }}
-  {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{- $pages = where site.RegularPages "Section" "in" site.Params.mainSections }}
 {{- end }}
 {{- $pages = where $pages "Params.hidden" "!=" true }}
 
