@@ -54,7 +54,12 @@
     {{- end }}
 
     {{- if $isNewsletter }}
-      {{- partial "newsletter_sub_form.html"}}
+      <div class="newsletter-sub">
+        <div class="notice">
+          感谢你能读到这里，如果觉得有趣的话，可以在下方输入邮箱进行订阅。
+        </div>
+        {{- partial "newsletter_sub_form.html"}}
+      </div>
     {{- end }}
   </footer>
 

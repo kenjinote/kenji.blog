@@ -285,4 +285,22 @@ body.type-newsletter.kind-page {
   .post-footer {
     border-bottom-color: var(--signature);
   }
+
+
+  .newsletter-sub {
+    margin-top: var(--gap);
+    background-color: var(--signature-bg-dim);
+    padding: 1em;
+    .notice {
+      font-size: .8em;
+      color: var(--signature);
+      line-height: 1.6;
+    }
+    .sub-form {
+      margin: 1em 0;
+      input {
+        border-color: var(--signature-bg);
+      }
+    }
+  }
 }

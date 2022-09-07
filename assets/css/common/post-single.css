@@ -592,6 +592,7 @@ h6:hover .anchor {
     vertical-align: super;
 }
 
+/* footnotes */
 .footnotes {
     font-size: .8em;
     color: var(--primary-dim);

@@ -12,7 +12,7 @@
 {{- end -}}
 {{- if eq site.Params.defaultTheme `dark` -}}
 {{- print " dark" }}
-{{- end }} type-{{ .Type }} kind-{{ .Kind -}}
+{{- end }} type-{{ .Type }} kind-{{ .Kind }} layout-{{ .Layout -}}
 " id="top">
     {{- partialCached "header.html" . .Page -}}
     <main class="main {{- if (eq .Kind `page`) -}}{{- print " post" -}}{{- end -}}">
