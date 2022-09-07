@@ -10,8 +10,26 @@ body.type-newsletter {
   --signature-bg: rgba(203, 58, 87, 0.239);
   --signature-bg-dim: rgba(203, 58, 87, 0.147);
   --main-border: 5px solid var(--signature);
-  --link-hover-color: var(--signature);
   --icon-length: 50px;
+
+  // override theme-vars
+  --link-hover-color: var(--signature);
+  --link-hover-underline-color: var(--signature);
+  --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
+
+  .main {
+
+    a {
+      font-weight: 500;
+      color: var(--primary);
+      box-shadow: var(--link-underline-shadow);
+      // transition: var(--link-transition);
+      &:hover {
+        color: var(--link-hover-color);
+        box-shadow: var(--link-hover-underline-shadow);
+      }
+    }
+  }
 
   /* shared */
   .sub-form {
@@ -87,12 +105,25 @@ body.type-newsletter.kind-section {
     .first-entry {
       margin-bottom: 0;
 
-      .entry-header h1 {
+      .entry-header {
         text-align: center;
+        margin-bottom: calc(var(--content-gap) * 1.5);
+        h1 {
+          // back to default
+          font-size: 36px;
+        }
+        .subtitle {
+          color: var(--secondary);
+        }
       }
       // .entry-content {
       //   font-size: 16px;
       // }
+    }
+
+    h2 {
+      margin: 40px 0 20px;
+
     }
 
     .list {
@@ -118,8 +149,9 @@ body.type-newsletter.kind-section {
           a {
             display: block;
             width: 100%;
+            box-shadow: none;
           }
-          a:hover, a:active {
+          a:hover {
             color: var(--signature);
           }
           em {
