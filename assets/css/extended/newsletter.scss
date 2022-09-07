@@ -41,6 +41,12 @@ body.type-newsletter.kind-section {
     font-size: 32px;
     text-align: center;
   }
+
+  .page-header {
+    h1 {
+      text-align: center;
+    }
+  }
 }
 
 body.type-newsletter.kind-page {
@@ -66,7 +72,7 @@ body.type-newsletter.kind-page {
       font-weight: bolder;
       color: var(--signature);
     }
-    .issueno {
+    .remark {
       color: var(--signature);
       font-weight: 300;
       transition: var(--link-transition);
@@ -85,7 +91,7 @@ body.type-newsletter.kind-page {
       .arrow {
         color: var(--signature);
       }
-      .issueno {
+      .remark {
         color: transparent;
       }
     }
