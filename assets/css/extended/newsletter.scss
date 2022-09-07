@@ -42,8 +42,12 @@ body.type-newsletter.kind-section {
     text-align: center;
   }
 
-  .page-header {
-    h1 {
+  .main {
+    .content {
+      max-width: calc(var(--post-width));
+      margin: 0 auto;
+    }
+    .entry-header h1 {
       text-align: center;
     }
   }
