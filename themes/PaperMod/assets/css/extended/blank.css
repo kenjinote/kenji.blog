@@ -9,7 +9,7 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     --entry: #fbf7ef;
     --primary: rgba(113, 103, 91, 1.00);
     --secondary: rgba(113, 103, 91, 0.95);
-    --tertiary: rgba(113, 103, 91, 0.90);
+    --tertiary: rgba(113, 103, 91, 0.50);
     --content: rgba(113, 103, 91, 0.85);
     --hljs-bg: #34231B;
     --code-bg: #ebe4d7;
