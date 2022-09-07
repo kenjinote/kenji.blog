@@ -1,21 +1,17 @@
-{{/* section is AKA list */}}
-
 {{- define "main" }}
 <div class="main-icon">＠</div>
 
 <div class="content">
   <h1>{{ .Title }}</h1>
-  {{ with .Param "subtitle" }}<div class="subtitle">{{ . }}</div>{{ end }}
+  {{- partial "newsletter_sub_form.html"}}
 
-  <div class="first-entry">
-    <section class="entry-content">{{ .Description | markdownify }}</section>
-    {{- partial "newsletter_sub_form.html"}}
-  </div>
+  {{/* get pages from the current page's section */}}
+  {{- $sections := slice .Section }}
+  {{- $pages := where (where site.RegularPages "Section" "in" $sections) "Params.hidden" "!=" true }}
 
-  <h2>最近更新</h2>
-
+  {{/* TODO statistics */}}
   <div class="list">
-  {{- range first 5 (where .Pages "Params.hidden" "!=" true) }}
+  {{- range $pages }}
     <div class="item">
       <div class="date">
         {{- if not .Date.IsZero -}}
@@ -31,16 +27,6 @@
       <div class="issueno">{{ with .Param "issueno" }}#{{ . }}{{ end }}</div>
     </div>
   {{- end }}
-  </div>
-
-  <h2>相关链接</h2>
-  <div class="inline-links">
-    {{- with .Param "archivesSlug" }}
-      <a href="{{ $.RelPermalink }}{{ . }}/">Archives</a>
-    {{- end }}
-    {{ with .OutputFormats.Get "rss" -}}
-      • <a href="{{ .Permalink }}" target="_blank">RSS</a>
-    {{ end -}}
   </div>
 
 </div>

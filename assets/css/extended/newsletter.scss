@@ -27,8 +27,9 @@ body.type-newsletter {
     --icon-font-size: 24px;
   }
 
-  /* a links in section page content and regular page post-content */
+  /* a links in section/archives page content and regular page post-content */
   &.kind-section .main .content a,
+  &.layout-archives .main .content a,
   &.kind-page .post-content a {
     font-weight: 500;
     color: var(--primary);
@@ -86,8 +87,9 @@ body.type-newsletter {
   }
 }
 
-body.type-newsletter.kind-section {
-  /* section page layout */
+body.type-newsletter.kind-section,
+body.type-newsletter.layout-archives {
+  /* section/archives page */
 
   .main {
     border: var(--main-border);
@@ -129,21 +131,16 @@ body.type-newsletter.kind-section {
       @media screen and (max-width: $small) {
         margin-top: calc(var(--icon-length));
       }
+    }
 
-      .entry-header {
-        text-align: center;
-        margin-bottom: calc(var(--content-gap) * 1.5);
-        h1 {
-          // back to default
-          font-size: 36px;
-        }
-        .subtitle {
-          color: var(--secondary);
-        }
-      }
-      // .entry-content {
-      //   font-size: 16px;
-      // }
+    h1 {
+      text-align: center;
+      margin-top: var(--gap);
+      margin-bottom: calc(var(--content-gap) * 1);
+    }
+    .subtitle {
+      text-align: center;
+      color: var(--secondary);
     }
 
     h2 {
@@ -214,7 +211,7 @@ body.type-newsletter.kind-section {
   }
 }
 
-/* regular page layout */
+/* regular page */
 body.type-newsletter.kind-page {
   .newsletter-brand {
     --icon-length: 50px;
@@ -285,7 +282,6 @@ body.type-newsletter.kind-page {
   .post-footer {
     border-bottom-color: var(--signature);
   }
-
 
   .newsletter-sub {
     margin-top: var(--gap);
