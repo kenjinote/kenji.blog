@@ -1,0 +1,99 @@
+/*
+color candidates:
+#CB3A56 茜色
+#F05654 銀紅
+#F20C00 石榴紅
+#FF2D51 火紅
+*/
+body.type-newsletter {
+  --signature: #CB3A56;
+  --signature-bg: rgba(203, 58, 87, 0.239);
+  --signature-bg-dim: rgba(203, 58, 87, 0.147);
+  --main-border: 5px solid var(--signature);
+  --link-hover-color: var(--signature);
+
+
+  /* regular page layout */
+}
+
+body.type-newsletter.kind-section {
+  /* section page layout */
+
+  .main {
+    border: var(--main-border);
+    background-color: var(--theme);
+    margin-top: var(--content-gap);
+    min-height: calc(100vh - var(--header-height) - var(--footer-height) - var(--content-gap));
+    max-width: calc(var(--nav-width));
+  }
+
+  .main-logo {
+    position: absolute;
+    left: 0; top: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    border-right: var(--main-border);
+    border-bottom: var(--main-border);
+    background-color: var(--signature);
+    color: var(--theme);
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+body.type-newsletter.kind-page {
+  .newsletter-brand {
+    display: flex;
+    background-color: var(--signature-bg-dim);
+    transition: var(--link-transition);
+    font-size: 32px;
+    margin-bottom: calc(var(--content-gap) * 2);
+    line-height: 50px;
+
+    .icon, .name {
+      height: 50px;
+    }
+    .icon {
+      width: 50px;
+      color: var(--theme);
+      text-align: center;
+      background-color: var(--signature);
+    }
+    .name {
+      padding: 0 20px;
+      font-weight: bolder;
+      color: var(--signature);
+    }
+    .issueno {
+      color: var(--signature);
+      font-weight: 300;
+      transition: var(--link-transition);
+    }
+    .arrow {
+      margin-left: auto;
+      color: transparent;
+      display: flex;
+      align-items: center;
+      padding-right: 15px;
+      transition: var(--link-transition);
+    }
+
+    &:hover, &:active {
+      background-color: var(--signature-bg);
+      .arrow {
+        color: var(--signature);
+      }
+      .issueno {
+        color: transparent;
+      }
+    }
+  }
+
+  .post-title {
+    font-size: 36px;
+  }
+  .post-footer {
+    border-bottom: 0;
+  }
+}

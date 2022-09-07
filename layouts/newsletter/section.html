@@ -1,11 +1,10 @@
 {{/* section is AKA list */}}
-{{- define "bodyClass" }} theme-newsletter{{- end }}
 
 {{- define "main" }}
-<div class="main-logo">@</div>
+<div class="main-logo">＠</div>
 
 <header class="page-header">
-  <h1>{{ .Title }} Newsletter</h1>
+  <h1>{{ .Title }}</h1>
   {{- with .Param "archivesSlug" }}
   <div>
     <a href="{{ $.RelPermalink }}{{ . }}/">Archives</a>
