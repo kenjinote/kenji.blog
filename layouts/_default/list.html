@@ -13,11 +13,14 @@
     {{ .Description | markdownify }}
   </div>
   {{- end }}
-  {{- with .Param "archivesSlug" }}
-  <div>
-    <a href="{{ $.RelPermalink }}{{ . }}/">Archives</a>
+  <div class="inline-links">
+    {{- with .Param "archivesSlug" }}
+      <a href="{{ $.RelPermalink }}{{ . }}/">Archives</a>
+    {{- end }}
+    {{ with .OutputFormats.Get "rss" -}}
+      • <a href="{{ .Permalink }}" target="_blank">RSS</a>
+    {{ end -}}
   </div>
-  {{- end }}
 </header>
 {{- end }}
 

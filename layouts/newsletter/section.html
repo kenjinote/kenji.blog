@@ -35,13 +35,13 @@
   </div>
 
   <h2>相关链接</h2>
-  <div>
+  <div class="inline-links">
     {{- with .Param "archivesSlug" }}
-      <a href="{{ $.RelPermalink }}{{ . }}/">Archives</a> •
+      <a href="{{ $.RelPermalink }}{{ . }}/">Archives</a>
     {{- end }}
-    {{- with .Param "rssUrl" }}
-      <a href="{{ site.BaseURL }}{{ . }}">RSS</a>
-    {{- end }}
+    {{ with .OutputFormats.Get "rss" -}}
+      • <a href="{{ .Permalink }}" target="_blank">RSS</a>
+    {{ end -}}
   </div>
 
 </div>

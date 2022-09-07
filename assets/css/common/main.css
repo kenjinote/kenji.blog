@@ -79,6 +79,17 @@ mark {
     font-size: 14px;
 }
 
+.inline-links a {
+    font-weight: 500;
+    color: var(--primary);
+    box-shadow: var(--link-underline-shadow);
+    transition: var(--link-transition);
+}
+.inline-links a:hover {
+    color: var(--link-hover-color);
+    box-shadow: var(--link-hover-underline-shadow);
+}
+
 
 /* for post page */
 .main.post {
