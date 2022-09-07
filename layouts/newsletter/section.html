@@ -7,6 +7,7 @@
   <div class="first-entry">
     <header class="entry-header">
       <h1>{{ .Title }}</h1>
+      {{ with .Param "subtitle" }}<div class="subtitle">{{ . }}</div>{{ end }}
     </header>
     <section class="entry-content">{{ .Description | markdownify }}</section>
     {{- partial "newsletter_sub_form.html"}}
@@ -14,60 +15,34 @@
 
   {{- $pages := where .Pages "Params.hidden" "!=" true }}
 
-  {{/* related issue: https://github.com/gohugoio/hugo/issues/9003 */}}
-  {{ $paginator := "" }}
-  {{ if (.Param "paginate") }}
-    {{- $paginator = .Paginate $pages (.Param "paginate") }}
-  {{ else }}
-    {{- $paginator = .Paginate $pages }}
-  {{ end }}
 
-
-  {{- range $index, $page := $paginator.Pages }}
-  <article class="post-entry">
-    <header class="entry-header">
-      <h2>
-        {{- .Title }}
-        {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[Draft]</span></sup>{{- end }}
-        {{- if .Weight }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[Pinned]</span></sup>{{- end }}
-      </h2>
-    </header>
-    {{- if (ne (.Param "hideSummary") true) }}
-    <section class="entry-content">
-      {{ if .Description }}
-        <p>{{ .Description | plainify | htmlUnescape }}</p>
-      {{ else }}
-        <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-      {{ end }}
-    </section>
-    {{- end }}
-    {{- if not (.Param "hideMeta") }}
-    <footer class="entry-footer">
-      {{- partial "post_meta.html" . -}}
-    </footer>
-    {{- end }}
-    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-  </article>
+  <div class="list">
+  {{- range first 5 $pages }}
+    <div class="item">
+      <div class="date">
+        {{- if not .Date.IsZero -}}
+          {{ .Date | time.Format (default "January 2, 2006" site.Params.DateFormat) }}
+        {{- end }}
+      </div>
+      <div class="title">
+        <a href="{{ .Permalink }}">{{- .Title }}
+          {{- if .Draft }}<em>[Draft]</em>{{- end }}
+          {{- if .Weight }}<em>[Pinned]</em>{{- end }}
+        </a>
+      </div>
+      <div class="issueno">{{ with .Param "issueno" }}#{{ . }}{{ end }}</div>
+    </div>
   {{- end }}
-
-  {{- if gt $paginator.TotalPages 1 }}
-  <footer class="page-footer">
-    <nav class="pagination">
-      {{- if $paginator.HasPrev }}
-      <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">« {{ i18n "prev_page" }}</a>
-      {{- end }}
-      {{- if $paginator.HasNext }}
-      <a class="next" href="{{ $paginator.Next.URL | absURL }}">{{ i18n "next_page" }} »</a>
-      {{- end }}
-    </nav>
-  </footer>
-  {{- end }}
-
-  {{- with .Param "archivesSlug" }}
-  <div>
-    <a href="{{ $.RelPermalink }}{{ . }}/">Archives</a>
   </div>
-  {{- end }}
+
+  <div>
+    {{- with .Param "archivesSlug" }}
+      <a href="{{ $.RelPermalink }}{{ . }}/">Archives</a>
+    {{- end }}
+    {{- with .Param "rssUrl" }}
+      <a href="{{ site.BaseURL }}{{ . }}">RSS</a>
+    {{- end }}
+  </div>
 
 </div>
 {{ end }}

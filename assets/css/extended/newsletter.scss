@@ -59,6 +59,7 @@ body.type-newsletter.kind-section {
     border: var(--main-border);
     background-color: var(--theme);
     margin-top: var(--content-gap);
+    padding-bottom: var(--icon-length);
     min-height: calc(100vh - var(--header-height) - var(--footer-height) - var(--content-gap));
     max-width: calc(var(--nav-width));
   }
@@ -82,13 +83,63 @@ body.type-newsletter.kind-section {
       max-width: calc(var(--post-width));
       margin: 0 auto;
     }
-    .entry-header h1 {
-      text-align: center;
+
+    .first-entry {
+      margin-bottom: 0;
+
+      .entry-header h1 {
+        text-align: center;
+      }
+      // .entry-content {
+      //   font-size: 16px;
+      // }
+    }
+
+    .list {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: var(--content-gap);
+
+      .item {
+        display: flex;
+        border-bottom: 1px solid var(--tertiary-bg);
+        padding: 8px 0;
+
+        .date, .issueno {
+          font-size: .9em;
+          color: var(--secondary);
+        }
+        .date {
+          width: 150px;
+        }
+        .title {
+          flex-grow: 1;
+          font-weight: 500;
+          a {
+            display: block;
+            width: 100%;
+          }
+          a:hover, a:active {
+            color: var(--signature);
+          }
+          em {
+            color: var(--secondary);
+            font-style: normal;
+            font-size: .8em;
+            margin-inline-start: 1em;
+            vertical-align: top;
+          }
+        }
+        .issueno {
+          width: 50px;
+          text-align: right;
+        }
+      }
     }
   }
 }
 
-/* egular page layout */
+/* regular page layout */
 body.type-newsletter.kind-page {
   .newsletter-brand {
     display: flex;
