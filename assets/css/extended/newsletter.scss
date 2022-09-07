@@ -13,8 +13,43 @@ body.type-newsletter {
   --link-hover-color: var(--signature);
   --icon-length: 50px;
 
+  /* shared */
+  .sub-form {
+    display: flex;
+    flex-direction: column;
+    margin: calc(var(--content-gap) * 1.5) 0;
+    form {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      line-height: 1.2em;
+    }
+    input {
+      border: 3px solid var(--signature-bg-dim);
+      color: var(--secondary);
+      border-radius: 0px;
+      appearance: none;
+      outline: none;
+      background-color: var(--theme);
+      padding: 9px 15px;
+      max-width: 100%;
+      width: 100%;
+      transition: var(--link-transition);
 
-  /* regular page layout */
+      &:focus {
+        color: var(--primary);
+        border-color: var(--signature);
+      }
+    }
+    button {
+      display: block;
+      background-color: var(--signature);
+      color: var(--theme);
+      padding: 12px 15px;
+      margin-left: 20px;
+      white-space: nowrap;
+    }
+  }
 }
 
 body.type-newsletter.kind-section {
@@ -53,6 +88,7 @@ body.type-newsletter.kind-section {
   }
 }
 
+/* egular page layout */
 body.type-newsletter.kind-page {
   .newsletter-brand {
     display: flex;

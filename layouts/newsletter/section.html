@@ -9,6 +9,7 @@
       <h1>{{ .Title }}</h1>
     </header>
     <section class="entry-content">{{ .Description | markdownify }}</section>
+    {{- partial "newsletter_sub_form.html"}}
   </div>
 
   {{- $pages := where .Pages "Params.hidden" "!=" true }}
