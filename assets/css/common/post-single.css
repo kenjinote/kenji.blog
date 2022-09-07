@@ -401,6 +401,8 @@ h6:hover .anchor {
 
 .post-footer {
     margin-top: calc(var(--content-gap) * 1.5);
+    padding-bottom: calc(var(--content-gap) * 2);
+    border-bottom: 1px solid var(--tertiary);
 }
 
 .share-buttons {
@@ -453,7 +455,7 @@ h6:hover .anchor {
 }
 
 .paginav {
-    margin: var(--content-gap) 0;
+    margin-top: var(--content-gap);
     display: flex;
     line-height: 30px;
     border-radius: var(--radius);
@@ -574,10 +576,7 @@ h6:hover .anchor {
 }
 
 .comments {
-    border-top: 1px solid var(--tertiary);
-}
-.comments {
-    margin: 40px 0 20px;
+    margin: var(--content-gap) 0;
 }
 .comments .title {
     margin: 20px 0;
