@@ -3,7 +3,6 @@
 {{- if .Section }}
   {{- $sections = slice .Section }}
 {{- end }}
-{{ $sections }}
 {{- $pages := where (where site.RegularPages "Section" "in" $sections) "Params.hidden" "!=" true }}
 
 {{- if and (gt (len $pages) 1) (in $pages . ) }}
