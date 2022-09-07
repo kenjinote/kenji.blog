@@ -27,16 +27,16 @@ body.type-newsletter {
     --icon-font-size: 24px;
   }
 
-  .main {
-    a {
-      font-weight: 500;
-      color: var(--primary);
-      box-shadow: var(--link-underline-shadow);
-      // transition: var(--link-transition);
-      &:hover {
-        color: var(--link-hover-color);
-        box-shadow: var(--link-hover-underline-shadow);
-      }
+  /* a links in section page content and regular page post-content */
+  &.kind-section .main .content a,
+  &.kind-page .post-content a {
+    font-weight: 500;
+    color: var(--primary);
+    box-shadow: var(--link-underline-shadow);
+    // transition: var(--link-transition);
+    &:hover {
+      color: var(--link-hover-color);
+      box-shadow: var(--link-hover-underline-shadow);
     }
   }
 
@@ -71,7 +71,7 @@ body.type-newsletter {
       background-color: var(--signature);
       color: var(--theme);
       padding: 12px 15px;
-      margin-left: 20px;
+      margin-left: var(--content-gap);
       white-space: nowrap;
     }
   }
@@ -217,6 +217,8 @@ body.type-newsletter.kind-section {
 /* regular page layout */
 body.type-newsletter.kind-page {
   .newsletter-brand {
+    --icon-length: 50px;
+    --padding: 15px;
     display: flex;
     background-color: var(--signature-bg-dim);
     transition: var(--link-transition);
@@ -235,7 +237,7 @@ body.type-newsletter.kind-page {
       background-color: var(--signature);
     }
     .name {
-      padding: 0 20px;
+      padding: 0 var(--padding);
       font-weight: bolder;
       color: var(--signature);
     }
@@ -249,7 +251,7 @@ body.type-newsletter.kind-page {
       color: transparent;
       display: flex;
       align-items: center;
-      padding-right: 15px;
+      padding-right: var(--padding);
       transition: var(--link-transition);
     }
 
@@ -264,11 +266,23 @@ body.type-newsletter.kind-page {
       }
     }
   }
+  @media screen and (max-width: $small) {
+    .newsletter-brand {
+      font-size: 24px;
+      .remark {
+        margin-left: auto;
+        padding-right: var(--padding);
+      }
+      .arrow {
+        display: none;
+      }
+    }
+  }
 
   .post-title {
     font-size: 36px;
   }
   .post-footer {
-    border-bottom: 0;
+    border-bottom-color: var(--signature);
   }
 }
