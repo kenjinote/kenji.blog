@@ -47,10 +47,10 @@
     --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
 }
 
-.list {
+.list-page {
     background: var(--code-bg);
 }
 
-.dark.list {
+.dark.list-page {
     background: var(--theme);
 }
