@@ -12,7 +12,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
     --content: rgba(113, 103, 91, 0.85);
     --hljs-bg: #1c1d21;
     --code-bg: #ebe4d7;
-    --border: #FAF5EA;
+    --border: #FDFAF5;
+    --theme: #fbf7ef;
 }
 
 .dark {
