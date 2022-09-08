@@ -1,6 +1,9 @@
 .page-header,
 .post-header {
-    margin: 32px 0;
+    margin: calc(var(--gap) * 4/3) 0;
+}
+.post-header {
+    margin-top: calc(var(--gap) * 1/3);
 }
 
 .post-title {

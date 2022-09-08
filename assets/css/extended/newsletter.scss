@@ -127,10 +127,6 @@ body.type-newsletter.layout-archives {
 
     .first-entry {
       margin-bottom: 0;
-
-      @media screen and (max-width: $small) {
-        margin-top: calc(var(--icon-length));
-      }
     }
 
     h1 {
@@ -284,7 +280,7 @@ body.type-newsletter.kind-page {
   }
 
   .newsletter-sub {
-    margin-top: var(--gap);
+    margin-top: calc(var(--content-gap) * 1.5);
     background-color: var(--signature-bg-dim);
     padding: 1em;
     .notice {
