@@ -1,5 +1,5 @@
 .post-header {
-    margin: var(--gap) 0 calc(var(--content-gap) * 1.5);
+    margin: var(--content-gap) 0 calc(var(--content-gap) * 1.5);
 }
 
 .post-title {
