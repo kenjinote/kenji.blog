@@ -130,6 +130,9 @@ languages:
         - name: Docs
           url: /docs/
           weight: 1
+        - name: Newsletter
+          url: /newsletter/
+          weight: 1
         - name: Tags
           url: /tags/
           weight: 4
