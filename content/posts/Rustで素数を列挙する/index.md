@@ -9,6 +9,7 @@ Rustで素数を列挙するプログラムを書いてみました。
 
 ```rust
 fn main() {
+	let max = 1000;
     let mut primes = vec![2];
     let mut n = 3;
     loop {
@@ -23,6 +24,12 @@ fn main() {
             primes.push(n);
         }
         n += 2;
+		if n > max {
+			break;
+		}
+    }
+    for p in &primes {
+		println!("{}", p);
     }
 }
 ```
