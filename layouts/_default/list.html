@@ -13,6 +13,14 @@
     {{ .Description | markdownify }}
   </div>
   {{- end }}
+  <div class="inline-links">
+    {{- with .Param "archivesSlug" }}
+      <a href="{{ $.RelPermalink }}{{ . }}/">Archives</a>
+    {{- end }}
+    {{ with .OutputFormats.Get "rss" -}}
+      • <a href="{{ .Permalink }}" target="_blank">RSS</a>
+    {{ end -}}
+  </div>
 </header>
 {{- end }}
 
@@ -27,7 +35,8 @@
 
 {{- $pages := .Pages }}
 {{- if .IsHome }}
-  {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+  {{/* get all regular pages instead of pages in a section */}}
+  {{- $pages = where site.RegularPages "Section" "in" site.Params.mainSections }}
 {{- end }}
 {{- $pages = where $pages "Params.hidden" "!=" true }}
 

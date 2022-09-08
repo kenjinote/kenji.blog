@@ -133,7 +133,7 @@ function toggleThemeListener() {
                 <a href="{{ $menu_item_url }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
                 {{- if $is_search -}}data-no-instant{{- end -}}
                 {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}
-                {{- if eq $menu_item_url $page_url }} class="active" {{- end }}
+                {{- if strings.HasPrefix $page_url $menu_item_url }} class="active" {{- end }}
                 {{- if .Params.External }} target="_blank" {{- end }}
                 >
                     {{- .Pre }}
