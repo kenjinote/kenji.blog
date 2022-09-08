@@ -4,8 +4,18 @@
     min-height: calc(100vh - var(--header-height) - var(--footer-height));
     max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
-    padding: var(--gap);
-    padding-bottom: 0;
+    padding: var(--content-gap) var(--gap) 0;
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+        padding-top: 0;
+    }
+}
+
+/* same as .post-header */
+.page-header {
+    margin: var(--gap) 0 calc(var(--content-gap) * 1.5);
 }
 
 .mark-line {
