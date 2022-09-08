@@ -37,14 +37,7 @@
   {{ end }}
 
   <h2>相关链接</h2>
-  <div class="inline-links">
-    {{- with .Param "archivesSlug" }}
-      <a href="{{ $.RelPermalink }}{{ . }}/">Archives</a>
-    {{- end }}
-    {{ with .OutputFormats.Get "rss" -}}
-      • <a href="{{ .Permalink }}" target="_blank">RSS</a>
-    {{ end -}}
-  </div>
 
+  {{- partial "inline_links.html" . -}}
 </div>
 {{ end }}

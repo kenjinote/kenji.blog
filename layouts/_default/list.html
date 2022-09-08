@@ -7,20 +7,17 @@
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
-  <h1>{{ .Title }}</h1>
+  <h1>
+    {{/* see: https://gohugo.io/variables/taxonomy/#taxonomy-terms-page-variables */}}
+    {{- if eq .Kind "term" -}}{{- .Data.Singular }}: {{ end -}}
+    {{ .Title -}}
+  </h1>
   {{- if .Description }}
   <div class="post-description">
     {{ .Description | markdownify }}
   </div>
   {{- end }}
-  <div class="inline-links">
-    {{- with .Param "archivesSlug" }}
-      <a href="{{ $.RelPermalink }}{{ . }}/">Archives</a>
-    {{- end }}
-    {{ with .OutputFormats.Get "rss" -}}
-      • <a href="{{ .Permalink }}" target="_blank">RSS</a>
-    {{ end -}}
-  </div>
+  {{- partial "inline_links.html" . -}}
 </header>
 {{- end }}
 
