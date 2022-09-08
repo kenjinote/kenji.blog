@@ -12,10 +12,12 @@
     {{- partial "newsletter_sub_form.html"}}
   </div>
 
-  <h2>最近更新</h2>
+  {{ $pages := where .Pages "Params.hidden" "!=" true }}
+  {{ if $pages }}
+  <h2>最新通讯</h2>
 
   <div class="list">
-  {{- range first 5 (where .Pages "Params.hidden" "!=" true) }}
+  {{- range first 5 $pages }}
     <div class="item">
       <div class="date">
         {{- if not .Date.IsZero -}}
@@ -32,6 +34,7 @@
     </div>
   {{- end }}
   </div>
+  {{ end }}
 
   <h2>相关链接</h2>
   <div class="inline-links">
