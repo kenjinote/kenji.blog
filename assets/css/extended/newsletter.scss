@@ -21,6 +21,7 @@ body.type-newsletter {
   --link-hover-color: var(--signature);
   --link-hover-underline-color: var(--signature);
   --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
+  --link-background-color: var(--signature-bg-dim);
 
   @media screen and (max-width: $small) {
     --icon-length: 40px;

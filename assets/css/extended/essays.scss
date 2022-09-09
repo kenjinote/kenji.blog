@@ -8,10 +8,12 @@ color candidates:
 body.type-essays {
   --signature: #48C0A3;
   --signature-bg: rgba(72, 192, 164, 0.427);
+  --siguature-bg-dim: rgba(72, 192, 164, 0.298);
   // override theme-vars
   --link-hover-color: var(--signature);
   --link-hover-underline-color: var(--signature);
   --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
+  --link-background-color: var(--siguature-bg-dim);
 
   .post-entry {
     /* same as .post-header h2 */
