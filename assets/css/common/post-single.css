@@ -12,7 +12,7 @@
     color: var(--secondary);
     opacity: .8;
     padding-left: .5em;
-    border-left: 3px solid var(--tertiary);
+    border-left: 8px solid var(--signature);
 }
 
 .post-meta,
@@ -141,7 +141,7 @@ h6:hover .anchor {
 }
 
 .post-content li {
-    margin-top: 10px;
+    margin-top: .5em;
 }
 
 .post-content li p {
