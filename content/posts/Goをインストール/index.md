@@ -5,10 +5,8 @@ tags: ["Go","インストール"]
 draft: false
 ---
 
-<div style="text-align: center;">
 ![img.png](images/go_character.png)
 ###### イラスト作者(Renée French)
-</div>
 
 # はじめに
 Goは、Googleが2009年に公開した比較的新しいプログラミング言語です。
