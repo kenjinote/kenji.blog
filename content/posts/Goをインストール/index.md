@@ -38,7 +38,7 @@ Goのコンパイラ、ツール、ライブラリは、オープンソースで
 
 次のプログラムを`hello.go`として保存します。
 
-```
+```go
 package main
 
 import "fmt"
