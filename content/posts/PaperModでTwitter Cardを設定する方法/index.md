@@ -18,10 +18,25 @@ PaperModテーマはTwitter Cardに対応しています。
 `images`には、Twitter Cardに表示する画像のパスを記述します。
 画像を`static`フォルダに配置する場合は、ファイル名だけの指定でOKです。
 
-```toml
+```toml:config.toml
 [params]
   images = ["twitter_card.jpg"]
 ```
+
+フォルダ構成
+```
+root
+│ config.toml (ココに記述)
+├─content
+│  └─posts
+│      └─記事フォルダ
+│         │  index.md (ココに記述)
+│         └─images
+│            cover.png
+└─static
+   twitter_card.jpg (ココに配置)
+```
+
 ### 各記事のヘッダ情報
 各記事のヘッダ情報には、`cover`の配下に`image`という項目を追加します。
 `relative`を`true`にすると、記事の`*.md`からの相対パスで指定できます。
