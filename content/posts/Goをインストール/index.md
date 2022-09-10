@@ -3,11 +3,12 @@ title: 'Goをインストール'
 date: 2022-09-10T00:48:17+09:00
 tags: ["Go","インストール"]
 draft: false
-image: images/cover.png
-relative: true
+cover:
+  image: "images/cover.png"
+  relative: true
+featured:
+  Permalink: "images/cover.png"
 ---
-
-![cover](images/cover.png)
 ###### イラスト作者(Renée French)[Attribution 3.0 Unported (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/)
 
 # はじめに
