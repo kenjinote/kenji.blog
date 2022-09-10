@@ -8,30 +8,31 @@ draft: false
 ![img.png](images/img.png)
 
 # はじめに
-IntelliJ IDEAにGitHub Copilotのプラグインを入れるとIntelliJ IDEAでもGitHub Copilotを使うことができる。
+GitHub Copilotは、GitHubが開発したAIベースのコード補完ツールです。
+開発環境IntelliJ IDEAにGitHub Copilotのプラグインを入れるとIntelliJ IDEAでもGitHub Copilotを使うことができます。
 有効化するにはGithubのアカウントが必要となります。
 
 # インストール方法
-1. IntelliJ IDEAのメニューのFileからSettingsを開く
+1. IntelliJ IDEAのメニューのFileからSettingsを選択
 ![img.png](images/img_0.png)
-2. Pluginsを選択して、検索で「GitHub Copilot」を検索する
-3. インストールボタンからインストールする
+2. Pluginsを選択して、検索で「GitHub Copilot」を検索
+3. インストールボタンからインストール
 ![img_1.png](images/img_1.png)
-4. RestartIDEボタンを押して再起動する
+4. Restart IDEボタンを押してIntelliJ IDEAを再起動
 ![img_2.png](images/img_2.png)
 ![img_3.png](images/img_3.png)
 IntelliJ IDEAを再起動するとインストールは完了です。
 
 # 有効化
 1. 右下のアイコンをクリック
-![img_4.png](images/img_4.png)
 2. Login to Githubをクリック
-![img_6.png](images/img_6.png)
+![img_4.png](images/img_4.png)
 3. Copy and Openボタンをクリック
-![img_7.png](images/img_7.png)
+![img_6.png](images/img_6.png)
 4. ブラウザが立ち上がるので、Githubにログインしていない場合はログインしたのち、Ctrl+Vでコードを貼り付けてContinueボタンをクリック
-![img_8.png](images/img_8.png)
+![img_7.png](images/img_7.png)
 5. Authorize GitHub Copilot Pluginボタンをクリック
+![img_8.png](images/img_8.png)
 ![img_9.png](images/img_9.png)
 上記の画面が表示されれば有効化完了です。
 
