@@ -7,7 +7,7 @@ googleAnalytics = "UA-60997585-5"
 
 [params]
     dateFormat= "2006.1.2(Mon)"
-#    images = ["twitter_card.jpg"]
+    images = ["twitter_card.jpg"]
 
 [params.label]
     text = "🏠 Home"
@@ -16,8 +16,8 @@ googleAnalytics = "UA-60997585-5"
     Title = "Hello world! 😊"
     Content = "こんにちは世界。普段考えたことや技術的な小話を短めの記事にメモ代わりで投稿していきます。PaperModというテーマを使っています。"
 
-[Social]
-    twitter = "kenjinote"
+#[Social]
+#    twitter = "kenjinote"
 
 [[params.socialIcons]]
     name = "twitter"
