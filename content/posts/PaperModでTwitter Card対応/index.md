@@ -20,8 +20,7 @@ PaperModテーマはTwitter Cardに対応しています。
 
 ```toml
 [params]
-dateFormat= "2006.1.2(Mon)"
-images = ["twitter_card.jpg"]
+  images = ["twitter_card.jpg"]
 ```
 ### 各記事のヘッダ情報
 各記事のヘッダ情報には、`cover`の配下に`image`という項目を追加します。
@@ -34,11 +33,17 @@ cover:
 ```
 
 ### 画像のサイズについて
-Twitter Cardの画像サイズは、`summary_large_image`の場合は、`1200x630`、`summary`の場合は、`600x300`です。
-画像のサイズが違うと、Twitter Cardの表示が崩れることがあります。
+
+現状のPaperModの仕様でTwitter Cardのサイズは、`summary_large_image`のみ対応しているようです。
+`summary_large_image`の適切なサイズ（解像度）は、諸説ありますが`800 x 418`（画像比1.91:1）あたりがよさそうです。
+
+[参考サイト1](https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image)
+[参考サイト2](https://developers.facebook.com/docs/sharing/best-practices)
+
+
 できれば、画像サイズをリサイズして投稿することをおすすめします。
 
 ### 設定の確認方法
 Twitter Cardの設定を確認するには、[Twitter Card Validator](https://cards-dev.twitter.com/validator)を利用します。
-ただし、私の環境ではうまくプレビューが表示されなかったため、非公開のアカウントを使って投稿前に一度確認することをおすすめします。
+ただし、私の環境ではうまくプレビューが表示されなかったため、もしプレビューが表示が表示されない場合は非公開のアカウント等を使って投稿前に一度確認しておくことをおすすめします。
 
