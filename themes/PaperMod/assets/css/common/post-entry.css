@@ -41,8 +41,6 @@
     border-radius: var(--radius);
     transition: transform 0.1s;
     border: 1px solid var(--border);
-    display: flex;
-    flex-direction: row;
 }
 
 .post-entry:active {
@@ -72,6 +70,7 @@
 .entry-footer {
     color: var(--secondary);
     font-size: 13px;
+	text-align: right;
 }
 
 .entry-link {
@@ -89,7 +88,7 @@
 }
 
 .entry-cover {
-    margin-right: var(--gap);
+    margin: 11px 15px 0px 0px;
     text-align: center;
 }
 
