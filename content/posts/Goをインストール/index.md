@@ -6,7 +6,7 @@ draft: false
 ---
 
 ![img.png](images/go_character.png)
-###### イラスト作者(Renée French)
+###### イラスト作者(Renée French)[Attribution 3.0 Unported (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/)
 
 # はじめに
 Goは、Googleが2009年に公開した比較的新しいプログラミング言語です。
