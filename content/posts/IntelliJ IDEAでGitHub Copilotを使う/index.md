@@ -23,8 +23,8 @@ IntelliJ IDEAにGitHub Copilotのプラグインを入れるとIntelliJ IDEAで�
 IntelliJ IDEAを再起動するとインストールは完了です。
 
 # 有効化
-![img_4.png](images/img_4.png)
 1. 右下のアイコンをクリック
+![img_4.png](images/img_4.png)
 2. Login to Githubをクリック
 ![img_6.png](images/img_6.png)
 3. Copy and Openボタンをクリック
