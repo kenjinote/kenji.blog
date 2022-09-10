@@ -5,7 +5,7 @@ tags: ["Go","インストール"]
 draft: false
 ---
 
-![img.png](images/go_character.png)
+![cover](images/go_character.png)
 ###### イラスト作者(Renée French)[Attribution 3.0 Unported (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/)
 
 # はじめに
