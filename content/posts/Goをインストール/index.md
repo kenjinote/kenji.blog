@@ -5,10 +5,9 @@ tags: ["Go","インストール"]
 draft: false
 cover:
   image: "images/cover.png"
+  caption: "Goのロゴ(イラスト作者:Renée French, [Attribution 3.0 Unported (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/))"
   relative: true
 ---
-###### イラスト作者(Renée French)[Attribution 3.0 Unported (CC BY 3.0)](https://creativecommons.org/licenses/by/3.0/)
-
 # はじめに
 Goは、Googleが2009年に公開した比較的新しいプログラミング言語です。
 Goのコンパイラ、ツール、ライブラリは、オープンソースで公開されています。
