@@ -4,6 +4,7 @@ date: 2022-09-10T00:48:17+09:00
 tags: ["Go","インストール"]
 draft: false
 image: images/cover.png
+relative: true
 ---
 
 ![cover](images/cover.png)
