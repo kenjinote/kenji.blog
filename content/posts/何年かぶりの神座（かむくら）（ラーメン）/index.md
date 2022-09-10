@@ -5,7 +5,7 @@ tags: ["ラーメン", "神座"]
 draft: false
 cover:
   image: "images/img2.jpg"
-  relative: true 
+  relative: true
 ---
 
 何年かぶりに神座（かむくら）（ラーメン）に行ってきました。
