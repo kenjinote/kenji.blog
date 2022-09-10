@@ -17,8 +17,7 @@
 .breadcrumbs {
     color: var(--secondary);
     font-size: 14px;
-    display: flex;
-    flex-wrap: wrap;
+    text-align: right;
 }
 
 .post-meta .i18n_list li {
