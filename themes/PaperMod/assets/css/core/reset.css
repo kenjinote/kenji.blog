@@ -111,5 +111,6 @@ textarea:-webkit-autofill {
 }
 
 img {
-    max-width: none;
+    display: block;
+    max-width: 100%;
 }

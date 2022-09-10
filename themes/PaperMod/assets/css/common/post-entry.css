@@ -96,6 +96,8 @@
 .entry-cover img {
     border-radius: 10px;
     pointer-events: none;
+    display: inline;
+    max-width: none;
     width: 150px;
     height: auto;
 }
