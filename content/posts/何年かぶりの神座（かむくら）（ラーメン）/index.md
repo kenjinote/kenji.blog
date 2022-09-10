@@ -7,6 +7,7 @@ image: images/cover.jpg
 relative: true
 cover:
   image: "./images/cover.jpg"
+  relative: true 
 ---
 
 何年かぶりに神座（かむくら）（ラーメン）に行ってきました。
