@@ -7,7 +7,7 @@ googleAnalytics = "UA-60997585-5"
 
 [params]
     dateFormat= "2006.1.2(Mon)"
-    image = "twitter-card.jpg"
+    images = ["twitter-card.jpg"]
 
 [params.label]
     text = "🏠 Home"
