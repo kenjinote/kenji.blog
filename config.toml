@@ -16,9 +16,6 @@ googleAnalytics = "UA-60997585-5"
     Title = "Hello world! 😊"
     Content = "こんにちは世界。普段考えたことや技術的な小話を短めの記事にメモ代わりで投稿していきます。PaperModというテーマを使っています。"
 
-#[Social]
-#    twitter = "kenjinote"
-
 [[params.socialIcons]]
     name = "twitter"
     url = "https://twitter.com/kenjinote"
