@@ -26,15 +26,15 @@ PaperModテーマはTwitter Cardに対応しています。
 フォルダ構成
 ```
 root
-│ config.toml (ココに記述)
+│  config.toml (ココに記述)
 ├─content
 │  └─posts
 │      └─記事フォルダ
 │         │  index.md (ココに記述)
 │         └─images
-│            cover.png
+│             cover.png
 └─static
-   twitter_card.jpg (ココに配置)
+    twitter_card.jpg (ココに配置)
 ```
 
 ### 各記事のヘッダ情報
