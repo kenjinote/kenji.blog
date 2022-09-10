@@ -14,8 +14,8 @@ GitHub Copilotは、GitHubが開発したAIベースのコード補完ツール�
 
 # インストール方法
 1. IntelliJ IDEAのメニューのFileからSettingsを選択
-![img.png](images/img_0.png)
 2. Pluginsを選択して、検索で「GitHub Copilot」を検索
+![img.png](images/img_0.png)
 3. インストールボタンからインストール
 ![img_1.png](images/img_1.png)
 4. Restart IDEボタンを押してIntelliJ IDEAを再起動
