@@ -39,4 +39,4 @@ IntelliJ IDEAを再起動するとインストールは完了です。
 # 使ってみる
 ![img_10.png](images/img_10.png)
 IntelliJ IDEAのエディタで文字を数文字入力すると、GitHub Copilotがコードの続きを提案してくれるようになります。
-これは便利ですよね！
+それではAIによる強力な補完機能を楽しんでください！
