@@ -3,14 +3,10 @@ title: 'PaperModでTwitter Card対応'
 date: 2022-09-10T18:41:22+09:00
 tags: ["HUGO", "PaperMod", "Twitter"]
 draft: false
-featuredImage: "images/img.png"
-feature:
+cover:
   image: "images/img.png"
   relative: true
 ---
-
-![img.png](images/img.png)
-
 # はじめに
 PaperModテーマはTwitter Cardに対応しています。
 ただし、Twitter Cardの設定は、`config.toml`まはた各記事の`*.md`のヘッダ情報に記述する必要があります。
