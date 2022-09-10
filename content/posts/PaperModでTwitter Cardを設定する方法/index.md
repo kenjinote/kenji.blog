@@ -32,7 +32,7 @@ root
 │      └─記事フォルダ
 │         │  index.md (ココに記述)
 │         └─images
-│             cover.png
+│             cover.png (ココに配置)
 └─static
     twitter_card.jpg (ココに配置)
 ```
