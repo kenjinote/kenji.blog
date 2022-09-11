@@ -10,19 +10,26 @@ cover:
 # HUGOで使えるショートコード
 
 ## YouTube
-`{{<youtube bQXCx1F7nhs>}}`
+{{</*youtube bQXCx1F7nhs*/>}}
 
 ## Twitter
-`{{<twitter 1434300000000000000>}}`
+{{</*twitter 1434300000000000000*/>}}
 
 ## Instagram
-`{{<instagram BQXCx1F7nhs>}}`
+{{</*instagram BQXCx1F7nhs*/>}}
 
 ## Flickr
-`{{<flickr 1434300000000000000>}}`
+{{</*flickr 1434300000000000000*/>}}
 
 ## Vimeo
-`{{<vimeo 1434300000000000000>}}`
+{{</*vimeo 1434300000000000000*/>}}
 
 ## その他
 [Shortcodes](https://gohugo.io/content-management/shortcodes/)
+
+## 余談
+サイト上で`{{</* foo */>}}`と表現したい場合は、`{{</* raw */>}}`と`{{</* end */>}}`で囲む必要があります。
+
+{{</* raw */>}}
+{{</* foo */>}}
+{{</* end */>}}
