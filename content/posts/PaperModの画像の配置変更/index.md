@@ -20,28 +20,28 @@ PaperModの画像の配置を変更しました。変更箇所は下記となり
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    // -webkit-line-clamp: 2; // 2 → 4 に変更
-    -webkit-line-clamp: 4; // 2 → 4 に変更
+    /* -webkit-line-clamp: 2; */ /* 2 → 4 に変更 */
+    -webkit-line-clamp: 4; /* 2 → 4 に変更 */
 }
 
 .entry-footer {
     color: var(--secondary);
     font-size: 13px;
-	text-align: right; // 追加
+	text-align: right; /* 追加 */
 }
 
 .entry-cover {
-    // margin-bottom: var(--gap); // 削除
+    /* margin-bottom: var(--gap); */ /* 削除 */
     text-align: center;
 }
 
 .entry-cover img {
-    // border-radius: var(--radius); // 削除
-    border-radius: 4px; // 追加
+    /* border-radius: var(--radius); */ /* 削除 */
+    border-radius: 4px; /* 追加 */
     pointer-events: none;
-    // width: 100%; // 削除
-    display: inline; // 追加
-    max-width: 100%; // 追加
+    /* width: 100%; */ /* 削除 */
+    display: inline; /* 追加 */
+    max-width: 100%; /* 追加 */
     height: auto;
 }
 ```
