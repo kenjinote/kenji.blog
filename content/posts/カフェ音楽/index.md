@@ -6,6 +6,7 @@ draft: false
 cover:
   image: "images/img.png"
   relative: true
+  hidden: true
 ---
 **アップテンポ**
 
