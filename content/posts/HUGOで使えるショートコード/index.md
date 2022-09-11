@@ -10,13 +10,13 @@ cover:
 # HUGOで使えるショートコード
 
 ## YouTube
-{{</*youtube bQXCx1F7nhs*/>}}
+{{</*youtube 1434300000000000000*/>}}
 
 ## Twitter
 {{</*twitter 1434300000000000000*/>}}
 
 ## Instagram
-{{</*instagram BQXCx1F7nhs*/>}}
+{{</*instagram 1434300000000000000*/>}}
 
 ## Flickr
 {{</*flickr 1434300000000000000*/>}}
