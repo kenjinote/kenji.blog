@@ -3,8 +3,10 @@ title: 'IntelliJ IDEA で日付を挿入するコマンドを追加する'
 date: 2022-09-04T05:59:04+09:00
 tags: ["IntelliJ IDEA"]
 draft: false
+cover:
+  image: "images/IntelliJ_logo.png"
+  relative: true
 ---
-![IntelliJ_logo](images/IntelliJ_logo.png)
 # はじめに
 このブログを書くときは、IntelliJ IDEAを使っています。Gitとの相性も良いし、マークダウンのプロビューを表示してくれるから便利です。
 毎回ブログを書く際にmdのヘッダーにdateを記述しなければならないので、その日付挿入のショーカットはないみたいなので、下記のサイトを参考に

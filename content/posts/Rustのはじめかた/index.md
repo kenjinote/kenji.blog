@@ -3,10 +3,10 @@ title: 'Rustのはじめかた'
 date: 2022-09-06T00:12:36+09:00
 tags: ["Rust"]
 draft: false
+cover:
+  image: "images/rust_logo.png"
+  relative: true
 ---
-
-![](./images/rust_logo.png)
-
 # はじめに
 Rustは高速でかつメモリ効率が高いモジュールをモダンな記法で記述できる比較的新しいプログラミング言語です。
 マルチプラットフォームに対応しており、WebAssemblyや組み込みの世界でも使われています。
