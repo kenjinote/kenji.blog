@@ -20,7 +20,8 @@ PaperModの画像の配置を変更しました。変更箇所は下記となり
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2; // 2 → 4 に変更
+    // -webkit-line-clamp: 2; // 2 → 4 に変更
+    -webkit-line-clamp: 4; // 2 → 4 に変更
 }
 
 .entry-footer {
