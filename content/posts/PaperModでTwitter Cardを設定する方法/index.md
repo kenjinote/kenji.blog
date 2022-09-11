@@ -37,7 +37,7 @@ root
     twitter_card.jpg (ココに配置)
 ```
 
-### 各記事のヘッダ情報
+## 各記事のヘッダ情報
 各記事のヘッダ情報には、`cover`の配下に`image`という項目を追加します。
 `relative`を`true`にすると、記事の`*.md`からの相対パスで指定できます。
 
@@ -47,7 +47,16 @@ cover:
   relative: true
 ```
 
-### 画像のサイズについて
+### 記事の上部には表示させたくない場合
+記事の上部にカバー画像を表示させたくない場合は、`cover`の配下に`hidden`という項目を追加て`true`に設定します。
+```
+cover:
+  image: "images/cover.jpg"
+  relative: true
+  hidden: true
+```
+
+# 画像のサイズについて
 
 現状のPaperModの仕様でTwitter Cardのサイズは、`summary_large_image`のみ対応しているようです。
 `summary_large_image`の適切なサイズ（解像度）は、諸説ありますが`800 x 418`（画像比1.91:1）あたりがよさそうです。
@@ -58,7 +67,7 @@ cover:
 
 できれば、画像サイズをリサイズして投稿することをおすすめします。
 
-### 設定の確認方法
+# 設定の確認方法
 Twitter Cardの設定を確認するには、[Twitter Card Validator](https://cards-dev.twitter.com/validator)を利用します。
 ただし、私の環境ではうまくプレビューが表示されなかったため、もしプレビューが表示が表示されない場合は非公開のアカウント等を使って投稿前に一度確認しておくことをおすすめします。
 
