@@ -10,7 +10,9 @@ cover:
 PaperModの画像の配置を変更しました。変更箇所は下記となります。
 
 ## post-entry.css
+余白や画像のサイズ、テキストの表示行を変更するために、post-entry.cssを変更しました。
 
+```css
 ```css:post-entry.css
 .entry-content {
     margin: 8px 0;
@@ -47,6 +49,7 @@ PaperModの画像の配置を変更しました。変更箇所は下記となり
 ```
 
 ## list.html
+画像の配置を変更するために、list.htmlの下記箇所を変更しました。
 
 ```html:list.html
 <article class="{{ $class }}">
@@ -80,4 +83,16 @@ PaperModの画像の配置を変更しました。変更箇所は下記となり
 </article>
 ```
 
-他に変えたところあったかなぁ・・・？
+## post-single.css
+日付の表示位置を右寄せに変更。
+
+```css:post-single.css
+.post-meta,
+.breadcrumbs {
+    color: var(--secondary);
+    font-size: 14px;
+    /* display: flex; */ /* 削除 */
+    /* flex-wrap: wrap; */ /* 削除 */
+    text-align: right; /* 追加 */
+}
+```
