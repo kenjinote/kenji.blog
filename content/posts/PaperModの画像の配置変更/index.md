@@ -12,7 +12,6 @@ PaperModの画像の配置を変更しました。変更箇所は下記となり
 ## post-entry.css
 余白や画像のサイズ、テキストの表示行を変更するために、post-entry.cssを変更しました。
 
-```css
 ```css:post-entry.css
 .entry-content {
     margin: 8px 0;
@@ -62,7 +61,7 @@ PaperModの画像の配置を変更しました。変更箇所は下記となり
     </h2>
   </header>
   <div style="display:flex;"><!-- 追加 -->
-    <div style="max-width:150px;margin: 11px 15px 0px 0px;"><!-- 追加 -->
+    <div style="max-width:150px;margin:11px 15px 0px 0px;"><!-- 追加 -->
       {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}<!-- 上から移動 -->
       {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}<!-- 上から移動 -->
     </div><!-- 追加 -->

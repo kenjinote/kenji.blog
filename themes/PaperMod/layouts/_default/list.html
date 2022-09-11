@@ -69,7 +69,7 @@
     </h2>
   </header>
   <div style="display:flex;">
-    <div style="max-width:150px;margin: 11px 15px 0px 0px;">
+    <div style="max-width:150px;margin:11px 15px 0px 0px;">
       {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
       {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
     </div>
