@@ -3,9 +3,10 @@ title: '経営者メモ'
 date: 2022-09-07T02:36:11+09:00
 tags: ["経営者"]
 draft: false
+cover:
+  image: "images/img.png"
+  relative: true
 ---
-![img.png](images/img.png)
-
 # 流行りつつある事業を見つける
 - 流行りつつある事業はホットペッパーの中の人や税理士さんに聞く
 - 強者が揃っていてすでに飽和状態にある事業には参入しない

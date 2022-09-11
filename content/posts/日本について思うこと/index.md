@@ -3,8 +3,10 @@ title: '日本について思うこと'
 date: 2022-09-06T02:24:11+09:00
 tags: ["雑記"]
 draft: false
+cover:
+  image: "images/img.png"
+  relative: true
 ---
-
 私が日本社会についておかしいなと思っていること・考えていることを整理しようと思う。
 
 # 奨学金について

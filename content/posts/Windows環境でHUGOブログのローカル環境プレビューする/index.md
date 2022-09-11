@@ -1,10 +1,12 @@
 ---
-title: 'Window環境でHUGブログをローカルプレビューする'
+title: 'Windows環境でHUGOブログのローカル環境プレビューする'
 date: 2022-09-05T12:28:01+09:00
 tags: ["HUGO"]
 draft: false
+cover:
+  image: "img.png"
+  relative: true
 ---
-
 # HUGOのインストール
 
 ## ダウンロード
