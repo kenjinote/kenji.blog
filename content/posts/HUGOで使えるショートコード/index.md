@@ -10,19 +10,19 @@ cover:
 # HUGOで使えるショートコード
 
 ## YouTube
-{{</*youtube 123456abc*/>}}
+`{{</*youtube 123456abc*/>}}`
 
 ## Twitter
-{{</*twitter 123456abc*/>}}
+`{{</*twitter 123456abc*/>}}`
 
 ## Instagram
-{{</*instagram 123456abc*/>}}
+`{{</*instagram 123456abc*/>}}`
 
 ## Flickr
-{{</*flickr 123456abc*/>}}
+`{{</*flickr 123456abc*/>}}`
 
 ## Vimeo
-{{</*vimeo 123456abc*/>}}
+`{{</*vimeo 123456abc*/>}}`
 
 ## その他
 [Shortcodes](https://gohugo.io/content-management/shortcodes/)
