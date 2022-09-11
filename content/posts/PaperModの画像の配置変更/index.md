@@ -95,3 +95,7 @@ PaperModの画像の配置を変更しました。変更箇所は下記となり
     text-align: right; /* 追加 */
 }
 ```
+
+似た要望は少なからずあるようです。
+[https://github.com/adityatelange/hugo-PaperMod/discussions/159#discussioncomment-247844](https://github.com/adityatelange/hugo-PaperMod/discussions/159#discussioncomment-247844)
+本家の方でも対応してくれるとありがたいなぁ。
