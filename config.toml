@@ -6,7 +6,7 @@ theme = "PaperMod"
 googleAnalytics = "UA-60997585-5"
 
 [params]
-    dateFormat= "2006.1.2(Mon)"
+    dateFormat= "2006.01.02"
     images = ["twitter_card.jpg"]
 
 [params.label]
