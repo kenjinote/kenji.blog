@@ -3,8 +3,10 @@ title: '数学者が登場する映画'
 date: 2022-09-05T10:41:00+09:00
 tags: ["映画","数学者"]
 draft: false
+cover:
+  image: "images/img.png"
+  relative: true
 ---
-
 数学者の主人公が登場する私のおすすめの映画3選です。
 
 # ビューティフル・マインド
