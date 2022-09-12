@@ -43,6 +43,18 @@ cover:
 }
 ```
 
+## post-entry.css
+blank.css側で定義を削除できなかったので、post-entry.cssに下記の場所を1行削除します。
+
+```css:post-entry.css
+.entry-cover img {
+    border-radius: var(--radius);
+    pointer-events: none;
+    /* width: 100%; */ ← この行を削除
+    height: auto;
+}
+```
+
 ## list.html
 画像の配置を変更するために、list.htmlの下記箇所を変更しました。
 
