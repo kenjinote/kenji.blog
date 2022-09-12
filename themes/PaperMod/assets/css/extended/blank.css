@@ -35,7 +35,6 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 .entry-cover img {
     border-radius: 4px;
-    width: initial;
     display: inline;
     max-width: 100%;
 }
