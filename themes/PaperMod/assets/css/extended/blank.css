@@ -19,3 +19,28 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 
 .dark {
 }
+
+.entry-content {
+    -webkit-line-clamp: 4;
+}
+
+.entry-footer {
+	text-align: right;
+}
+
+.entry-cover {
+    margin-bottom: initial;
+    text-align: center;
+}
+
+.entry-cover img {
+    border-radius: 4px;
+    width: initial;
+    display: inline;
+    max-width: 100%;
+}
+
+.post-meta {
+    display: block;
+    text-align: right;
+}

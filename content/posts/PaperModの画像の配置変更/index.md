@@ -13,41 +13,33 @@ cover:
 
 ファイルの変更箇所は下記のとおりとなります。
 
-## post-entry.css
-余白や画像のサイズ、テキストの表示行を変更するために、post-entry.cssを変更しました。
+## blank.css
+余白や画像のサイズ、テキストの表示行を変更するために、blank.cssに下記の記述を追加します。
 
-```css:post-entry.css
+```css:blank.css
 .entry-content {
-    margin: 8px 0;
-    color: var(--secondary);
-    font-size: 14px;
-    line-height: 1.6;
-    overflow: hidden;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    /* -webkit-line-clamp: 2; */ /* 2 → 4 に変更 */
-    -webkit-line-clamp: 4; /* 2 → 4 に変更 */
+    -webkit-line-clamp: 4;
 }
 
 .entry-footer {
-    color: var(--secondary);
-    font-size: 13px;
-	text-align: right; /* 追加 */
+	text-align: right;
 }
 
 .entry-cover {
-    /* margin-bottom: var(--gap); */ /* 削除 */
+    margin-bottom: initial;
     text-align: center;
 }
 
 .entry-cover img {
-    /* border-radius: var(--radius); */ /* 削除 */
-    border-radius: 4px; /* 追加 */
-    pointer-events: none;
-    /* width: 100%; */ /* 削除 */
-    display: inline; /* 追加 */
-    max-width: 100%; /* 追加 */
-    height: auto;
+    border-radius: 4px;
+    width: initial;
+    display: inline;
+    max-width: 100%;
+}
+
+.post-meta {
+    display: block;
+    text-align: right;
 }
 ```
 
@@ -84,20 +76,6 @@ cover:
     </div><!-- 追加 -->
   </div><!-- 追加 -->
 </article>
-```
-
-## post-single.css
-日付の表示位置を右寄せに変更。
-
-```css:post-single.css
-.post-meta,
-.breadcrumbs {
-    color: var(--secondary);
-    font-size: 14px;
-    /* display: flex; */ /* 削除 */
-    /* flex-wrap: wrap; */ /* 削除 */
-    text-align: right; /* 追加 */
-}
 ```
 
 似た要望は少なからずあるようです。

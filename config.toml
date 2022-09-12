@@ -9,6 +9,7 @@ googleAnalytics = "UA-60997585-5"
     dateFormat= "2006.01.02"
     images = ["twitter_card.jpg"]
     ShowShareButtons = true
+    ShowBreadCrumbs = true
 
 [params.label]
     text = "🏠 Home"
