@@ -6,6 +6,7 @@ draft: false
 cover:
   image: "img_12.png"
   relative: true
+  hidden: true
 ---
 
 ## ゲームボーイ
