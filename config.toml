@@ -1,6 +1,7 @@
 baseURL = "https://kenji.blog/"
 languageCode = "ja"
 DefaultContentLanguage = "ja"
+timeZone = "Asia/Tokyo"
 title = "kenji.blog"
 theme = "PaperMod"
 googleAnalytics = "UA-60997585-5"
