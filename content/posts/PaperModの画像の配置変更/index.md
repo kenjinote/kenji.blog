@@ -32,7 +32,6 @@ cover:
 
 .entry-cover img {
     border-radius: 4px;
-    width: initial;
     display: inline;
     max-width: 100%;
 }
