@@ -33,7 +33,7 @@ DNS設定を変更するには、以下のように設定します。
 1. リポジトリのページを開き、Settingsをクリックする
 2. Pagesをクリックする
 3. リポジトリのソースをそのまま公開する場合は、Sourceで「Deploy from a branch」を選択する。HUGOなどソースをビルドする場合は「GitHub Actions」を選択する。
-4. Branchで公開するブランチを選択する
+4. Branchで公開するブランチを選択してSaveをクリックする
 5. Custom domainに取得したドメインを入力して、Saveをクリックする。
 6. 必要に応じて「Enforce HTTPS」にチェックを入れてHTTPS対応を行う
 
