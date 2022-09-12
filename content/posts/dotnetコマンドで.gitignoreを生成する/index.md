@@ -479,3 +479,6 @@ $RECYCLE.BIN/
 !.vscode/extensions.json
 ```
 Visual Studio用のファイルが多いですが、macの「.DS_Store」など一般的にgit上管理が不要なものも含まれています。
+
+## 参考サイト
+- [Windows に .NET をインストールする](https://docs.microsoft.com/ja-jp/dotnet/core/install/windows?tabs=net60)
