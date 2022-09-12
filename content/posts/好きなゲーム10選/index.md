@@ -31,7 +31,7 @@ cover:
 
 ## スーパーファミコン
 ![img_5.png](img_5.png)
-1990年に任天堂より発売された家庭用ゲーム機。海外ではSNESとも呼ばれる。
+1990年に任天堂より発売された家庭用ゲーム機。海外ではSNES(Super Nintendo Entertainment System)とも呼ばれる。
 
 ### スーパーマリオカート
 ![img_6.png](img_6.png)
