@@ -15,3 +15,9 @@ cover:
 
 **Electro Swing Mix 2019 Vol.3**
 {{<youtube 1hY8f20tqlI>}}
+
+**lofi hip hop radio(Live)**
+{{<youtube jfKfPfyJRdk>}}
+
+**LoFiジャズ**
+{{<youtube bz5q5gl2uZA>}}
