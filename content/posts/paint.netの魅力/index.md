@@ -1,6 +1,6 @@
 ---
 title: 'paint.netの魅力'
-date: 2022-09-11T22:59:52+09:00
+date: 2022-09-14T19:33:31+09:00
 tags: ["paint.net"]
 draft: false
 cover:
