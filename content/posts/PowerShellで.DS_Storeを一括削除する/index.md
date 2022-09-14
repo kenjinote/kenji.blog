@@ -7,7 +7,9 @@ cover:
   image: "img.png"
   relative: true
 ---
-カレントディレクトリを対象のフォルダーに移動し、以下のコマンドを実行する。
+
+カレントディレクトリを対象のフォルダーに移動し、以下のコマンドを実行するとサブフォルダを含めて.DS_Storeを一括削除できます。
+
 ```powershell
-Get-ChildItem . -include '._*','.DS_Store' -Recurse -Force | Remove-Item -Force
+Get-ChildItem . -include '.DS_Store' -Recurse -Force | Remove-Item -Force
 ```
