@@ -27,5 +27,9 @@ cover:
 # インストールはこちら
 [https://www.getpaint.net/download.html](https://www.getpaint.net/download.html)
 
+無償版を選択する場合はリンク先のボタンをクリックしてください。
+
+![img_2.png](img_2.png)
+
 Microsoft Store経由でインストールすると有償となる代わりに自動アップデートができるようになるようです。
 無償版でも、最新が更新情報を教えてくるので割とスムーズにアップデートできます。
