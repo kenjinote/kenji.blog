@@ -4,7 +4,7 @@ date: 2022-09-11T22:59:52+09:00
 tags: ["paint.net"]
 draft: false
 cover:
-  image: "img.png"
+  image: "img_1.png"
   relative: true
 ---
 開発の作業を行う中でよく使う画像編集ソフトpaint.netの紹介します。
