@@ -17,7 +17,7 @@ googleAnalytics = "UA-60997585-5"
 
 [params.homeInfoParams]
     Title = "Hello world! 😊"
-    Content = "こんにちは世界。普段考えたことや技術的な小話を短めの記事にメモ代わりで投稿していきます。PaperModというテーマを使っています。"
+    Content = "こんにちは世界。普段考えたことや技術的な小話を短めの記事にメモ代わりで投稿していきます。HUGOでPaperModというテーマを使っています。"
 
 [[params.socialIcons]]
     name = "twitter"
