@@ -29,7 +29,7 @@ cover:
 # インストールはこちら
 [https://www.getpaint.net/download.html](https://www.getpaint.net/download.html)
 
-無償版を選択する場合はリンク先のボタンをクリックしてください。
+無償版を選択する場合はリンク先の下記の赤枠の部分をクリックしてください。
 
 ![img_2.png](img_2.png)
 
