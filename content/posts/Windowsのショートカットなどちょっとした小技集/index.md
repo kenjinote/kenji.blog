@@ -91,6 +91,10 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 - `Win + R`で「ファイル名を指定して実行」を表示し`winword`と入力して`Enter`  
 ※Wordがインストールされている場合のみ。
 
+## PowerPointを開く
+- `Win + R`で「ファイル名を指定して実行」を表示し`powerpnt`と入力して`Enter`  
+  ※PowerPointがインストールされている場合のみ。
+
 ## 範囲を選択して画面をキャプチャー
 - `Win + Shift + S`で範囲を選択して画面をキャプチャーできます。
 - `Win + Print Screen`で全画面をキャプチャーできます。
