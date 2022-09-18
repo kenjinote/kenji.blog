@@ -66,21 +66,27 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 - また、アドレスバーに`cmd`と入力して`Enter`キーを押すとコマンドプロンプトを起動できます。
 
 ## コントロールパネルを開く
+![img_3.png](img_3.png)
 - `Win + R`で「ファイル名を指定して実行」を表示し`control`と入力して`Enter`
 
 ## メモ帳を起動
+![img_4.png](img_4.png)
 - `Win + R`で「ファイル名を指定して実行」を表示し`notepad`と入力して`Enter`  
 
 ## 電卓を起動
+![img_5.png](img_5.png)
 - `Win + R`で「ファイル名を指定して実行」を表示し`calc`と入力して`Enter`
 
 ## ペイントを起動
+![img_6.png](img_6.png)
 - `Win + R`で「ファイル名を指定して実行」を表示し`mspaint`と入力して`Enter`  
 
 ## PowerShellを起動
+![img_7.png](img_7.png)
 - `Win + R`で「ファイル名を指定して実行」を表示し`powershell`と入力して`Enter`  
 
 ## Visual Studio Codeを起動
+![img_8.png](img_8.png)
 - `Win + R`で「ファイル名を指定して実行」を表示し`code`と入力して`Enter`
 
 ## Excelを起動
