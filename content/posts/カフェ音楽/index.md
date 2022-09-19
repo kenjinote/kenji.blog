@@ -21,3 +21,6 @@ cover:
 
 **LoFiジャズ**
 {{<youtube bz5q5gl2uZA>}}
+
+**これが毎日一生懸命勉強する動機です | 5 hour lofi hip hop / study / work / chill beats**
+{{<youtube fWX8zsaTeTc>}}
