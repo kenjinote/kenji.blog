@@ -29,34 +29,34 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 
 ## Windowsのロック
 - `Win + L`
-- `Ctrl + Alt + Del` → `Space`
+- `Ctrl + Alt + Del`→`Space`
 
 ## Windowsのシャットダウン
 - `Win + M`や`Win + D`でデスクトップ表示した状態や`Win + T`や`Win + B`でタスクバーがアクティブな状態で`Alt + F4`を押すと下記のようなダイアログが表示されるので「シャットダウン」が選択されているのを確認して`Enter`
-  `Win + R` → `Alt + F4` → `Alt + F4`でも可。
+  `Win + R`→`Alt + F4`→`Alt + F4`でも可。
   ![img_20.png](img_20.png)
 - `Win + X`→`U`→`U`でシャットダウンできます。
 - コマンドプロンプトまたは`Win + R`の「ファイル名を指定して実行」で`shutdown /s /t 0`と入力するとシャットダウンできます。追加で`/f`をつけると強制シャットダウンになります。
 
 ## Windowsの再起動
 - `Win + M`や`Win + D`でデスクトップ表示した状態や`Win + T`や`Win + B`でタスクバーがアクティブな状態で`Alt + F4`を押すと下記のようなダイアログが表示されるので1回`↓`を押して「再起動」を選択して`Enter`
-　`Win + R` → `Alt + F4` → `Alt + F4`でも可。
+　`Win + R`→`Alt + F4`→`Alt + F4`でも可。
   ![img_21.png](img_21.png)
 - `Win + X`→`U`→`R`で再起動できます。
 - `shutdown /r /t 0`で再起動できます。追加で`/f`をつけると強制再起動になります。
 
 ## Windowsのスリープ
 - `Win + M`や`Win + D`でデスクトップ表示した状態や`Win + T`や`Win + B`でタスクバーがアクティブな状態で`Alt + F4`を押すと下記のようなダイアログが表示されるので1回`↑`を押して「スリープ」を選択して`Enter`
-  `Win + R` → `Alt + F4` → `Alt + F4`でも可。
+  `Win + R`→`Alt + F4`→`Alt + F4`でも可。
   ![img_23.png](img_23.png)
-- コマンドプロンプトで`rundll32.exe powrprof.dll,SetSuspendState`と入力すると休止状態にできます。
+- `Win + R`→またはコマンドプロンプトで`rundll32.exe powrprof.dll,SetSuspendState`と入力すると休止状態にできます。
 
 ## Windowsのサインアウト（ログオフ）
 - `Win + M`や`Win + D`でデスクトップ表示した状態や`Win + T`や`Win + B`でタスクバーがアクティブな状態で`Alt + F4`を押すと下記のようなダイアログが表示されるので2回`↑`を押して「サインアウト」を選択して`Enter`
-  `Win + R` → `Alt + F4` → `Alt + F4`でも可。
+  `Win + R`→`Alt + F4`→`Alt + F4`でも可。
   ![img_22.png](img_22.png)
 - `Win + X`→`U`→`I`
-- `Ctrl + Alt + Del` → 2回`Tab` or 2回`↓` → `Enter` or `Space`
+- `Ctrl + Alt + Del`→2回`Tab` or 2回`↓`→`Enter` or `Space`
 - `logoff`でサインアウト（ログオフ）できます。
 
 ## キーボードでウィンドウを移動
