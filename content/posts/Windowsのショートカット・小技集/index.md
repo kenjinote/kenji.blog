@@ -29,7 +29,7 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 
 ## Windowsのロック
 - `Win + L`
-- `Ctrl + Alt + Del`→`Space`
+- `Ctrl + Alt + Del`→`Space` or `Enter`
 
 ## Windowsのシャットダウン
 - `Win + M`や`Win + D`でデスクトップ表示した状態や`Win + T`や`Win + B`でタスクバーがアクティブな状態で`Alt + F4`を押すと下記のようなダイアログが表示されるので「シャットダウン」が選択されているのを確認して`Enter`
