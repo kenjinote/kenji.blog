@@ -98,100 +98,107 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 - `Win + V`でクリップボード履歴を表示できます。
 過去にコピーしたテキストや画像を選択すると再度コピーできます。
 
-# 「ファイル名を指定して実行」でコマンドを実行
-![img_17.png](img_17.png)
+## ファイル名を指定して実行
+![img_28.png](img_28.png)
+- `Win + R`で「ファイル名を指定して実行」が起動できます。
+
+以下いくつか「ファイル名を指定して実行」またはコマンドプロンプトで実行できるコマンドの紹介します。
 
 ## Edgeを開く
 ![img_18.png](img_18.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`msedge`と入力して`Enter`
+- `msedge`と入力して`Enter`
 
 ## Internet Explorer 11（IE11）を開く
 ![img_25.png](img_25.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`powershell.exe -Command "(New-Object -ComObject InternetExplorer.Application).Visible = $true"`と入力して`Enter`
+- `powershell.exe -Command "(New-Object -ComObject InternetExplorer.Application).Visible = $true"`と入力して`Enter`
 
 ## ターミナルを開く
 ![img_19.png](img_19.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`wt`と入力して`Enter`
+- `wt`と入力して`Enter`
 
 ## コントロールパネルを開く
 ![img_15.png](img_15.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`control`と入力して`Enter`
+- `control`と入力して`Enter`
 - `explorer.exe shell:::{26EE0668-A00A-44D7-9371-BEB064C98683}` でも開けます。
 
 ## メモ帳を起動
 ![img_4.png](img_4.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`notepad`と入力して`Enter`  
+- `notepad`と入力して`Enter`  
 
 ## 電卓を起動
 ![img_5.png](img_5.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`calc`と入力して`Enter`
+- `calc`と入力して`Enter`
 
 ## ペイントを起動
 ![img_6.png](img_6.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`mspaint`と入力して`Enter`  
+- `mspaint`と入力して`Enter`  
 
 ## PowerShellを起動
 ![img_7.png](img_7.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`powershell`と入力して`Enter`  
+- `powershell`と入力して`Enter`  
 
 ## Visual Studio Codeを起動
 ![img_8.png](img_8.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`code`と入力して`Enter`
+- `code`と入力して`Enter`
 
 ## Excelを起動
 ![img_9.png](img_9.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`excel`と入力して`Enter`  
+- `excel`と入力して`Enter`  
 ※Excelがインストールされている場合のみ。
 
 ## Wordを開く
 ![img_10.png](img_10.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`winword`と入力して`Enter`  
+- `winword`と入力して`Enter`  
 ※Wordがインストールされている場合のみ。
 
 ## PowerPointを開く
 ![img_11.png](img_11.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`powerpnt`と入力して`Enter`  
+- `powerpnt`と入力して`Enter`  
   ※PowerPointがインストールされている場合のみ。
 
 ## システム構成を開く
 ![img_1.png](img_1.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`msconfig`と入力して`Enter`  
+- `msconfig`と入力して`Enter`  
 
 ## システムのプロパティを開く
 ![img_2.png](img_2.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`sysdm.cpl`と入力して`Enter`
+- `sysdm.cpl`と入力して`Enter`
+
+## Windowsのバージョン情報を開く
+![img_27.png](img_27.png)
+- `winver`と入力して`Enter`
 
 ## スクリーンキーボードを開く
 ![img_14.png](img_14.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`osk`と入力して`Enter`
+- `osk`と入力して`Enter`
 
 ## ワードパッドを開く
 ![img_12.png](img_12.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`wordpad`または`write`と入力して`Enter`
+- `wordpad`または`write`と入力して`Enter`
 
 ## レジストリエディタを開く
 ![img_13.png](img_13.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`regedit`と入力して`Enter`
+- `regedit`と入力して`Enter`
 
 ## キーボードのプロパティを開く
-- `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{725BE8F7-668E-4C7B-8F90-46BDB0936430}`と入力して`Enter`
+- `explorer.exe shell:::{725BE8F7-668E-4C7B-8F90-46BDB0936430}`と入力して`Enter`
 
 ## サウンドを開く
 ![img_3.png](img_3.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}`と入力して`Enter`
+- `explorer.exe shell:::{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}`と入力して`Enter`
 
 ## プログラムと機能を開く
-- `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{7b81be6a-ce2b-4676-a29e-eb907a5126c5}`と入力して`Enter`
+- `explorer.exe shell:::{7b81be6a-ce2b-4676-a29e-eb907a5126c5}`と入力して`Enter`
 
 ## プログラムと機能を開く
-- `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{7b81be6a-ce2b-4676-a29e-eb907a5126c5}`と入力して`Enter`
+- `explorer.exe shell:::{7b81be6a-ce2b-4676-a29e-eb907a5126c5}`と入力して`Enter`
 
 ## マウスのプロパティを開く
 ![img_16.png](img_16.png)
-- `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{6C8EEC18-8D75-41B2-A177-8831D59D2D50}`と入力して`Enter`
+- `explorer.exe shell:::{6C8EEC18-8D75-41B2-A177-8831D59D2D50}`と入力して`Enter`
 
 ## ユーザーアカウントを開く
-- `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{60632754-c523-4b62-b45c-4172da012619}`と入力して`Enter`
+- `explorer.exe shell:::{60632754-c523-4b62-b45c-4172da012619}`と入力して`Enter`
 
 ## 範囲を選択して画面をキャプチャー
 - `Win + Shift + S`で範囲を選択して画面をキャプチャーできます。
@@ -221,11 +228,6 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 
 [保存する(S)] [保存しない(N)] [キャンセル]
 ```
-
-## Windowsのバージョン情報を開く
-![img_27.png](img_27.png)
-
-- `Win + R`で「ファイル名を指定して実行」を表示し`winver`と入力して`Enter`
 
 ## 大きなフォルダを一括削除
 1. コマンドプロンプトで削除するフォルダに移動し、`DEL /F /Q /S *.* > NUL`
