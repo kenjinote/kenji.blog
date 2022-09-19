@@ -66,81 +66,98 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 - また、アドレスバーに`cmd`と入力して`Enter`キーを押すとコマンドプロンプトを起動できます。
 
 # 「ファイル名を指定して実行」でコマンドを実行
-![img_17.png](img_17.png)
+<img src="img_17.png" alt="ファイル名を指定して実行" width="150px">
 
 ## Edgeを開く
-![img_18.png](img_18.png)
+<img src="img_18.png" alt="Edge" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`msedge`と入力して`Enter`
 
 ## ターミナルを開く
-![img_19.png](img_19.png)
+<img src="img_19.png" alt="ターミナル" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`wt`と入力して`Enter`
 
 ## コントロールパネルを開く
-![img_15.png](img_15.png)
+<img src="img_15.png" alt="コントロールパネル" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`control`と入力して`Enter`
 - `explorer.exe shell:::{26EE0668-A00A-44D7-9371-BEB064C98683}` でも開けます。
 
 ## メモ帳を起動
-![img_4.png](img_4.png)
+<img src="img_4.png" alt="メモ帳" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`notepad`と入力して`Enter`  
 
 ## 電卓を起動
-![img_5.png](img_5.png)
+<img src="img_5.png" alt="電卓" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`calc`と入力して`Enter`
 
 ## ペイントを起動
-![img_6.png](img_6.png)
+<img src="img_6.png" alt="ペイント" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`mspaint`と入力して`Enter`  
 
 ## PowerShellを起動
-![img_7.png](img_7.png)
+<img src="img_7.png" alt="PowerShell" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`powershell`と入力して`Enter`  
 
 ## Visual Studio Codeを起動
-![img_8.png](img_8.png)
+<img src="img_8.png" alt="Visual Studio Code" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`code`と入力して`Enter`
 
 ## Excelを起動
-![img_9.png](img_9.png)
+<img src="img_9.png" alt="Excel" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`excel`と入力して`Enter`  
 ※Excelがインストールされている場合のみ。
 
 ## Wordを開く
-![img_10.png](img_10.png)
+<img src="img_10.png" alt="Word" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`winword`と入力して`Enter`  
 ※Wordがインストールされている場合のみ。
 
 ## PowerPointを開く
-![img_11.png](img_11.png)
+<img src="img_11.png" alt="PowerPoint" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`powerpnt`と入力して`Enter`  
   ※PowerPointがインストールされている場合のみ。
 
 ## システム構成を開く
-![img_1.png](img_1.png)
+<img src="img_1.png" alt="システム構成" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`msconfig`と入力して`Enter`  
 
 ## システムのプロパティを開く
-![img_2.png](img_2.png)
+<img src="img_2.png" alt="システムのプロパティ" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`sysdm.cpl`と入力して`Enter`
 
 ## スクリーンキーボードを開く
-![img_14.png](img_14.png)
+<img src="img_14.png" alt="スクリーンキーボード" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`osk`と入力して`Enter`
 
 ## ワードパッドを開く
-![img_12.png](img_12.png)
+<img src="img_12.png" alt="ワードパッド" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`wordpad`または`write`と入力して`Enter`
 
 ## レジストリエディタを開く
-![img_13.png](img_13.png)
+<img src="img_13.png" alt="レジストリエディタ" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`regedit`と入力して`Enter`
 
 ## キーボードのプロパティを開く
 - `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{725BE8F7-668E-4C7B-8F90-46BDB0936430}`と入力して`Enter`
 
 ## サウンドを開く
-![img_3.png](img_3.png)
+<img src="img_3.png" alt="サウンド" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}`と入力して`Enter`
 
 ## プログラムと機能を開く
@@ -150,7 +167,8 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 - `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{7b81be6a-ce2b-4676-a29e-eb907a5126c5}`と入力して`Enter`
 
 ## マウスのプロパティを開く
-![img_16.png](img_16.png)
+<img src="img_16.png" alt="マウスのプロパティ" width="150px">
+
 - `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{6C8EEC18-8D75-41B2-A177-8831D59D2D50}`と入力して`Enter`
 
 ## ユーザーアカウントを開く
