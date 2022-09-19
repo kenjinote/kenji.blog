@@ -72,6 +72,10 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 ![img_18.png](img_18.png)
 - `Win + R`で「ファイル名を指定して実行」を表示し`msedge`と入力して`Enter`
 
+## ターミナルを開く
+![img_19.png](img_19.png)
+- `Win + R`で「ファイル名を指定して実行」を表示し`wt`と入力して`Enter`
+
 ## コントロールパネルを開く
 ![img_15.png](img_15.png)
 - `Win + R`で「ファイル名を指定して実行」を表示し`control`と入力して`Enter`
