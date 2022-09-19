@@ -127,8 +127,12 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 ![img_13.png](img_13.png)
 - `Win + R`で「ファイル名を指定して実行」を表示し`regedit`と入力して`Enter`
 
-## キーボードのプロパティ
+## キーボードのプロパティを開く
 - `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{725BE8F7-668E-4C7B-8F90-46BDB0936430}`と入力して`Enter`
+
+## サウンドを開く
+![img_3.png](img_3.png)
+- `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}`と入力して`Enter`
 
 ## 範囲を選択して画面をキャプチャー
 - `Win + Shift + S`で範囲を選択して画面をキャプチャーできます。
