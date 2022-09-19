@@ -7,8 +7,6 @@ cover:
   image: "img.png"
   relative: true
 ---
-{{< thumbnail src="img_17.png" >}}
-
 Windowsで普段使うちょっとした小技集です。Windowsを使い始めの方に読んでもらえれば幸いです。
 Windows 11を想定していますが、多くのものがWindows 10でも使えると思います。
 
