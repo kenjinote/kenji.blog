@@ -134,6 +134,19 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 ![img_3.png](img_3.png)
 - `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}`と入力して`Enter`
 
+## プログラムと機能を開く
+- `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{7b81be6a-ce2b-4676-a29e-eb907a5126c5}`と入力して`Enter`
+
+## プログラムと機能を開く
+- `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{7b81be6a-ce2b-4676-a29e-eb907a5126c5}`と入力して`Enter`
+
+## マウスのプロパティを開く
+![img_16.png](img_16.png)
+- `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{6C8EEC18-8D75-41B2-A177-8831D59D2D50}`と入力して`Enter`
+
+## ユーザーアカウントを開く
+- `Win + R`で「ファイル名を指定して実行」を表示し`explorer.exe shell:::{60632754-c523-4b62-b45c-4172da012619}`と入力して`Enter`
+
 ## 範囲を選択して画面をキャプチャー
 - `Win + Shift + S`で範囲を選択して画面をキャプチャーできます。
 - `Win + Print Screen`で全画面をキャプチャーできます。
