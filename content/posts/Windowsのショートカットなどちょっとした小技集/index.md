@@ -100,6 +100,10 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 ![img_18.png](img_18.png)
 - `Win + R`で「ファイル名を指定して実行」を表示し`msedge`と入力して`Enter`
 
+## Internet Explorer 11（IE11）を開く
+![img_25.png](img_25.png)
+- `Win + R`で「ファイル名を指定して実行」を表示し`powershell.exe -Command "(New-Object -ComObject InternetExplorer.Application).Visible = $true"`と入力して`Enter`
+
 ## ターミナルを開く
 ![img_19.png](img_19.png)
 - `Win + R`で「ファイル名を指定して実行」を表示し`wt`と入力して`Enter`
