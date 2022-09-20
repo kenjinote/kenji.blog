@@ -196,19 +196,19 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 ![img_13.png](img_13.png)
 - `regedit`と入力して`Enter`
 
-## キーボードのプロパティを開く
-- `explorer.exe shell:::{725BE8F7-668E-4C7B-8F90-46BDB0936430}`と入力して`Enter`
-
-## サウンドを開く
-![img_3.png](img_3.png)
-- `explorer.exe shell:::{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}`と入力して`Enter`
-
 ## プログラムと機能を開く
 - `explorer.exe shell:::{7b81be6a-ce2b-4676-a29e-eb907a5126c5}`と入力して`Enter`
+
+## キーボードのプロパティを開く
+- `explorer.exe shell:::{725BE8F7-668E-4C7B-8F90-46BDB0936430}`と入力して`Enter`
 
 ## マウスのプロパティを開く
 ![img_16.png](img_16.png)
 - `explorer.exe shell:::{6C8EEC18-8D75-41B2-A177-8831D59D2D50}`と入力して`Enter`
+
+## サウンドを開く
+![img_3.png](img_3.png)
+- `explorer.exe shell:::{F2DDFC82-8F12-4CDD-B7DC-D4FE1425AA4D}`と入力して`Enter`
 
 ## ユーザーアカウントを開く
 - `explorer.exe shell:::{60632754-c523-4b62-b45c-4172da012619}`と入力して`Enter`
