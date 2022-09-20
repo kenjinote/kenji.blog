@@ -17,7 +17,7 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 - ウィンドウのタイトルバーの左のアイコンをダブルクリックする
 - ウィンドウのタイトルバーの`×`をクリックする
 
-## デスクトップを表示
+## デスクトップの表示
 - `Win + D`。2回押すと元のウィンドウ状態に戻ります。1瞬だけデスクトップを表示したいとき便利です。
 - `Win + M`。全アプリの最小化。2回押しても元には戻りません。
 
@@ -29,7 +29,8 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 
 ## 範囲を選択して画面をキャプチャー
 - `Win + Shift + S`で範囲を選択して画面をキャプチャーできます。
-- `Win + Print Screen`で全画面をキャプチャーできます。
+- `Win + Print Screen`または単に`Print Screen`で全画面をキャプチャーできます。
+(`Win`をつけた場合は、`C:\Users\ユーザ名\Pictures\Screenshots`にキャプチャー画像が出力されます。)
 - `Alt + Print Screen`で現在のウィンドウをキャプチャーできます。
 
 ## タスクバーに登録されたアプリの起動
@@ -236,3 +237,61 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 
 1. コマンドプロンプトで削除するフォルダーに移動し、`DEL /F /Q /S *.* > NUL`
 2. 1つ上の階層に移動し、`RMDIR /Q /S フォルダー名`
+
+## コマンドプロンプトの出力をクリップボードに格納
+`echo "hello" | clip`などコマンドの後ろに` | clip`(パイプ+clip)をつけると標準出力をクリップボードにコピーできます。
+
+## フォルダー階層をテキストで出力
+コマンドプロンプトで`tree`コマンドでフォルダー改装をツリー形式で出力できます。
+
+出力サンプル
+```
+C:.
+├─.idea
+│  └─libraries
+├─binaryeditorbz
+├─blog
+│  ├─archetypes
+│  ├─content
+│  ├─data
+│  ├─layouts
+│  ├─static
+│  └─themes
+│      └─PaperMod
+│          ├─.git
+│          │  ├─branches
+│          │  ├─hooks
+│          │  ├─info
+│          │  ├─logs
+│          │  │  └─refs
+│          │  │      ├─heads
+│          │  │      └─remotes
+│          │  │          └─origin
+│          │  ├─objects
+│          │  │  ├─info
+│          │  │  └─pack
+│          │  └─refs
+│          │      ├─heads
+│          │      ├─remotes
+│          │      │  └─origin
+│          │      └─tags
+│          ├─.github
+│          │  ├─ISSUE_TEMPLATE
+│          │  └─workflows
+│          ├─assets
+│          │  ├─css
+│          │  │  ├─common
+│          │  │  ├─core
+│          │  │  ├─extended
+│          │  │  ├─hljs
+│          │  │  └─includes
+│          │  └─js
+│          ├─i18n
+│          ├─images
+│          └─layouts
+│              ├─partials
+│              │  └─templates
+│              ├─shortcodes
+│              └─_default
+│                  └─_markup
+```
