@@ -206,9 +206,6 @@ Windows 11を想定していますが、多くのものがWindows 10でも使え
 ## プログラムと機能を開く
 - `explorer.exe shell:::{7b81be6a-ce2b-4676-a29e-eb907a5126c5}`と入力して`Enter`
 
-## プログラムと機能を開く
-- `explorer.exe shell:::{7b81be6a-ce2b-4676-a29e-eb907a5126c5}`と入力して`Enter`
-
 ## マウスのプロパティを開く
 ![img_16.png](img_16.png)
 - `explorer.exe shell:::{6C8EEC18-8D75-41B2-A177-8831D59D2D50}`と入力して`Enter`
