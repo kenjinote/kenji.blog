@@ -73,8 +73,8 @@
       {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
       {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
     </div>
-    {{- if (ne (.Param "hideSummary") true) }}
     <div style="width:100%;">
+      {{- if (ne (.Param "hideSummary") true) }}
       <div class="entry-content">
         <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
       </div>

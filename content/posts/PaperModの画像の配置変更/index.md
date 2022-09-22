@@ -72,8 +72,8 @@ blank.css側で定義を削除できなかったので、post-entry.cssに下記
       {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}<!-- 上から移動 -->
       {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}<!-- 上から移動 -->
     </div><!-- 追加 -->
-    {{- if (ne (.Param "hideSummary") true) }}
     <div style="width:100%;"><!-- 追加 -->
+      {{- if (ne (.Param "hideSummary") true) }}
       <div class="entry-content">
         <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
       </div>
