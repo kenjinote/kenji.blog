@@ -53,8 +53,10 @@ fn main() {
 ```
 
 6. コマンドプロンプトで`cargo run`を実行する。
+   ![img.png](img.png)
 
-![img.png](img.png)
+8. リリースのビルドをする場合は`cargo build --release`を実行する。
+
 
 # 参考
 [Hello World MesssageBox example in Rust](https://wesleywiser.github.io/post/rust-windows-messagebox-hello-world/)
