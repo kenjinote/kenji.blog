@@ -55,7 +55,7 @@ fn main() {
 6. コマンドプロンプトで`cargo run`を実行する。
    ![img.png](img.png)
 
-8. リリースのビルドをする場合は`cargo build --release`を実行する。
+7. リリースのビルドをする場合は`cargo build --release`を実行する。
 
 
 # 参考
