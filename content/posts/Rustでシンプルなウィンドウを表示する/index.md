@@ -25,6 +25,7 @@ features = ["winuser"]
 
 ソースは以下
 ```main.rs
+#![windows_subsystem = "windows"]
 use winapi::{
     um::{
         winuser::{RegisterClassW, WNDCLASSW, CS_HREDRAW, CS_VREDRAW,
