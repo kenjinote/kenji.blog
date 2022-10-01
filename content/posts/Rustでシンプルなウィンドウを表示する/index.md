@@ -103,3 +103,7 @@ unsafe extern "system" fn win_proc(hwnd: HWND, msg: UINT, w_param: WPARAM, l_par
     0
 }
 ```
+
+## 参考
+[Rust で Windows プログラミング - CreateWindow編](https://qiita.com/benki/items/c01f7da1e1a71cc91d11)
+
