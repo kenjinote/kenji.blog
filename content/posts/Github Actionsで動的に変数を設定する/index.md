@@ -1,7 +1,7 @@
 ---
 title: 'Github Actionsで動的に変数を設定する'
 date: 2022-10-02T02:33:35+09:00
-tags: ["github", "github actions", "git"]
+tags: ["GitHub", "GitHub Actions", "git"]
 draft: false
 cover:
   image: "img_1.png"
@@ -10,6 +10,7 @@ cover:
 
 Github Actionsで動的に変数を設定するには、下記のように$env:GITHUB_ENVに追加書き込みすることで実現できます。
 
+【Windowsの場合】
 ```
 name: Rust
 
@@ -24,15 +25,13 @@ env:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
     - name: Get Environment
       run: |
-        $env:version = '1.0.0'
-        $env:name = 'hello'
-        echo "VERSION=$env:version" >> $env:GITHUB_ENV
-        echo "NAME=$env:name" >> $env:GITHUB_ENV        
+        echo 'VERSION=1.0.0' >> $GITHUB_ENV
+        echo 'NAME=1.0.0' >> $GITHUB_ENV
     - name: Display Environment
       run: |
         echo $env:VERSION
@@ -58,3 +57,32 @@ jobs:
         asset_name: ${{ env.NAME }}.exe
         asset_content_type: application/octet-stream
 ```
+
+【Linuxの場合】
+```
+name: Rust
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Get Environment
+      run: |
+        echo 'VERSION=1.0.0' >> $GITHUB_ENV
+        echo 'NAME=hello' >> $GITHUB_ENV
+    - name: Display Environment
+      run: |
+        echo ${{ env.VERSION }}
+        echo ${{ env.NAME }}
+```
+
