@@ -1,7 +1,7 @@
 ---
 title: 'Rustの特徴'
 date: 2022-10-03T22:47:20+09:00
-tags: ["Rust", "タグ2"]
+tags: ["Rust"]
 draft: false
 cover:
   image: "rust_logo.png"
