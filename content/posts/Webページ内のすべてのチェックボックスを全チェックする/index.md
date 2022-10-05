@@ -8,7 +8,7 @@ cover:
   relative: true
 ---
 
-F12でDevToolsを開き、コンソールに以下のコードを貼り付けて実行する。
+Webページ内のチェックボックスを全チェックするには、F12でDevToolsを開き、コンソールに以下のコードを貼り付けて実行します。
 ```js
 let boxes = document.querySelectorAll('input[type="checkbox"]');
 for (let i = 0; i < boxes.length; i++) {
