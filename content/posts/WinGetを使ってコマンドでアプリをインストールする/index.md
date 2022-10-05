@@ -6,26 +6,27 @@ draft: false
 ---
 
 # 前提条件
-windows11であること
+Windows 11 であること
 
 # 手順
 1. Microsoft Store から WinGet をインストールする
    https://www.microsoft.com/store/productId/9NBLGGH4NNS1
 2. コマンドプロンプトでアプリをインストールする
     ```powershell
-    winget install "Google Chrome"
+    winget install Google.Chrome
     ```
 # インストールできる主なアプリ
-- Google Chrome
-- Microsoft Edge
-- Microsoft Teams
-- Microsoft Office
-- Visual Studio Code
-- Slack
-- Discord
-- Docker Desktop
-- Git
-- などなど
+- Google Chrome (コマンド`winget install Google.Chrome`)
+- Microsoft Edge (コマンド`winget install Microsoft.Edge`)
+- Microsoft Teams (コマンド`winget install Microsoft.Teams`)
+- Microsoft Office (コマンド`winget install Microsoft.Office`)
+- Visual Studio Code (コマンド`winget install vscode`)
+- Slack (コマンド`winget install SlackTechnologies.Slack`)
+- Discord (コマンド`winget install Discord.Discord`)
+- Docker Desktop (コマンド`winget install Docker.DockerDesktop`)
+- Git (コマンド`winget install Git`)
+- 7zip (コマンド`winget install 7zip`)
+- VLC (コマンド`winget install VideoLAN.VLC`)
 
 ### 参考
 [winget ツールを使用したアプリケーションのインストールと管理](https://learn.microsoft.com/ja-jp/windows/package-manager/winget/)
