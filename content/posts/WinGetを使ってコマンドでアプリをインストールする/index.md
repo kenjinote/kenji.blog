@@ -3,19 +3,21 @@ title: 'WinGetを使ってコマンドでアプリをインストールする'
 date: 2022-10-05T12:15:20+09:00
 tags: ["WinGet"]
 draft: false
+cover:
+  image: "img.png"
+  relative: true
 ---
-
-# 前提条件
+## 前提条件
 Windows 11 であること
 
-# 手順
+## 手順
 1. Microsoft Store から WinGet をインストールする
    https://www.microsoft.com/store/productId/9NBLGGH4NNS1
 2. コマンドプロンプトでアプリをインストールする
     ```powershell
     winget install Google.Chrome
     ```
-# インストールできる主なアプリ
+## インストールできる主なアプリ
 - Google Chrome (コマンド`winget install Google.Chrome`)
 - Microsoft Edge (コマンド`winget install Microsoft.Edge`)
 - Microsoft Teams (コマンド`winget install Microsoft.Teams`)
@@ -28,5 +30,5 @@ Windows 11 であること
 - 7zip (コマンド`winget install 7zip`)
 - VLC (コマンド`winget install VideoLAN.VLC`)
 
-### 参考
+## 参考
 [winget ツールを使用したアプリケーションのインストールと管理](https://learn.microsoft.com/ja-jp/windows/package-manager/winget/)
