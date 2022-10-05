@@ -11,7 +11,7 @@ cover:
 Windows 11 であること
 
 ## 手順
-1. Microsoft Store から WinGet をインストールする
+1. Microsoft Store から`アプリインストーラー`をインストールする
    https://www.microsoft.com/store/productId/9NBLGGH4NNS1
 2. コマンドプロンプトでアプリをインストールする
     ```powershell
