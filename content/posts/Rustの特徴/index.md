@@ -4,10 +4,9 @@ date: 2022-10-03T22:47:20+09:00
 tags: ["Rust"]
 draft: false
 cover:
-  image: "rust_logo.png"
+  image: "img.png"
   relative: true
 ---
-
 # Rust（ラスト）の特徴
 
 - Mozilla が開発を行っている比較的新しいオープンソースなプログラミング言語
