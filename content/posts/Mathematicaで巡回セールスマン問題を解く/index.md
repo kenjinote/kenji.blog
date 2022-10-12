@@ -1,6 +1,6 @@
 ---
 title: 'Mathematicaで巡回セールスマン問題を解く'
-date: 2022-01-01T00:00:00+09:00
+date: 2022-10-12T19:05:58+09:00
 tags: ["Mathematica", "巡回セールスマン問題", "アルゴリズム"]
 draft: false
 cover:
