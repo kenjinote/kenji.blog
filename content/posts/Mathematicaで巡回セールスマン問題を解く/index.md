@@ -10,7 +10,7 @@ cover:
 # Mathematicaで巡回セールスマン問題を解く
 
 ## 問題
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">電車でこんな広告を見かけました😁📸 <a href="https://t.co/iXEgvtXrpL">pic.twitter.com/iXEgvtXrpL</a></p>&mdash; 早稲田大学 早水桃子研究室 (@hayamizu_lab) <a href="https://twitter.com/hayamizu_lab/status/1579806418982825984?ref_src=twsrc%5Etfw">October 11, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{<twitter 1579806418982825984>}}
 
 ## 解法
 
