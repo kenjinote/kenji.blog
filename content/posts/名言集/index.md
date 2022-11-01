@@ -18,4 +18,6 @@ cover:
 
 > シンプルであることを保て (ジェームズ・ゴリスン)
 
+> I don't have time to worry about who doesn't like me. I'm too busy loving the people who love me. (Snoopy)
+
 ![img_1.png](img_1.png)
