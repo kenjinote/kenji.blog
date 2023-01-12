@@ -20,7 +20,7 @@ TeamViewerを使うとリモートデスクトップ接続が簡単に行えま�
 ```
 %ProgramFiles%\TeamViewer\TeamViewer.exe -i <ID> -P <Password>
 ```
-<ID>にはリモート先のIDを、<Password>にはリモート先のパスワードを入力します。
+`<ID>`にはリモート先のIDを、`<Password>`にはリモート先のパスワードを入力します。
 
 上記のコマンドでショートカットファイルを作成しておくと、ID/PWの入力を省略できるため便利です。
 
