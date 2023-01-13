@@ -16,7 +16,7 @@ cover:
 
 ## ThinkPad T470s
 
-- CPU: Intel Core i5-8250U
+- CPU: Intel Core i7 7600U
 - RAM: 24GB
 - SSD: 512GB
 - OS: Windows 10 Pro 64bit
