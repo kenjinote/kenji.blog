@@ -14,7 +14,7 @@ cover:
 
 スペックは下記、価格はいろいろポイントを使って5万5千円台でした。
 
-## ThinkPad T480
+## ThinkPad T470s
 
 - CPU: Intel Core i5-8250U
 - RAM: 24GB
