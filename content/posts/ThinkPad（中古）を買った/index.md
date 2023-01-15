@@ -32,4 +32,9 @@ cover:
 - `Pause`キーと`App`キーがない。`Pause`キーはシステム設定を開くショートカットで使ってた。また、`App`キーはポップアップメニューを開くときに使っていたのでないと不便。
 - キーボードの矢印キーの直ぐそばに`PageUp`キーと`PageDown`キーがあるのでよく押し間違える。これは慣れかもしれない。
 
+## ほかに検討したけど買わなかったPC
+- ASUS Chromebook Flip C436FA (C436FA-ENG)
+- HP ノートパソコン HP15s-fq
+
+
 参考資料: [ThinkPad T470s](https://www.lenovojp.com/business/product/note/pdf/thinkpad_t470s.pdf)
