@@ -68,7 +68,7 @@ body.type-newsletter {
         border-color: var(--signature);
       }
     }
-    button {
+    button, input[type=submit] {
       display: block;
       background-color: var(--signature);
       color: var(--theme);
@@ -285,9 +285,9 @@ body.type-newsletter.kind-page {
   .newsletter-sub {
     margin-top: calc(var(--content-gap) * 1.5);
     background-color: var(--signature-bg-dim);
-    padding: 1em;
+    padding: 1.5em 1.2em 1.2em;
     .notice {
-      font-size: .8em;
+      font-size: .9em;
       color: var(--signature);
       line-height: 1.6;
     }
