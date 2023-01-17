@@ -6,6 +6,11 @@ title = "kenji.blog"
 theme = "PaperMod"
 googleAnalytics = "UA-60997585-5"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
     dateFormat= "2006.01.02"
     images = ["twitter_card.jpg"]
