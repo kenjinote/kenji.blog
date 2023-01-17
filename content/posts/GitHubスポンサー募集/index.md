@@ -9,7 +9,7 @@ cover:
 ---
 
 # GitHubスポンサー募集
-下記のボタンからスポンサーしていただけると嬉しいです。
+下記のボタンからGitHubスポンサーになっていただけると嬉しいです。
 
 <iframe src="https://github.com/sponsors/kenjinote/button" title="Sponsor kenjinote" height="35" width="116" style="border: 0;"></iframe>
 
