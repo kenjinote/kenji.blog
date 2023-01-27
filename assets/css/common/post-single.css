@@ -405,7 +405,10 @@ h6:hover .anchor {
 .post-footer {
     margin-top: calc(var(--content-gap) * 1.5);
     padding-bottom: calc(var(--content-gap) * 2);
-    border-bottom: 3px solid var(--tertiary);
+}
+.comments-separator {
+    height: 3px;
+    background-color: var(--tertiary);
 }
 
 .share-buttons {
