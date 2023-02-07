@@ -1,6 +1,6 @@
 ---
 title: 'https://fontplus.jp/'
-date: 2022-09-13T00:25:12+09:00
+date: 2023-02-07T20:59:01+09:00
 tags: ["font","fontplus"]
 draft: false
 cover:
