@@ -33,4 +33,4 @@ cover:
 
 現在は[DELLの4Kディスプレイ](https://amzn.to/3y0ViIW)を使っています。
 
-今はワイドディスプレイの[EIZOのディスプレイ](https://amzn.to/3kz7BZH)がほしいと思っています。
+今はワイドディスプレイの[EIZOのディスプレイ](https://amzn.to/3kz7BZH)または[DELLのディスプレイ](https://amzn.to/3xZleo1)がほしいと思っています。
