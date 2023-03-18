@@ -2,7 +2,10 @@
 title: 'おすすめのChorme拡張'
 date: 2023-03-19T02:54:30+09:00
 tags: ["Chorme拡張", "ブラウザ", "Chrome", "Edge"]
-draft: true
+draft: false
+cover:
+  image: "img_4.png"
+  relative: true
 ---
 
 # おすすめのChorme拡張
