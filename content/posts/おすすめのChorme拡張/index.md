@@ -35,7 +35,15 @@ cover:
 - [simpleGestures](https://chrome.google.com/webstore/detail/simplegestures/flfminafiamnggnldfpilnfnmbgmiegn)
 - [github](https://github.com/RyutaKojima/simpleGestures)
 
-## 3. Salesforce DevTools
+## 3. DeepL翻訳
+
+![img.png](img.png)
+
+世界的に有名な翻訳サービスDeepLを使ってページ内を翻訳できるChorme拡張です。ブラウザ上で翻訳させたい文章を選択すると、DeepLのアイコンが表示され、クリックすると自動翻訳されます。
+
+- [DeepL Translator](https://chrome.google.com/webstore/detail/deepl-translate-reading-w/cofdbpoegempjloogbagkncekinflcnj?hl=ja)
+
+## 4. Salesforce DevTools
 
 ![img_1.png](img_1.png)
 
@@ -44,10 +52,3 @@ Salesforceの開発に便利な機能を追加する拡張です。
 
 - [Salesforce DevTools](https://chrome.google.com/webstore/detail/salesforce-devtools/ehgmhinnhggigkogkbhnbodhbfjgncjf)
 
-## 4. DeepL Translator
-
-![img.png](img.png)
-
-世界的に有名な翻訳サービスDeepLを使ってページ内を翻訳できるChorme拡張です。
-
-- [DeepL Translator](https://chrome.google.com/webstore/detail/deepl-translate-reading-w/cofdbpoegempjloogbagkncekinflcnj?hl=ja)
