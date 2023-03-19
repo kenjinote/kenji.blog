@@ -53,12 +53,12 @@ googleAnalytics = "UA-60997585-5"
     category = "categories"
     series = "series"
 
-#[[menu.main]]
-#    name = "About"
-#    url = "/about"
-#    weight = 1
+[[menu.main]]
+    name = "Search"
+    url = "/search"
+    weight = 1
 
-#[[menu.main]]
-#    name = "Search"
-#    url = "/Search"
-#    weight = 2
+[[menu.main]]
+    name = "@Author"
+    url = "https://kenji.jp/"
+    weight = 2
