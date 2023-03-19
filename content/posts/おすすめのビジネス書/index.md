@@ -10,16 +10,24 @@ cover:
 
 ## 人を動かす
 
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=kenji021-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=442210098X&linkId=cf4018d009031d549c4ded023c7911f2"></iframe>
+[https://amzn.to/3YTv0Dr](https://amzn.to/3YTv0Dr)
+
+![img_1.png](img_1.png)
 
 ## 嫌われる勇気
 
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=kenji021-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4478025819&linkId=7e763419854490556511ef49b828a8db"></iframe>
+[https://amzn.to/3n3SVCQ](https://amzn.to/3n3SVCQ)
+
+![img_4.png](img_4.png)
 
 ## LIFE SHIFT 人生100年時代の人生戦略
 
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=kenji021-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4492533877&linkId=9b03e3522800ebaae8147e0af1a8fd65"></iframe>
+[https://amzn.to/3TtKUDf](https://amzn.to/3TtKUDf)
+
+![img_3.png](img_3.png)
 
 ## 7つの習慣
 
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=kenji021-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=4863940920&linkId=2ec31cf6e864bd163731810ed27beb05"></iframe>
+[https://amzn.to/3TqfjSO](https://amzn.to/3TqfjSO)
+
+![img_2.png](img_2.png)
