@@ -3,6 +3,9 @@ title: 'シンプルなアイコン集サイト'
 date: 2022-09-07T16:46:56+09:00
 tags: ["アイコン","デザイン"]
 draft: false
+cover:
+  image: "img_2.png"
+  relative: true
 ---
 
 ## Google Material Symbols and Icons
