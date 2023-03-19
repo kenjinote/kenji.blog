@@ -1,0 +1,49 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+{{/* get pages from the current page's section */}}
+{{/* in this way, archives.html could be used for section archives other than the only one archives of the whole site */}}
+{{- $sections := site.Params.mainSections }}
+{{- if .Section }}
+  {{- $sections = slice .Section }}
+{{- end }}
+{{- $pages := where (where site.RegularPages "Section" "in" $sections) "Params.hidden" "!=" true }}
+
+{{- range $pages.GroupByPublishDate "2006" }}
+{{- if ne .Key "0001" }}
+<div class="archive-year">
+  <h2 class="archive-year-header">
+    {{- replace .Key "0001" "" }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup>
+  </h2>
+  {{- range .Pages.GroupByDate "January" }}
+  <div class="archive-month">
+    <h3 class="archive-month-header">{{- .Key }}<sup class="archive-count">&nbsp;&nbsp;{{ len .Pages }}</sup></h3>
+    <div class="archive-posts">
+      {{- range .Pages }}
+      <div class="archive-entry">
+        <h3 class="archive-entry-title">
+          {{- .Title | markdownify }}
+          {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+        </h3>
+        <div class="archive-meta">
+          {{- partial "post_meta.html" . -}}
+        </div>
+        <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+      </div>
+      {{- end }}
+    </div>
+  </div>
+  {{- end }}
+</div>
+{{- end }}
+{{- end }}
+
+{{- end }}{{/* end main */}}

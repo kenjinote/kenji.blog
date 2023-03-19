@@ -1,18 +1,13 @@
-# PaperModX
+---
+title: "PaperModX 新功能说明"
+date: 2022-04-12T23:37:00+08:00
+summary: 本文档描述 PaperModX 相比原版 PaperMod 增加的新功能和变化。
+weight: 1
+---
 
-PaperModX is a forked version of [PaperMod](https://github.com/adityatelange/hugo-PaperMod),
-it aims at adding new features and improving code quality,
-makes it easier to read and modify by anyone with basic knowledge of Hugo and HTML.
 
-Features and changes:
-- Table of Contents (ToC) floating on the side
-- InstantClick integration
-- Social icons from [Simple Icons](https://simpleicons.org/)
-- Opinionated UI enhancements
+本文档描述 PaperModX 相比原版 PaperMod 增加的新功能和变化。
 
-## Getting started
-
-You can use [reorx/papermodx-example](https://github.com/reorx/papermodx-example) as a boilerplate to create a new Hugo site with PaperModX theme. For detailed instructions please see the README of papermodx-example repo.
 
 ## Table of Contents (ToC) floating on the side
 
@@ -101,18 +96,6 @@ menu:
       params:
         external: true
 ```
-
-
-## Highlight code with Chroma, no bullshit
-
-PaperMod uses highlight.js to highlight code blocks.
-In PaperModX, we use Chroma which is the recommended way in Hugo's
-[official docs](https://gohugo.io/content-management/syntax-highlighting/#:~:text=Hugo%20uses%20Chroma%20as%20its%20code%20highlighter%3B%20it%20is%20built%20in%20Go%20and%20is%20really%2C%20really%20fast),
-thus changing theme is easily supported.
-
-By default the themes are `github` for light and `dracula` for dark,
-you can change it by adding `chroma-light.css` and `chroma-dark.css`
-in site's `assets/css/lib` directory.
 
 
 ## Social icons from Simple Icons
