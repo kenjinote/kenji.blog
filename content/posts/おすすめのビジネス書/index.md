@@ -2,7 +2,7 @@
 title: 'おすすめのビジネス書'
 date: 2023-03-19T18:13:14+09:00
 tags: ["ビジネス書", "書籍"]
-draft: true
+draft: false
 cover:
   image: "img.png"
   relative: true
