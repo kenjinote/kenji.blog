@@ -6,6 +6,7 @@ draft: false
 cover:
   image: "img.png"
   relative: true
+  hidden: true
 ---
 
 ## 人を動かす
