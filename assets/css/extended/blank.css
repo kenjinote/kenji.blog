@@ -3,3 +3,11 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
+
+:root {
+  --link-color: var(--primary);
+  --link-hover-color: #0071eb;
+  --link-underline-shadow: 0 1px 0 var(--link-color);
+  --link-hover-underline-color: #0071eb;
+  --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
+}
