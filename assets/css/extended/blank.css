@@ -11,3 +11,11 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
   --link-hover-underline-color: #0071eb;
   --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
 }
+
+.dark {
+  --link-color: var(--primary);
+  --link-hover-color: #589df6;
+  --link-underline-shadow: 0 1px 0 var(--link-color);
+  --link-hover-underline-color: #589df6;
+  --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
+}
