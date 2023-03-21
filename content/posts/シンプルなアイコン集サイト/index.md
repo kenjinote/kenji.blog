@@ -19,6 +19,11 @@ cover:
 [https://primer.style/octicons/](https://primer.style/octicons/)
 ![img.png](images/img_4.png)
 
+## Sargam Icons
+
+[https://sargamicons.com/](https://sargamicons.com/)
+![img_3.png](img_3.png)
+
 ## Thousands of free icons
  
 - [https://icon-icons.com/](https://icon-icons.com/)
