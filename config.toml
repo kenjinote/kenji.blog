@@ -48,6 +48,9 @@ googleAnalytics = "UA-60997585-5"
     name = "Rss"
     url = "index.xml"
 
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
 [taxonomies]
     tag = "tags"
     category = "categories"
