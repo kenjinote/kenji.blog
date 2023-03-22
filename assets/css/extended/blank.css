@@ -10,6 +10,16 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
   --link-underline-shadow: 0 1px 0 var(--link-color);
   --link-hover-underline-color: #0071eb;
   --link-hover-underline-shadow: 0 2px 0 var(--link-hover-underline-color);
+
+    --entry: #fbf7ef;
+    --primary: rgba(113, 103, 91, 1.00);
+    --secondary: rgba(113, 103, 91, 0.95);
+    --tertiary: rgba(113, 103, 91, 0.50);
+    --content: rgba(113, 103, 91, 0.85);
+    --hljs-bg: #34231B;
+    --code-bg: #ebe4d7;
+    --border: #fdfaf5;
+    --theme: #fbf7ef;
 }
 
 .dark {
