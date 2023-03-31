@@ -63,6 +63,11 @@ pygmentsUseClasses = true
     weight = 1
 
 [[menu.main]]
+    name = "Archives"
+    url = "/archives"
+    weight = 2
+
+[[menu.main]]
     name = "@Author"
     url = "https://kenji.jp/"
-    weight = 2
+    weight = 3
