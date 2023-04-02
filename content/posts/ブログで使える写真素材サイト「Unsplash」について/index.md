@@ -25,7 +25,4 @@ cover:
 
 このサイトでも活用していきます。
 
-## 参考
-
-- [Unsplash](https://unsplash.com/)
-- [^footnote_license]: [Unsplash ライセンス](https://unsplash.com/ja/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9)
+[^footnote_license]: [Unsplash ライセンス](https://unsplash.com/ja/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9)
