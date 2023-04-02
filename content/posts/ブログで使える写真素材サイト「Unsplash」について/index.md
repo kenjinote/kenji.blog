@@ -21,11 +21,11 @@ cover:
 
 ブログで記事を書く上で非常に使いやすいので、ぜひ使ってみてください。
 
-※ライセンスについては下記の「参考」を参照してください。
+※ライセンスについては下記の「参考」を参照してください。[^footnote_license]
 
 このサイトでも活用していきます。
 
 ## 参考
 
 - [Unsplash](https://unsplash.com/)
-- [Unsplash ライセンス](https://unsplash.com/ja/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9)
+- [^footnote_license]: [Unsplash ライセンス](https://unsplash.com/ja/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9)
