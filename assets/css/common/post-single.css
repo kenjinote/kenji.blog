@@ -641,7 +641,7 @@ h6:hover .anchor {
     background-color: var(--link-background-color);
 }
 .footnotes ol:before {
-    content: "脚注";
+    content: "脚注"; /* "Footnotes" */
     font-size: 1.5em;
     margin-left: -1em;
     font-weight: 200;
