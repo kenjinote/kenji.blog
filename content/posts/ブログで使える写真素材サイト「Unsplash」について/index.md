@@ -21,9 +21,11 @@ cover:
 
 ブログで記事を書く上で非常に使いやすいので、ぜひ使ってみてください。
 
+※ライセンスについては下記の「参考」を参照してください。
+
 このサイトでも活用していきます。
 
 ## 参考
 
 - [Unsplash](https://unsplash.com/)
-- [【禁止事項】Unsplash(アンスプラッシュ)の注意点や使い方【商用&加工は？】](https://hakobublog.com/unsplash)
+- [Unsplash ライセンス](https://unsplash.com/ja/%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9)
