@@ -25,11 +25,13 @@ cover:
 7. Edit Variablesボタンをクリック  
    ![edit_template_variables](./images/edit_template_variables.png)
 8. Nameに「date」を入力
-9. Expressionに「date("yyyy-MM-dd'T'HH:mm:ss'+09:00'")」と入力
+9. Expressionに``date("yyyy-MM-dd'T'HH:mm:ss'+09:00'")``と入力
 10. OKでダイアログを閉じる
 11. DefineまたはChangeを押して「Everywhere」にチェックをつける
 12. OKでダイアログを閉じる
 13. コードエディタで「date」と入力してEnterで「2022-09-04T05:59:04+09:00」日付が挿入されたら設定完了！
 
-日付のフォーマットは上記の"yyyy-MM-dd'T'HH:mm:ss'+09:00'"を変更すると変えられます。
-IntelliJ IDEAはまだ経験が浅いので技を見つけたらまた公開していきたいと思います！
+以上
+
+# おわりに
+IntelliJ IDEAの小技を見つけたらまた公開していきたいと思います！
