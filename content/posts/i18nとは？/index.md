@@ -1,6 +1,6 @@
 ---
 title: 'i18nとは？'
-date: 2023-03-18T01:17:10+09:00
+date: 2023-04-07T00:42:02+09:00
 tags: ["YAMAHA", "AG03", "ノイズ"]
 draft: false
 cover:
