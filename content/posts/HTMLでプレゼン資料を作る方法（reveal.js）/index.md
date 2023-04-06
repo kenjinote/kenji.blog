@@ -4,7 +4,7 @@ date: 2023-04-06T23:23:46+09:00
 tags: ["HTML", "reveal.js", "プレゼン"]
 draft: false
 cover:
-  image: "img_1.png"
+  image: "img.png"
   relative: true
 ---
 
