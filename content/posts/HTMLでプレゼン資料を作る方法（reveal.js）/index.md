@@ -24,7 +24,7 @@ reveal.jsは、HTMLとMarkdownを使用したプレゼンテーション作成�
 
 一番簡単な使い方は、以下のページからZIPを丸ごとダウンロードして解凍する方法です。
 
-1. [https://revealjs.com/installation](https://revealjs.com/installation) を開き、リンクより‘master.zip‘をダウンロードする
+1. [https://revealjs.com/installation](https://revealjs.com/installation) を開き、リンクより`master.zip`をダウンロードする
 2. 解凍したフォルダ内のindex.htmlをブラウザで開く
 3. index.htmlを書き換えて、自分のプレゼン資料を作成する
 
