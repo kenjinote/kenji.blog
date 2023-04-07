@@ -10,12 +10,17 @@ cover:
 
 # ビルド環境の準備
 
-- Perl
+- **Perl**
+
   [https://strawberryperl.com/](https://strawberryperl.com/)から`strawberry-perl-5.32.1.1-64bit.msi`をダウンロードする。バージョンは最新でOKと思います。
-- NASM
+
+- **NASM**
+
   [https://www.nasm.us/](https://www.nasm.us/)の`Download`から`2.16.01/nasm-2.16.01-win64.zip`をダウンロードする。バージョンはrc以外の最新でOKと思います。
 　インストール後はNASMがインストールされたフォルダーを環境変数PATHに登録する必要があります。
-- Visual Studio 2022 または Build Tools for Visual Studio 2022
+
+- **Visual Studio 2022** または **Build Tools for Visual Studio 2022**
+
   [https://visualstudio.microsoft.com/ja/downloads/](https://visualstudio.microsoft.com/ja/downloads/)から`Visual Studio 2022 Community`または`Build Tools for Visual Studio 2022`をインストールする。
   
 # WindowsにおけるOpenSSLのビルド手順
