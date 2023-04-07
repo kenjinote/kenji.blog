@@ -8,6 +8,14 @@ cover:
   relative: true
 ---
 
+# OpenSSLとは
+
+暗号化通信をおこなう上で必要な処理を提供するオープンソースライブラリです。
+
+プログラムから使うには、C言語ソースコードが公開されているので、ビルドしてライブラリを作成する必要があります。
+
+以下ではビルド手順を紹介します。
+
 # ビルド環境の準備
 
 - **Perl**
@@ -52,3 +60,6 @@ nmake install
 成功した場合は`C:\Program Files\OpenSSL`にOpenSSLがインストールされます。
 
 以上
+
+# 参考
+[https://ja.wikipedia.org/wiki/OpenSSL](https://ja.wikipedia.org/wiki/OpenSSL)
