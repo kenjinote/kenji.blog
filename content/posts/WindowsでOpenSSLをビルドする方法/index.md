@@ -44,4 +44,6 @@ nmake test
 nmake install
 ```
 
+成功した場合は`C:\Program Files\OpenSSL`にOpenSSLがインストールされます。
+
 以上
