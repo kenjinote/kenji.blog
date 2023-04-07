@@ -26,7 +26,7 @@ cover:
 # WindowsにおけるOpenSSLのビルド手順
 
 1. [https://www.openssl.org/source/](https://www.openssl.org/source/)から`openssl-3.1.0.tar.gz`をダウンロードして解凍する。解凍できない場合は、コマンドプロンプトで`tar -xzf openssl-3.1.0.tar.gz`を実行する。
-2. 管理者権限でコマンドプロンプトを起動する
+2. **管理者権限で**  コマンドプロンプトを起動する
 3. 解凍したフォルダを開く
 4. 下記のコマンドを実行する※`Community`の部分はインストールしたVisual Studioのバージョンに合わせて変更する
 ```
