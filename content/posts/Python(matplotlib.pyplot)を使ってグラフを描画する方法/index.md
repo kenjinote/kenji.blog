@@ -22,15 +22,15 @@ cover:
 import matplotlib.pyplot as plt
 import numpy as np
 x = np.linspace(0, 2*np.pi, 500)
-plt.plot(x,np.sin(x))
-plt.xlabel('x')
-plt.ylabel('y')
+plt.plot(x, np.sin(x), label="sin curve")
+plt.plot(x, np.cos(x), label="cos curve")
+plt.legend() # 凡例の表示
 plt.show()
 ```
 
 # 実行結果
 
-![img](img.png)
+![img.png](img.png)
 
 # 参考
 
