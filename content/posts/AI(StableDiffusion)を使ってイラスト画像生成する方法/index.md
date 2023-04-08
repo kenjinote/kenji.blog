@@ -51,8 +51,10 @@ image
 
 ここで使用した`Prompt`は、[https://huggingface.co/gsdf/Counterfeit-V2.5](https://huggingface.co/gsdf/Counterfeit-V2.5)の`Prompt`を参考にしています。
 
-## 生成結果
+## 生成結果(いくつか)
 ![img_1.png](img_1.png)
+
+![img_3.png](img_3.png)
 
 ## 参考
 
