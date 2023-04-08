@@ -4,7 +4,7 @@ date: 2023-04-09T02:50:30+09:00
 tags: ["salesforce", "soql", "日付", "集計"]
 draft: false
 cover:
-  image: "img_1.png"
+  image: "img.png"
   relative: true
 ---
 
