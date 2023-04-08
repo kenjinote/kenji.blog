@@ -56,6 +56,8 @@ image
 
 ![img_3.png](img_3.png)
 
+![img_4.png](img_4.png)
+
 ## 参考
 
 - [https://huggingface.co/gsdf/Counterfeit-V2.5](https://huggingface.co/gsdf/Counterfeit-V2.5)
