@@ -33,21 +33,25 @@ ACCESS_TOKEN_SECRET = 'pUv81U9GVzZirz5g4AxZPHAJ4GpSXnBo8GUcZ1egtjw9q'
 ```
 import tweepy
 ```
-4. 下記のコードを貼り付けて実行
+4. 下記のコードを貼り付けて実行(API v1.1)
 ```
 auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
-```
-
-5. Tweetする(下記のコードを実行)
-```
 api.update_status("hello")
 ```
 →`hello`というツイートが投稿される
+
+5. 下記のコードを貼り付けて実行(API v2.0)
+```
+client = tweepy.Client(consumer_key=API_KEY, consumer_secret=API_SECRET, access_token=ACCESS_TOKEN, access_token_secret=ACCESS_TOKEN_SECRET)
+client.create_tweet(text='hello v2')
+```
+→`hello v2`というツイートが投稿される
 
 以上
 
 # 参考
 - [【2021年4月時点】Twitter APIの利用申請を使用用途の例文とスクリーンショット付きで徹底解説](https://bloomtectec.com/twitter-api-application-procedure/)
 - [【面倒な設定不要！】Twitter APIのお試し環境ならGoogle Colaboratoryがオススメ【ソースコードも共有します】](https://bloomtectec.com/use-twitter-api-in-google-colab/)
+- [【Tweepy】Twitter API v2：ツイート、返信（リプライ）、投票付きツイート、メディア付きツイート（v1.1）[Python]](https://3pysci.com/tweepy-28/)
