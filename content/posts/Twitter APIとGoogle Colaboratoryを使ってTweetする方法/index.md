@@ -22,7 +22,7 @@ Twitter API の取得方法は参考のサイトを参照してください。
 
 1. [https://colab.research.google.com/](https://colab.research.google.com/) にアクセス
 2. 「ファイル」→「ノートブックを新規作成」を選択
-3. 下記のコードを貼り付けて実行
+3. 下記のコードを貼り付けて実行（実際の各IDは取得したものを使ってください）
 ```
 API_KEY = '9Smu2f2RoLqbVQHQq6n79Z2JW'
 API_SECRET = 'uGVRIkLL2l8sRyPv2Lr4mXxXppnQF1isMoRnvktcXCtFgAK2R8'
