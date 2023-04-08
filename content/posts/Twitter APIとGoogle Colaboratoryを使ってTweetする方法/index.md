@@ -18,7 +18,7 @@ cover:
 
 Twitter API の取得方法は参考のサイトを参照してください。
 
-# サブタイトル
+# APIを使ってツイートする手順
 
 1. [https://colab.research.google.com/](https://colab.research.google.com/) にアクセス
 2. 「ファイル」→「ノートブックを新規作成」を選択
@@ -40,10 +40,11 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
 ```
 
-# Tweetする
+5. Tweetする(下記のコードを実行)
 ```
 api.update_status("hello")
 ```
+→`hello`というツイートが投稿される
 
 以上
 
