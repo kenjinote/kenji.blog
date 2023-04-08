@@ -2,9 +2,9 @@
 title: 'macにCocoaPodsをインストールする方法'
 date: 2023-04-09T03:25:54+09:00
 tags: ["mac", "CocoaPods", "macOS", "xcode"]
-draft: true
+draft: false
 cover:
-  image: "img.png"
+  image: "img_1.png"
   relative: true
 ---
 
