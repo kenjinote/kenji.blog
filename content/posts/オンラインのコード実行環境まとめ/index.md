@@ -11,23 +11,40 @@ cover:
 ## Python
 
 - [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb)
-- [Python Tutor](http://pythontutor.com/visualize.html#mode=edit)
-- [OnlineGDB](https://www.onlinegdb.com/online_python_compiler)
-- [Programiz](https://www.programiz.com/python-programming/online-compiler/)
-- [Coding Ground](https://www.tutorialspoint.com/execute_python_online.php)
 
 ## Rust
 
 - [Rust Playground](https://play.rust-lang.org/?version=stable&mode=debug&edition=2021)
-- [Ideone.com](https://ideone.com/)
 
 ## JavaScript
 
-- [paiza.IO](https://paiza.io/projects/CGAcQLfW-IOXYy8Dq2OHBw?locale=ja-jp)
-- [JavaScript](https://www.onlinegdb.com/online_javascript_compiler)
-- [JSFiddle](https://jsfiddle.net/)
-- [OneCompiler](https://onecompiler.com/javascript)
+- [Javascript Playground](https://playcode.io/)
+
+## Java
+
+- [paiza.IO Online Java compiler](https://paiza.io/ja/projects/new?language=java)
+
+## Haskell
+
+- [Haskell Playground](https://play.haskell.org/)
+
+## Swift
+
+-[Online Swift Playground](https://online.swiftplayground.run/)
 
 ## C++
 - [C++ 14](https://www.onlinegdb.com/online_c++_compiler)
 
+## その他
+
+- [AWS Cloud9](https://aws.amazon.com/jp/cloud9/)
+
+Amazon AWSが提供するオンライン統合開発環境。Node.js、JavaScript、Python、PHP、Ruby、Go、C++ など 40 を超えるプログラミング言語用のツールがあらかじめパッケージ化されています。
+
+- [Visual Studio Code for the Web](https://vscode.dev/)
+
+Microsoftが提供するオンライン上の開発環境。ただし、コンパイルが必要な言語は実行やデバッグをすることできない。
+
+- [paiza.IO](https://paiza.io/projects/CGAcQLfW-IOXYy8Dq2OHBw?locale=ja-jp)
+
+C,C++,Java,Ruby,Python,PHP,Perlなど 主要24言語に対応したオンライン実行環境。
