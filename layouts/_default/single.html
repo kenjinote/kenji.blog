@@ -65,6 +65,8 @@
         {{- partial "newsletter_sub_form.html"}}
       </div>
     {{- end }}
+
+    {{- partial "post_footer.html" . }}
   </footer>
 
   {{- if not (.Param "noComments") }}
