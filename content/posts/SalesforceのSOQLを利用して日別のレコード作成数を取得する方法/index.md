@@ -1,5 +1,5 @@
 ---
-title: 'SOQLで日ごとの作成されたレコード数を取得する'
+title: 'SalesforceのSOQLを利用して日別のレコード作成数を取得する方法'
 date: 2023-04-09T02:50:30+09:00
 tags: ["salesforce", "soql", "日付", "集計"]
 draft: false
@@ -8,7 +8,7 @@ cover:
   relative: true
 ---
 
-# SOQLで日ごとの作成されたレコード数を取得する
+# SalesforceのSOQLを利用して日別のレコード作成数を取得する方法
 
 1. 開発者コンソールを開く
 2. `Query Editor`タブを開く
