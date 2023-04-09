@@ -8,7 +8,7 @@ cover:
   relative: true
 ---
 
-# SOQLで日ごとの作成レコード数を取得する
+# SOQLで日ごとの作成されたレコード数を取得する
 
 1. 開発者コンソールを開く
 2. `Query Editor`タブを開く
