@@ -8,7 +8,7 @@ cover:
   relative: true
 ---
 
-HUGOではデフォルトでは、記事中にHTMLタグの使用ができなくなっていますが、config.tomlに下記の記述をするとできるようになります。
+HUGOのデフォルトでは記事中のHTMLタグの使用ができなくなっていますが、config.tomlに下記の記述をするとできるようになります。
 
 ```toml
 [markup.goldmark.renderer]
