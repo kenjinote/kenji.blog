@@ -10,7 +10,14 @@ cover:
 
 ## Python
 
-- [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb)
+- [Google Colaboratory](https://colab.research.google.com/#create=true)
+
+Google Colaboratory（コラボラトリー）とは、オンライン上で実行可能なPythonの実行環境。
+
+- GPUの利用も可能。
+- Colab ノートブックを使用すると、実行可能コードとリッチテキスト（画像、HTML、LaTeX なども可）を 1 つのドキュメントで記述可能。
+
+Jupyter Notebookをベースにしている。
 
 ## Rust
 
@@ -30,7 +37,7 @@ cover:
 
 ## Swift
 
--[Online Swift Playground](https://online.swiftplayground.run/)
+- [Online Swift Playground](https://online.swiftplayground.run/)
 
 ## C++
 - [C++ 14](https://www.onlinegdb.com/online_c++_compiler)
@@ -48,3 +55,11 @@ Microsoftが提供するオンライン上の開発環境。ただし、コン�
 - [paiza.IO](https://paiza.io/projects/CGAcQLfW-IOXYy8Dq2OHBw?locale=ja-jp)
 
 C,C++,Java,Ruby,Python,PHP,Perlなど 主要24言語に対応したオンライン実行環境。
+
+- [CodePen](https://codepen.io/)
+
+HTML,CSS,JavaScriptのオンライン実行環境。
+
+- [codeanywhere](https://codeanywhere.com/)
+
+オンラインIDE。コードの共有やチャットができる。
