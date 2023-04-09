@@ -24,6 +24,9 @@ cover:
 
 ※2乗以上の要素をfalseの対象としているのは、2乗より小さい数についてはすでに処理済み(列挙が完了している)であるためです。
 
+![](Animation_Sieb_des_Eratosthenes.gif)
+
+
 ## Rustでの実装
 
 ```
