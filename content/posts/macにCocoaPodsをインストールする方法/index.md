@@ -22,7 +22,9 @@ ERROR:  Error installing cocoapods:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-以下、出力
+<details>
+<summary>出力</summary>
+
 ```
 ==> Checking for `sudo` access (which may request your password)...
 ==> This script will install:
@@ -422,9 +424,13 @@ No analytics data has been sent yet (nor will any be during this install run).
     https://docs.brew.sh
 ```
 
+</details>
+
 4. `brew install cocoapods`を実行
 
-以下、出力
+<details>
+  <summary>出力</summary>
+
 ```
 Warning: Treating cocoapods as a formula. For the cask, use homebrew/cask/cocoapods
 ==> Fetching dependencies for cocoapods: libyaml, ca-certificates, openssl@1.1, readline and ruby
@@ -488,6 +494,8 @@ Warning: Treating cocoapods as a formula. For the cask, use homebrew/cask/cocoap
 Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
 Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 ```
+
+</details>
 
 5. `pod --version`を実行
 
