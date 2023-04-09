@@ -1,5 +1,5 @@
 ---
-title: 'SOQLで日ごとの作成レコード数を取得する'
+title: 'SOQLで日ごとの作成されたレコード数を取得する'
 date: 2023-04-09T02:50:30+09:00
 tags: ["salesforce", "soql", "日付", "集計"]
 draft: false
