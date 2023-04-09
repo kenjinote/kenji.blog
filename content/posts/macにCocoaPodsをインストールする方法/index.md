@@ -12,11 +12,18 @@ cover:
 1. ターミナルを開く
 2. `sudo gem install cocoapods`を実行
 →なぜか下記のようなエラーメッセージが出てインストールに失敗した。
+
+<details>
+  <summary>出力</summary>
+
 ```
 ERROR:  Error installing cocoapods:
 	The last version of activesupport (>= 5.0, < 8) to support your Ruby & RubyGems was 6.1.7.3. Try installing it with `gem install activesupport -v 6.1.7.3` and then running the current command again
 	activesupport requires Ruby version >= 2.7.0. The current ruby version is 2.6.10.210.
 ```
+
+</details>
+
 3. 下記のコマンドを実行
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
