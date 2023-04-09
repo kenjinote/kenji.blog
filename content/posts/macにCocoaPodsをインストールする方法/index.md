@@ -24,7 +24,8 @@ ERROR:  Error installing cocoapods:
 
 </details>
 
-3. 下記のコマンドを実行
+3. そこでエラーメッセージをWeb検索して（以下「参考」を参照）、下記のコマンドを実行した
+
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -506,10 +507,14 @@ Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
 
 5. `pod --version`を実行
 
-以下、出力
+<details>
+  <summary>出力</summary>
+
 ```
 1.12.0
 ```
+
+</details>
 
 一応、うまく入ったようだ。
 
