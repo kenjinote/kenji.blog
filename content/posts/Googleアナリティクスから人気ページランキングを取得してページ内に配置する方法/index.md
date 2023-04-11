@@ -99,7 +99,7 @@ cover:
         border-collapse: separate;
         border-spacing: 8px 24px;
         width: 100%;
-        word-break: normal;
+        word-break: break-all;
 
         td {
             vertical-align: middle;
