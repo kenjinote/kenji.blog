@@ -14,8 +14,7 @@ cover:
 
 ## 動作イメージ
 
-|![img_1.png](img_1.png)|
-|:--|
+![img_1.png](img_1.png)
 
 ## 準備
 - サイトにGoogleアナリティクスを設定していること
