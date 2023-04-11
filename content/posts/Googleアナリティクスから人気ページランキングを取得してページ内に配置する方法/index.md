@@ -155,7 +155,7 @@ cover:
 
 - `layouts/_default/single.html`の`</footer>`の前の行に下記のコードを貼り付ける
 ```
-{{- partial "post_footer.html" . }}
+{{- partial "ranklet.html" . }}
 ```
 
 以上です。これでこのページ下のようににランキングが表示されます。
