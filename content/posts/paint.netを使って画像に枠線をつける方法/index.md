@@ -4,7 +4,7 @@ date: 2023-04-11T14:31:59+09:00
 tags: ["paint.net", "枠線", "画像"]
 draft: false
 cover:
-  image: "img.png"
+  image: "img_3.png"
   relative: true
 ---
 
