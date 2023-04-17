@@ -8,6 +8,10 @@ cover:
   relative:
 ---
 
+## wxWidgetsとは
+
+wxWidgetsは、Windows、Mac、Linux、Android、iOSなどのプラットフォームで動作するC++のGUIライブラリです。
+
 ## wxWidgetsのインストール
 
 1. https://www.wxwidgets.org/downloads/ を開いて`Windows Installer`をダウンロードします。
