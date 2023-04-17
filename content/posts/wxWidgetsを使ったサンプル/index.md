@@ -124,4 +124,7 @@ void MyFrame::OnHello(wxCommandEvent& event)
 サンプルプロジェクトを下記にあげています。
 [wxWidgetsSample](https://github.com/kenjinote/wxWidgetsSample)
 
+- [本家](https://www.wxwidgets.org)
+- [C++と wxWidgets を使ったゲーム](https://ken-ohwada.hatenadiary.org/entry/2022/07/14/165213)
+
 以上。
