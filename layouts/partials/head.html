@@ -75,7 +75,7 @@
 {{- /* Misc */}}
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
   {{- if site.GoogleAnalytics }}
-    {{ template "_internal/google_analytics_async.html" . }}
+    {{- partial "analytics" . -}}
   {{- end -}}
   {{- if site.Params.useCustomAnalytics }}
     {{- partialCached "custom_analytics.html" . "custom_analytics.html" }}
