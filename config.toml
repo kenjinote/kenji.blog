@@ -4,7 +4,7 @@ DefaultContentLanguage = "ja"
 timeZone = "Asia/Tokyo"
 title = "kenji.blog"
 theme = "PaperMod"
-googleAnalytics = "G-78K4K9QNFX"
+googleAnalytics = "G-7T00BV6PNK"
 pygmentsUseClasses = true
 
 [markup.goldmark.renderer]
