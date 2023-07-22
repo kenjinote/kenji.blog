@@ -17,7 +17,7 @@ cover:
 # 設定手順
 1. メニューの「File」>「Settings...」を開く  
    ![settings](./images/settings.png)
-2. 「HTML/XML」を選択した状態で「+」をクリック
+2. 「Editor」>「Live Template」>「HTML/XML」を選択した状態で「+」をクリック
 3. Live Templateを選択
 4. Abbreviationに「date」を入力
 5. Descriptionに「日付時刻を挿入する」を入力
