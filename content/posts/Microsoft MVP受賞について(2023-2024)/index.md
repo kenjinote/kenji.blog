@@ -17,8 +17,8 @@ cover:
 
 これまでの活動を振り返ると、以下のような活動を行ってきました。
 
-- [GitHub](https://githubcom/kenjinote/)でのコード公開
-- [ブログ](https://hack.jp)や[SNS(Twitter等)](https://twitter.com/kenjinote/)での技術情報の発信
+- [GitHub](https://github.com/kenjinote)でのコード公開
+- [ブログ](https://hack.jp)や[SNS(Twitter等)](https://twitter.com/kenjinote)での技術情報の発信
 - [MSDNフォーラム](https://social.msdn.microsoft.com/Forums/ja-JP/home)での投稿
 - マイクロ製品へのフィードバック
 
