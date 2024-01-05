@@ -1,0 +1,28 @@
+---
+title: 'おすすめ邦楽'
+date: 2024-01-06T04:11:01+09:00
+tags: ["邦楽", "音楽"]
+draft: false
+cover:
+  image: "img.png"
+  relative: true
+---
+
+# おすすめ洋楽
+
+1. チューリップ - 青春の影 
+{{<youtube k9UJs3TR_KU>}}
+2. イルカ - なごり雪 
+{{<youtube H2TR3oEA13o>}}
+3. 河島英五 - 酒と泪と男と女
+{{<youtube Uxy9Keo_KVc>}}
+4. Orangestar - Surges
+{{<youtube QvWsAIc5mO8>}}
+5. 竹内まりや - Plastic Love
+{{<youtube T_lC2O1oIew>}}
+6. RADWIMPS - 前前前世
+{{<youtube PDSkFeMVNFs>}}
+7. BEGIN - 島人ぬ宝
+{{<youtube 7iZ4-4EYNnk>}}
+8. ザ・ブルーハーツ - 情熱の薔薇
+{{<youtube -p0Yqcx53O8>}}
