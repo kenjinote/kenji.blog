@@ -24,5 +24,7 @@ cover:
 {{<youtube JGwWNGJdvx8>}}
 7. Maroon 5 - Sugar
 {{<youtube 09R8_2nJtjg>}}
+8. The Rose - Bette Midler
+{{<youtube CB4EgdpYlnk>}}
 
 
