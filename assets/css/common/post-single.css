@@ -409,6 +409,7 @@ h6:hover .anchor {
 .comments-separator {
     height: 3px;
     background-color: var(--tertiary);
+    border-radius: 3px;
 }
 
 .share-buttons {
