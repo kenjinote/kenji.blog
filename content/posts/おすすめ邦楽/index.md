@@ -26,3 +26,5 @@ cover:
 {{<youtube 7iZ4-4EYNnk>}}
 8. ザ・ブルーハーツ - 情熱の薔薇
 {{<youtube -p0Yqcx53O8>}}
+9. 荒井由実 - ルージュの伝言 
+{{<youtube MH-P4mXvDPE>}}
