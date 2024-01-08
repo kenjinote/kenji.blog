@@ -28,3 +28,5 @@ cover:
 {{<youtube -p0Yqcx53O8>}}
 9. 荒井由実 - ルージュの伝言 
 {{<youtube MH-P4mXvDPE>}}
+10. Begin - 海の声
+{{<youtube qV91xBo1Vxc>}}
