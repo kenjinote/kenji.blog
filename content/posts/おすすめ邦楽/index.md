@@ -30,3 +30,5 @@ cover:
 {{<youtube MH-P4mXvDPE>}}
 10. Begin - 海の声
 {{<youtube qV91xBo1Vxc>}}
+11. 荒井由実 - ひこうき雲
+{{<youtube 9HInQDjCCRc>}}
