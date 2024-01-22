@@ -18,7 +18,7 @@ pygmentsUseClasses = true
 
 [params.homeInfoParams]
     Title = "グッドバイ"
-    Content = "グッドバイは、kenji が運営する雑記ブログです。"
+    Content = "グッドバイは、kenji が運営する雑記ブログです。特にテーマを決めず普段考えたこと、気になって調べたこと等をつらつらと書き連ねていきます。"
 
 [[params.socialIcons]]
     name = "twitter"
