@@ -1,5 +1,5 @@
 ---
-title: 'おすすめ洋楽'
+title: '好きな洋楽'
 date: 2024-01-05T00:14:22+09:00
 tags: ["洋楽", "音楽"]
 draft: false
@@ -26,5 +26,5 @@ cover:
 {{<youtube 09R8_2nJtjg>}}
 8. The Rose - Bette Midler
 {{<youtube CB4EgdpYlnk>}}
-
-
+9. Basket Case - Green Day
+{{<youtube NUTGr5t3MoY>}}

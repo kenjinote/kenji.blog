@@ -1,5 +1,5 @@
 ---
-title: 'おすすめ邦楽'
+title: '好きな邦楽'
 date: 2024-01-06T04:11:01+09:00
 tags: ["邦楽", "音楽"]
 draft: false
@@ -28,3 +28,7 @@ cover:
 {{<youtube -p0Yqcx53O8>}}
 9. 荒井由実 - ルージュの伝言 
 {{<youtube MH-P4mXvDPE>}}
+10. Begin - 海の声
+{{<youtube qV91xBo1Vxc>}}
+11. 荒井由実 - ひこうき雲
+{{<youtube 9HInQDjCCRc>}}
