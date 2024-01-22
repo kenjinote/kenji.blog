@@ -16,12 +16,9 @@ pygmentsUseClasses = true
     ShowShareButtons = true
     ShowBreadCrumbs = false
 
-[params.label]
-    text = "🏠 Home"
-
 [params.homeInfoParams]
-    Title = "Hello world! 😊"
-    Content = "気になったことや技術的なトピックをほんの少しだけ調べて短めの記事にメモ代わりに投稿していきます。気楽に読んでいただければ幸いです。HUGOでPaperModというテーマを使っています。"
+    Title = "グッドバイ"
+    Content = "グッドバイは、kenji が運営する雑記ブログです。"
 
 [[params.socialIcons]]
     name = "twitter"
