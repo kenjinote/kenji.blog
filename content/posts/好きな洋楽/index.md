@@ -28,3 +28,5 @@ cover:
 {{<youtube CB4EgdpYlnk>}}
 9. Basket Case - Green Day
 {{<youtube NUTGr5t3MoY>}}
+10. Viva La VidaViva La Vida - Coldplay
+{{<youtube RF0dt08yzfg>}}
