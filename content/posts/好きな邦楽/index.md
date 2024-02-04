@@ -32,5 +32,5 @@ cover:
 {{<youtube qV91xBo1Vxc>}}
 11. 荒井由実 - ひこうき雲
 {{<youtube 9HInQDjCCRc>}}
-12. Love is Ove - 欧陽菲菲
+12. Love is Over - 欧陽菲菲
 {{<youtube T5Te_czLFCw>}}
