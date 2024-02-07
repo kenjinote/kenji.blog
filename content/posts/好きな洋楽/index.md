@@ -21,10 +21,12 @@ cover:
 5. Ed Sheeran - Shape of You
 {{<youtube JGwWNGJdvx8>}}
 6. Mark Ronson ft. Bruno Mars – Uptown Funk
-{{<youtube JGwWNGJdvx8>}}
+{{<youtube OPf0YbXqDm0>}}
 7. Maroon 5 - Sugar
 {{<youtube 09R8_2nJtjg>}}
 8. The Rose - Bette Midler
 {{<youtube CB4EgdpYlnk>}}
 9. Basket Case - Green Day
 {{<youtube NUTGr5t3MoY>}}
+10. Viva La VidaViva La Vida - Coldplay
+{{<youtube dvgZkm1xWPE>}}

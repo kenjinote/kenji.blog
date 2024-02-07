@@ -29,10 +29,6 @@ pygmentsUseClasses = true
     url = "https://github.com/kenjinote"
 
 [[params.socialIcons]]
-    name = "link"
-    url = "https://hack.jp"
-
-[[params.socialIcons]]
     name = "email"
     url = "mailto:kenji256@gmai.com"
 
