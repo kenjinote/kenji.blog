@@ -30,3 +30,5 @@ cover:
 {{<youtube NUTGr5t3MoY>}}
 10. Viva La VidaViva La Vida - Coldplay
 {{<youtube dvgZkm1xWPE>}}
+11. Maroon 5 - Memories (Lyrics)
+{{<youtube o2DXt11SMNI>}}
