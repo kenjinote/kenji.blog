@@ -3,7 +3,7 @@ title: '数学の未解決問題'
 date: 2024-03-02T22:57:36+09:00
 tags: ["数学","未解決問題"]
 math: true
-draft: false
+cover:
   image: "img.png"
   relative: true
 ---
