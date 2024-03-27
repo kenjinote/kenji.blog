@@ -258,7 +258,7 @@ h6:hover .anchor {
     font-family: var(--monospace);
 }
 .post-content .chroma code {
-    background-color: inherit;
+    /* background-color: inherit; */
     font-family: var(--monospace);
 }
 
