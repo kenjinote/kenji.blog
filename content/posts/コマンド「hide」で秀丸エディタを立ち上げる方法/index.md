@@ -4,7 +4,7 @@ date: 2024-03-29T23:45:37+09:00
 tags: ["コマンド", "秀丸エディタ", "レジストリ"]
 draft: false
 cover:
-  image: "img.png"
+  image: "img_2.png"
   relative: true
 ---
 
