@@ -20,4 +20,13 @@ cover:
 6. `Path`のデータに秀丸エディタの実行ファイルがあるフォルダのパスを設定します。私の環境では`"C:\Program Files (x86)\Hidemaru"`でした。
 7. これで`Winキー`+`Rキー`で表示される *ファイル名を指定して実行* で、`hide`というコマンドで秀丸エディタを立ち上げることができるようになります。また、コマンドプロンプトでは`start hide`というコマンドで秀丸エディタを立ち上げることができます。
 
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\hide.exe]
+@="\"C:\\Program Files (x86)\\Hidemaru\\Hidemaru.exe\""
+"Path"="\"C:\\Program Files (x86)\\Hidemaru\\\""
+```
+上記の内容を`.reg`ファイルに保存して実行すると、レジストリに設定が追加されます。
+
 ![img_1.png](img_1.png)
