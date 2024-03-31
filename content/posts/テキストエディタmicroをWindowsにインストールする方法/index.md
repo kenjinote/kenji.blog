@@ -34,18 +34,18 @@ zipファイルを解凍して、ファイルを一式任意のフォルダー�
 
 主な操作方法とショートカットキーは下記のとおりです。
 
-| キー   | アクション | 説明 | 
-| ------ | 
-| Ctrl+Q | Quit | ファイルを閉じる | 
-| Ctrl+S | Save | ファイルを保存 | 
-| Ctrl+O | OpenFile | ファイルを開く | 
-| Ctrl+A | SelectAll | 全選択 | 
-| Ctrl+X | Cut | 選択範囲切り取り | 
-| Ctrl+C | Copy | 選択範囲コピー | 
-| Ctrl+V | Paste | 貼り付け | 
-| Ctrl+Z | Undo | 元に戻す | 
-| Ctrl+Y | Redo | やり直し | 
-| Ctrl+E | CommandMode | エディタコマンド実行 | 
+| ショートカットキー | 操作 | 
+|--------|-----| 
+| Ctrl+Q | ファイルを閉じる | 
+| Ctrl+S | ファイルを保存 | 
+| Ctrl+O | ファイルを開く | 
+| Ctrl+A | 全選択 | 
+| Ctrl+X | 選択範囲切り取り | 
+| Ctrl+C | 選択範囲コピー | 
+| Ctrl+V | 貼り付け | 
+| Ctrl+Z | 元に戻す | 
+| Ctrl+Y | やり直し | 
+| Ctrl+E | エディタコマンド実行 | 
 
 ## 参考
 - [micro](https://micro-editor.github.io/)
