@@ -13,6 +13,7 @@ https://sourceforge.net/projects/nano-for-windows/
 
 上記のリンクを開き、`Download`をクリックして`GNU-Nano_Win32(static).zip`をダウンロードする。
 zipファイルを解凍して、任意のフォルダに`nano.exe`を配置する。
+※日本語の入力には対応していない。(2024/03/31現在)
 
 ## 環境変数を設定する
 コマンドプロンプトから`nano.exe`を使うためには、環境変数を設定する必要がある。
