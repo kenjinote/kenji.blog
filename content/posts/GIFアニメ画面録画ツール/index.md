@@ -21,7 +21,7 @@ cover:
 ## ダウンロード
 [ダウンロード](https://github.com/kenjinote/GifScreenRecorder/releases)
 
-`GIFScreenRecorder.exe` のリンククリックしてダウンロードしてください。
+上記のリンクを開き、`GIFScreenRecorder.exe` のリンククリックして実行ファイルをダウンロードしてください。
 
 ## ソースコード
 [GitHub](https://github.com/kenjinote/GifScreenRecorder)
