@@ -7,6 +7,7 @@ cover:
   image: "img.png"
   relative: true
 ---
+
 ## Snipping Toolとは
 Snipping Toolは、Windowsに標準搭載されているスクリーンショットツールです。画面の一部を切り取って保存したり、画面全体をキャプチャーしたり、録画したりすることができます。
 
