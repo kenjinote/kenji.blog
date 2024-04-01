@@ -13,6 +13,8 @@ Snipping Toolは、Windowsに標準搭載されているスクリーンショッ
 
 ## Snipping Toolの起動方法
 
+主に以下3つの方法で起動できます。
+
 - `Winキー`を押して、`Snipping Tool`と入力して`Enterキー`を押す。
 - `Winキー` + `Shift` + `Sキー`を押す。
 - `Winキー` + `Rキー`を押して、`snippingtool`と入力して`Enterキー`を押す。
