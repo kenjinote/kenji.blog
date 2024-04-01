@@ -3,6 +3,7 @@ title: 'バースデイパラドックスとは'
 date: 2024-04-02T01:20:50+09:00
 tags: ["数学", "パラドックス"]
 draft: false
+math: true
 cover:
   image: "img.png"
   relative: true
