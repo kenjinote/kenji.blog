@@ -19,6 +19,9 @@ cover:
 
 1. Ctrl + Shift + Esc キーを押してタスクマネージャーを起動します。
 2. プロセスタブを選択します。
+
+![img_3.png](img_3.png)
+
 3. `explorer.exe` を選択し、Deleteキーを押下し、`explorer.exe を終了しますか？`と聞かれるので、`プロセスの終了`を選択します。
 
 ![img_1.png](img_1.png)
