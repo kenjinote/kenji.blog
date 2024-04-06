@@ -7,8 +7,6 @@ cover:
   image: "img.png"
   relative: true
 ---
-# Webページの自動更新ブラウザ拡張(Edgeアドオン)
-
 Webページを自動更新するEdgeのブラウザ拡張機能「タブの自動更新」を紹介します。
 
 ## タブの自動更新のインストール
