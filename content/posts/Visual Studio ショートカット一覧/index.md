@@ -20,7 +20,8 @@ Visual Studio のショートカットは、キーボードの操作を覚える
 | F2                               | ブックマークにジャンプ            |
 | Ctrl + F2                        | ブックマークを登録              |
 | Ctrl + Shif + F2                 | すべてのブックマークを削除          |
-| F5                               | ビルドして実行                |
+| F5                               | ビルドして実行(デバッグ実行）        |
+| Ctrl + F5                        | ビルドして実行(デバッグなし）        |
 | F7                               | ビルド                    |
 | F9                               | ブレイクポイントをカーソル行に付加      |
 | Ctrl + F9                        | カーソル行のブレークポイントを無効にする   |
@@ -42,6 +43,7 @@ Visual Studio のショートカットは、キーボードの操作を覚える
 | Ctrl + H                         | 置換                     |
 | Ctrl + Shift + F                 | グローバル置換                |
 | Ctrl + Tab                       | ソースコード/ウィンドウ表示切り替え     |
+| Ctrl + Space                     | 単語補完                   |
 
 ## 参考
 - [Visual Studio のキーボード ショートカット](https://learn.microsoft.com/ja-jp/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022&utm_source=vshelp&wt.mc_id=visualstudio_inproduct_shortcuts_csaapp)
