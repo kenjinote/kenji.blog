@@ -38,6 +38,7 @@ Visual Studio のショートカットは、キーボードの操作を覚える
 | Ctrl + Shift + V                 | クリップボード履歴の表示           |
 | Ctrl + K 後 Ctrl + C              | カーソル行をコメントアウト          |
 | Ctrl + K 後 Ctrl + U              | カーソル行のコメントアウト解除        |
+| Ctrl + G                         | 行番号を指定してジャンプ           |
 | Ctrl + F                         | 検索                     |
 | Ctrl + Shift + F                 | グローバル検索                |
 | Ctrl + H                         | 置換                     |
