@@ -38,6 +38,6 @@ Visual Studio のショートカットは、キーボードの操作を覚える
 | Ctrl + Tab                       | ソースコード/ウィンドウ表示切り替え     |
 
 ## 参考
-- (Visual Studio のキーボード ショートカット)[https://learn.microsoft.com/ja-jp/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022&utm_source=vshelp&wt.mc_id=visualstudio_inproduct_shortcuts_csaapp]
+- [Visual Studio のキーボード ショートカット](https://learn.microsoft.com/ja-jp/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022&utm_source=vshelp&wt.mc_id=visualstudio_inproduct_shortcuts_csaapp)
 
 ![img_1.png](img_1.png)
