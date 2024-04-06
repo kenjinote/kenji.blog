@@ -1,0 +1,43 @@
+---
+title: 'Visual Studio ショートカット一覧'
+date: 2024-04-06T11:27:37+09:00
+tags: ["Visual Studio", "ショートカット"]
+draft: false
+cover:
+  image: "img.png"
+  relative: true
+---
+# Visual Studio ショートカット一覧
+
+個人的によく使っている Visual Studio のショートカット一覧を紹介します。
+Visual Studio のショートカットは、キーボードの操作を覚えることで、効率的に開発作業を行うことができます。ぜひ活用してみてください。
+
+※Visual Studio 2022 で確認しています。
+
+| ショートカットキー                        | 説明                     |
+|----------------------------------|------------------------|
+| F1                               | 選択した単語のヘルプを表示          |
+| F5                               | ビルドして実行                |
+| F7                               | ビルド                    |
+| F9                               | ブレイクポイントをカーソル行に付加      |
+| Ctrl + F9                        | カーソル行のブレークポイントを無効にする   |
+| Sift +Ctrl + F9                  | すべてのブレークポイントを削除        |
+| F10                              | ステップオーバー               |
+| F11                              | ステップイン                 |
+| F12                              | 定義にジャンプ                |
+| Ctrl + D                         | カーソル行を複製               |
+| Ctrl + X                         | 選択範囲がない場合、行の切り取り       |
+| Ctrl + Shift + ]                 | カーソル部分のカッコに対応するカッコまで選択 |
+| Alt + (↑ or ↓)                   | カーソル行を上下に移動する          |
+| Alt + Shift + (↑ or ↓ or → or ←) | マルチカーソル/箱型選択          |
+| Ctrl + Tab                       | ソースコード/ウィンドウ表示切り替え     |
+| Ctrl + Shift + V                 | クリップボード履歴の表示           |
+| Ctrl + K 後 Ctrl + C              | カーソル行をコメントアウト          |
+| Ctrl + K 後 Ctrl + U              | カーソル行のコメントアウト解除        |
+| Ctrl + Shift + F                 | グローバル検索                |
+| Ctrl + Tab                       | ソースコード/ウィンドウ表示切り替え     |
+
+## 参考
+- (Visual Studio のキーボード ショートカット)[https://learn.microsoft.com/ja-jp/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022&utm_source=vshelp&wt.mc_id=visualstudio_inproduct_shortcuts_csaapp]
+
+![img_1.png](img_1.png)
