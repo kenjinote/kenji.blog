@@ -9,7 +9,7 @@ cover:
 ---
 # Visual Studio ショートカット一覧
 
-個人的によく使っている Visual Studio のショートカット一覧を紹介します。
+個人的によく使っている Visual Studio のショートカットを一覧にしました。
 Visual Studio のショートカットは、キーボードの操作を覚えることで、効率的に開発作業を行うことができます。ぜひ活用してみてください。
 
 ※Visual Studio 2022 で確認しています。
@@ -45,6 +45,7 @@ Visual Studio のショートカットは、キーボードの操作を覚える
 | Ctrl + Shift + F                 | グローバル置換                |
 | Ctrl + Tab                       | ソースコード/ウィンドウ表示切り替え     |
 | Ctrl + Space                     | 単語補完                   |
+| Ctrl + 0 後 Ctrl + G              | Git コミットウィンドウを開く       |
 
 ## 参考
 - [Visual Studio のキーボード ショートカット](https://learn.microsoft.com/ja-jp/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022&utm_source=vshelp&wt.mc_id=visualstudio_inproduct_shortcuts_csaapp)
