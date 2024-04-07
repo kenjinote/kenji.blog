@@ -1,12 +1,13 @@
 ---
 title: 'Visual Studio ショートカット一覧'
 date: 2024-04-06T11:27:37+09:00
-tags: ["Visual Studio", "ショートカット"]
+tags: [ "Visual Studio", "ショートカット" ]
 draft: false
 cover:
   image: "img.png"
   relative: true
 ---
+
 # Visual Studio ショートカット一覧
 
 個人的によく使っている Visual Studio のショートカットを一覧にしました。
@@ -15,7 +16,7 @@ Visual Studio のショートカットは、キーボードの操作を覚える
 ※Visual Studio 2022 で確認しています。
 
 | ショートカットキー                   | 説明                       |
-|:-----------------------------|:--------------------------|
+|-----------------------------|--------------------------|
 | `F1`                        | 選択した単語のヘルプを表示            |
 | `F2`                        | ブックマークにジャンプ              |
 | `Ctrl` + `F2`               | ブックマークを登録                |
@@ -50,6 +51,7 @@ Visual Studio のショートカットは、キーボードの操作を覚える
 | `Ctrl` + `0` 後 `Ctrl` + `G` | Git コミットウィンドウを開く         |
 
 ## 参考
+
 - [Visual Studio のキーボード ショートカット](https://learn.microsoft.com/ja-jp/visualstudio/ide/default-keyboard-shortcuts-in-visual-studio?view=vs-2022&utm_source=vshelp&wt.mc_id=visualstudio_inproduct_shortcuts_csaapp)
 
 ![img_1.png](img_1.png)
