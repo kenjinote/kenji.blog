@@ -34,3 +34,5 @@ cover:
 {{<youtube 9HInQDjCCRc>}}
 12. Love is Over - 欧陽菲菲
 {{<youtube T5Te_czLFCw>}}
+13. クラムボン - 波よせて
+{{<youtube kfvZZKm3gA0>}}
