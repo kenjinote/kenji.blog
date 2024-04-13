@@ -32,3 +32,5 @@ cover:
 {{<youtube dvgZkm1xWPE>}}
 11. Maroon 5 - Memories (Lyrics)
 {{<youtube SlPhMPnQ58k>}}
+12. Dido - Thank You (Official Video)
+{{<youtube 1TO48Cnl66w>}}
