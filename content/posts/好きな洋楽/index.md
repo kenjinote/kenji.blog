@@ -34,3 +34,5 @@ cover:
 {{<youtube SlPhMPnQ58k>}}
 12. Dido - Thank You (Official Video)
 {{<youtube 1TO48Cnl66w>}}
+13. ボブ・ディラン - Blowin'The Wind(風に吹かれて)
+{{<youtube 7GDqvnGai50>}}
