@@ -39,6 +39,9 @@ curl qrenco.de/kenji.blog
 █████████████████████████████
 ```
 
+#### 参考
+- [qrenco.de](https://qrenco.de/)
+
 ### 方法2
 
 `api.qrserver.com` は画像を返してくれます。
@@ -49,3 +52,6 @@ curl -o qr.png "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=He
 
 - 出力結果
 ![](qr.png)
+
+#### 参考
+- [QR Code Generator](https://goqr.me/api/doc/create-qr-code/)
