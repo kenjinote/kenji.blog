@@ -2,7 +2,7 @@
 title: '生成AIについて'
 date: 2024-04-16T02:13:56+09:00
 tags: ["生成AI", "YouTube", "講義"]
-draft: fasle
+draft: false
 cover:
   image: "img.png"
   relative: true
