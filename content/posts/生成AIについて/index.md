@@ -17,4 +17,4 @@ cover:
 {{<youtube wz1-DOZoQt0}}
 
 - 「生成AI」(3) 松尾豊・東京大学大学院教授　2024.3.15
-  {{<youtube U9vhGvFxKu0}}
+{{<youtube U9vhGvFxKu0}}
