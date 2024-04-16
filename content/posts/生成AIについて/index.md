@@ -16,8 +16,8 @@ cover:
 
 - 「生成AI」(2) 酒井邦嘉・東京大学大学院教授　2023.10.11
 
-{{<youtube wz1-DOZoQt0}}
+{{<youtube wz1-DOZoQt0>}}
 
 - 「生成AI」(3) 松尾豊・東京大学大学院教授　2024.3.15
 
-{{<youtube U9vhGvFxKu0}}
+{{<youtube U9vhGvFxKu0>}}
