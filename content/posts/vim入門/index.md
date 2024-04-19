@@ -16,7 +16,7 @@ cover:
 
 [https://www.vim.org/download.php](https://www.vim.org/download.php)
 
-上記のサイトから、インストールしたいOSに合わせてモジュールをダウンロードおよびインストールする。
+上記のサイトから、インストールしたいOSに合わせてモジュールをダウンロードおよびインストールします。
 
 Windowsの場合は`gvim_X.X.X_x64_signed.exe`を選ぶとよいと思います。
 
