@@ -14,9 +14,13 @@ cover:
 
 ## ダウンロードとインストール
 
-[https://www.vim.org/download.php](https://www.vim.org/download.php)からダウンロードして、インストールできる
+[https://www.vim.org/download.php](https://www.vim.org/download.php)
 
-##  起動
+上記のサイトから、インストールしたいOSに合わせてモジュールをダウンロードおよびインストールする。
+
+Windowsの場合は`gvim_X.X.X_x64_signed.exe`を選ぶとよいと思います。
+
+##  起動方法
 
 Windowsの場合は環境変数に`vim.exe`があるフォルダーをPathに登録しておく必要があります。
 
