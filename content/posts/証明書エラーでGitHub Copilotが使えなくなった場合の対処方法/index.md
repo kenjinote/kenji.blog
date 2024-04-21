@@ -2,7 +2,7 @@
 title: '証明書エラーでGitHub Copilotが使えなくなった場合の対処方法'
 date: 2024-04-21T18:47:26+09:00
 tags: ["GitHub Copilot", ""]
-draft: true
+draft: false
 cover:
   image: "img.png"
   relative: true
