@@ -14,22 +14,13 @@ cover:
 [ERROR] [ghostText] [2024-04-21T04:06:46.900Z] Error on ghost text request: (FetchError) unable to verify the first certificate
 [ERROR] [certificates] [2024-04-21T04:06:46.901Z] Your current Copilot license doesn't support proxy connections with custom certificates. Please visit https://gh.io/copilot-network-errors to learn more. Original cause: {"type":"system","_name":"FetchError","code":"UNABLE_TO_VERIFY_LEAF_SIGNATURE"}
 ```
+## 対処方法
+ESETの不具合のようです。ESETの詳細設定で「SSL/TLSを有効にする」をOFFにする。
+![img_1.png](img_1.png)
 
-コマンドプロンプトで下記のコマンドを実行
+## 参考
 
-```
-npm config set strict-ssl false
-```
+AWSのCSKでも同じエラーが発生しているようです。
 
-```
-npm i win-ca
-```
-
-```
-npm config set strict-ssl true
-```
-
-## 参考サイト
-
-- [Error: UNABLE_TO_VERIFY_LEAF_SIGNATURE Phonegap Installation](https://stackoverflow.com/questions/20747817/error-unable-to-verify-leaf-signature-phonegap-installation)
+- [AWS CDK bootstrap certificate warning-error](https://repost.aws/questions/QU2H94hF04SIuEVejK_a1mtQ/aws-cdk-bootstrap-certificate-warning-error)
 
