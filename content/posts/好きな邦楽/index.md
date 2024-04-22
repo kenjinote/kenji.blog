@@ -38,3 +38,5 @@ cover:
 {{<youtube kfvZZKm3gA0>}}
 14. RADWIMPS - スパークル
 {{<youtube a2GujJZfXpg>}}
+15. かりゆし58 - アンマー
+{{<youtube 4_OKI91h3tw>}}
