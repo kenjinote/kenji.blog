@@ -40,3 +40,5 @@ cover:
 {{<youtube a2GujJZfXpg>}}
 15. かりゆし58 - アンマー
 {{<youtube 4_OKI91h3tw>}}
+16. かりゆし58 - オワリはじまり
+{{<youtube Vb50GwvHH14>}}
