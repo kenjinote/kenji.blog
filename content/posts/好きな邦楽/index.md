@@ -42,3 +42,5 @@ cover:
 {{<youtube 4_OKI91h3tw>}}
 16. かりゆし58 - オワリはじまり
 {{<youtube Vb50GwvHH14>}}
+17. テレサ・テン - 時の流れに身をまかせ
+{{<youtube 8g9B-iWsO-o}}
