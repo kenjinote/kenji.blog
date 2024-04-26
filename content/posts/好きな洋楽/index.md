@@ -22,13 +22,13 @@ cover:
 {{<youtube JGwWNGJdvx8>}}
 6. Mark Ronson ft. Bruno Mars – Uptown Funk
 {{<youtube OPf0YbXqDm0>}}
-7. Maroon 5 - Sugar
+7. Sugar - Maroon 5
 {{<youtube 09R8_2nJtjg>}}
-8. The Rose - Bette Midler
+8. Bette Midler - The Rose 
 {{<youtube CB4EgdpYlnk>}}
-9. Basket Case - Green Day
+9. Green Day - Basket Case
 {{<youtube NUTGr5t3MoY>}}
-10. Viva La VidaViva La Vida - Coldplay
+10. Coldplay - Viva La VidaViva La Vida
 {{<youtube dvgZkm1xWPE>}}
 11. Maroon 5 - Memories (Lyrics)
 {{<youtube SlPhMPnQ58k>}}
