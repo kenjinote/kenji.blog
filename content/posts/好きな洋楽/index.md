@@ -36,3 +36,5 @@ cover:
 {{<youtube 1TO48Cnl66w>}}
 13. ボブ・ディラン - Blowin'The Wind(風に吹かれて)
 {{<youtube 7GDqvnGai50>}}
+14. Coldplay - Yellow
+{{<youtube yKNxeF4KMsY>}}
