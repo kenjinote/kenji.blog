@@ -8,8 +8,6 @@ cover:
   relative: true
 ---
 
-![img.png](img.png)
-
 ※Windows 11での設定手順となります。
 
 1. コントロールパネルを開く
