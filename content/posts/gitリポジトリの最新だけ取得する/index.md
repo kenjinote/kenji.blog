@@ -4,7 +4,7 @@ date: 2024-04-27T02:54:12+09:00
 tags: ["git", "リポジトリ", "コマンド"]
 draft: false
 cover:
-  image: "/git.png"
+  image: "img.png"
   relative: true
 ---
 
