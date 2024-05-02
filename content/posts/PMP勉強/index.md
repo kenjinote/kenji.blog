@@ -67,6 +67,9 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - メンタリング
 - コーチング
 - トレーニング
+- ダグラス・マクレガーのXY理論
+- SWOT分析 Strength（強味）、Weakness（弱み）、Opportunity（機会）、Threat（脅威）
+
 
 ## 参考
 - [スクラムガイド](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Japanese.pdf)
