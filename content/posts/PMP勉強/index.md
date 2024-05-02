@@ -62,7 +62,6 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - レトロスペクティブ
 - バーチャル・チーム
 - プロジェクト憲章
-- 
 - コンフリクト(6つの対処法、対峙／問題解決、協力、妥協、鎮静／適応、強制、撤退／回避)
 - バリュー・ストリーム・マッピング
 - メンタリング
@@ -70,7 +69,7 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - トレーニング
 - ダグラス・マクレガーのXY理論
 - SWOT分析 Strength（強味）、Weakness（弱み）、Opportunity（機会）、Threat（脅威）
-- マネジメント・バイ・ウォークアラウンド
+- SECIモデル（Socialization共同化、Externalization表出化、Combination連結化、Internalization内面化）
 
 ## 参考
 - [スクラムガイド](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Japanese.pdf)
