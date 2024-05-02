@@ -43,12 +43,13 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - リーン開発
 - カンバン
 - バリュー・チェーン
-- EV
-- PV
-- SPI
-- CPI
-- EVM
-- PV
+- AC (Actual Cost)
+- EV (Earned Value)
+- PV (Planned Value)
+- EVA (Earned Value Analysis)
+- SPI (SPI: Schedule Performance Index = EV / PV)
+- CPI(CPI: Cost Performance Index = EV / AC)
+- EVM (Earned Value Method)
 - BAC（完了時予算）
 - ETC（Estimate To Complete）
 - EAC（Estimate At Completion）
@@ -70,6 +71,7 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - ダグラス・マクレガーのXY理論
 - SWOT分析 Strength（強味）、Weakness（弱み）、Opportunity（機会）、Threat（脅威）
 - SECIモデル（Socialization共同化、Externalization表出化、Combination連結化、Internalization内面化）
+- 
 
 ## 参考
 - [スクラムガイド](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Japanese.pdf)
