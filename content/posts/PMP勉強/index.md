@@ -74,7 +74,7 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - 
 
 ## 参考
-- [スクラムガイド](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Japanese.pdf)
+- [スクラムガイド(Ken Schwaber & Jeff Sutherland)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Japanese.pdf)
 
 
 
