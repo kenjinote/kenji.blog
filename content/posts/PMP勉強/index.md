@@ -96,6 +96,9 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - 100点法
 - MSCW(Must, Should, Could, Would)方式
 - トレーサビリティ・マトリックス
+- WBS辞書
+- ベロシティ（各イテレーションで達成したストーリーポイント数）
+- 関与度マトリックス(不認識、抵抗、中立、支持、指導)
 
 ## 参考
 - [スクラムガイド(Ken Schwaber & Jeff Sutherland)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Japanese.pdf)
