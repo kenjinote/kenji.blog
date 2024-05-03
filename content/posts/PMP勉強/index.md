@@ -81,6 +81,11 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - 費用便益分析
 - スプリント・レビュー
 - リリース・マネジメント
+- RFI
+- RFP
+- 定額契約(FP: Fixed Price)
+- 時間材料契約(T&M: Time and Material)
+- 実費償還契約(CR: Cost Reimbursable)
 
 
 ## 参考
