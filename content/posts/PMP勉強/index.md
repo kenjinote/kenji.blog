@@ -49,7 +49,7 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - EVA (Earned Value Analysis)
 - SPI (SPI: Schedule Performance Index = EV / PV)
 - CPI(CPI: Cost Performance Index = EV / AC)
-- EVM (Earned Value Method)
+- EVM (Earned Value Method)　アーンドバリューマネジメント？
 - BAC（完了時予算）
 - ETC（Estimate To Complete）
 - EAC（Estimate At Completion）
@@ -86,7 +86,8 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - 定額契約(FP: Fixed Price)
 - 時間材料契約(T&M: Time and Material)
 - 実費償還契約(CR: Cost Reimbursable)
-
+- 定額インセンティブ・フィー (FPIF)
+- スコープ・クリープ
 
 ## 参考
 - [スクラムガイド(Ken Schwaber & Jeff Sutherland)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Japanese.pdf)
