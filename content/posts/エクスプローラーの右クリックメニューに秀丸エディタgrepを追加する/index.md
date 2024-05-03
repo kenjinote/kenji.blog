@@ -14,9 +14,9 @@ Window 10/11でエクスプローラーの右クリックメニューに秀丸�
 
 ## 手順
 
-1. 下記のリンクを開き、任意のフォルダに解凍する。
+1. 下記のリンクを開き、任意のフォルダに保存する。
 
-[https://gist.github.com/kenjinote/ff53a022574a2c6f4a2295dfc1ddc716/archive/03f204ff14d546b40bec548a2ac0b103df2b9b72.zip](https://gist.github.com/kenjinote/ff53a022574a2c6f4a2295dfc1ddc716/archive/03f204ff14d546b40bec548a2ac0b103df2b9b72.zip)
+[秀丸レジストリ登録.reg](秀丸レジストリ登録.reg)
 
 2. `秀丸レジストリ登録.reg`ファイルをダブルクリックしてレジストリに追加する。
 
