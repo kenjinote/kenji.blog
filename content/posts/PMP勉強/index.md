@@ -73,8 +73,8 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - SWOT分析 Strength（強味）、Weakness（弱み）、Opportunity（機会）、Threat（脅威）
 - SECIモデル（Socialization共同化、Externalization表出化、Combination連結化、Internalization内面化）
 - PDCA,PDSA
-- PESTLE
-- VUCA
+- PESTLE (Political政治, Economic経済, Social社会, Technological技術, Legal法, Environmental環境)
+- VUCA (変動性・不確実性・複雑性・曖昧性)
 - モンテカルロ法
 - デシジョン・ツリー分析
 - 期待金額価値（EMV）
