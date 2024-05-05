@@ -92,7 +92,7 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - マトリックス型
 - プロジェクト型
 - サーバント・リーダーシップ
-- タックマン・モデル
+- タックマン・モデル（成立期、動乱期、安定期、遂行期、解散期）
 - チーム憲章
 - プランニング・ポーカー(フィボナッチ数列)
 - レトロスペクティブ（振り返りの活動）
@@ -149,7 +149,11 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - インクリメント(増分の成果物)
 - レジリエンス／レジリエンシー
 - スチュワードシップ　誠実で信頼のできる振る舞いと責任のある行動（意思決定）
-- 
+- エスカレーション
+- KPT(Keep, Problem, Try)
+- RACI（Responsible, Accountable, Consulted, Informed）
+- PMO（Project Management Office）支援型、コントロール型、指揮型
+- ケイデンス
 
 ## 参考
 - [スクラムガイド(Ken Schwaber & Jeff Sutherland)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Japanese.pdf)
