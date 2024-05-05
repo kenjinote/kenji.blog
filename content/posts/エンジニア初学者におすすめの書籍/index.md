@@ -37,4 +37,6 @@ cover:
 ![img_2.png](img_2.png)
 14. Being Geek
 ![img_1.png](img_1.png)
+15. オブジェクト指向でなぜつくるのか
+![img_16.png](img_16.png)
 
