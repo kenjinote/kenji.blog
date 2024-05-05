@@ -20,4 +20,5 @@ cover:
 10. CODE COMPLETE 第2版
 11. Clean Code アジャイルソフトウェア達人の技
 12. Clean Architecture 達人に学ぶソフトウェアの構造と設計
+13. ゲームプログラマになる前に覚えておきたい技術
 
