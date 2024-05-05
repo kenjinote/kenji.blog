@@ -15,7 +15,7 @@ cover:
 
 ## github リポジトリ
 
-[https://github.com/microsoft/MS-DOS/tree/main](https://github.com/microsoft/MS-DOS/tree/main)
+[https://github.com/microsoft/MS-DOS](https://github.com/microsoft/MS-DOS)
 
 ## 参考サイト
 
