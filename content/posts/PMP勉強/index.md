@@ -162,5 +162,6 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - [アジャイル実践ガイド](https://www.agilealliance.org/wp-content/uploads/2018/07/AgilePG_JAP.pdf)
 - [PMI倫理・職務規定](https://www.pmi.org/-/media/pmi/documents/public/pdf/ethics/pmi-code-of-ethics.pdf?sc_lang_temp=ja-JP)
 
-
+## 教材
+- [｢PMP®認定試験｣で一発合格を目指す！ 効率的な試験対策のための戦略コース (2021) アジャイル対応](https://www.udemy.com/course/ace-the-pmp)
 
