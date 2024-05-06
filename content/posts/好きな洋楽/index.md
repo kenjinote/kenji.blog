@@ -38,3 +38,5 @@ cover:
 {{<youtube MMFj8uDubsE>}}
 14. Coldplay - Yellow
 {{<youtube yKNxeF4KMsY>}}
+15. Eric Clapton - Tears In Heaven
+{{<youtube JxPj3GAYYZ0>}}
