@@ -160,6 +160,7 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - [スクラムガイド(Ken Schwaber & Jeff Sutherland)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Japanese.pdf)
 - [PMI ECO（日本語版）ページ](https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/pmp-examination-content-outline.pdf?v=8ffe0225-6347-4779-913f-f779a38f8d9c&sc_lang_temp=ja-JP)
 - [アジャイル実践ガイド](https://www.agilealliance.org/wp-content/uploads/2018/07/AgilePG_JAP.pdf)
+- [PMI倫理・職務規定](https://www.pmi.org/-/media/pmi/documents/public/pdf/ethics/pmi-code-of-ethics.pdf?sc_lang_temp=ja-JP)
 
 
 
