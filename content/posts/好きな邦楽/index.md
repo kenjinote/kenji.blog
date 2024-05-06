@@ -8,7 +8,7 @@ cover:
   relative: true
 ---
 
-# おすすめ洋楽
+# おすすめ邦楽
 
 1. チューリップ - 青春の影 
 {{<youtube k9UJs3TR_KU>}}
