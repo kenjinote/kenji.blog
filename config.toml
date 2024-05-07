@@ -17,7 +17,8 @@ pygmentsUseClasses = true
     ShowBreadCrumbs = false
 
 [params.homeInfoParams]
-    Content = "『kenji.blog』は、kenji が運営する雑記ブログです。特にテーマを決めず普段考えたこと、気になって調べたこと等をつらつらと書き連ねていきます。プログラミング言語やソフトウェア開発の技術トピックから、最新の開発ツールやフレームワークに関する情報など、開発関連の記事が比較的多いです。"
+    Title = "思い立ったが吉日"
+    Content = "このページは、kenji が運営する雑記ブログです。特にテーマを定めずに気になったこと、思いついたこと、考えたこと、IT技術や最近観た映画などを備忘録のために書き連ねています。"
 
 [[params.socialIcons]]
     name = "twitter"
