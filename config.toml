@@ -17,7 +17,6 @@ pygmentsUseClasses = true
     ShowBreadCrumbs = false
 
 [params.homeInfoParams]
-    Title = "kenji.blog"
     Content = "『kenji.blog』は、kenji が運営する雑記ブログです。特にテーマを決めず普段考えたこと、気になって調べたこと等をつらつらと書き連ねていきます。プログラミング言語やソフトウェア開発の技術トピックから、最新の開発ツールやフレームワークに関する情報など、開発関連の記事が比較的多いです。"
 
 [[params.socialIcons]]
