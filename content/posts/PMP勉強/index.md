@@ -155,7 +155,8 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - PMO（Project Management Office）支援型、コントロール型、指揮型
 - ケイデンス
 - テーラリング
-- ニューロロジカルレベル
+- ニューロロジカルレベル(環境、行動、能力、信念・価値観、自己認識)
+- 
 
 ## 参考
 - [スクラムガイド(Ken Schwaber & Jeff Sutherland)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Japanese.pdf)
