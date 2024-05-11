@@ -116,7 +116,7 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - 費用便益分析
 - スプリント・レビュー
 - リリース・マネジメント
-- SOW（Statement of Work）作業範囲記述書
+- SOW（Statement of Work）作業範囲記述書、作業明細書「プロジェクトのスコープ、目的、成果物、期間、リソースなどの詳細な説明を含む文書」
 - P-SOW（調達作業範囲記述書）
 - RFI（Request For Information）情報提供依頼
 - RFP（Request For Proposal）提案依頼書
