@@ -164,6 +164,8 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - プロジェクトマネージャー(プロジェクト全体を管理)
 - プロジェクトリーダー(現場で指揮)
 - プロジェクトメンバー(プロジェクト推進)
+- ハイブリッド アプローチ
+- 実用最小限の製品 (MVP)
 
 ## 参考
 - [スクラムガイド(Ken Schwaber & Jeff Sutherland)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Japanese.pdf)
