@@ -176,6 +176,9 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - パラメトリック見積り
 - プロジェクトレビュー
 - ビックバンアプローチ
+- DSDM（Dynamic Systems Development Method）
+- ブルックスの経験則
+
 
 ## 参考
 - [スクラムガイド(Ken Schwaber & Jeff Sutherland)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Japanese.pdf)
