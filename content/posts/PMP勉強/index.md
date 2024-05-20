@@ -179,6 +179,7 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - ビックバンアプローチ
 - DSDM（Dynamic Systems Development Method）
 - ブルックスの経験則
+- ビッグバンアプローチ(全て同時に一括して導入)
 
 ## 参考
 - [スクラムガイド(Ken Schwaber & Jeff Sutherland)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Japanese.pdf)
