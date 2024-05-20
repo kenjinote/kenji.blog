@@ -180,6 +180,7 @@ PMP試験は、230分で180問が出題されるが5問がダミー問題とな�
 - DSDM（Dynamic Systems Development Method）
 - ブルックスの経験則
 - ビッグバンアプローチ(全て同時に一括して導入)
+- リスクレジスタ(プロジェクト内の潜在的な後退を識別するためのリスク管理ツールとして使用される文書です)
 
 ## 参考
 - [スクラムガイド(Ken Schwaber & Jeff Sutherland)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Japanese.pdf)
