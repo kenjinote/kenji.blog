@@ -34,13 +34,13 @@ marmaid: true
 ```
 記事の本文に下記を追加
 ```markdown
-{{<mermaid align="center">}}
+{{</*mermaid align="center"*/>}}
 graph TD
 
 A[開始] -->|条件1| B(条件2)
 B --> C{条件3}
 C -->|条件4| D[終了]
-{{< /mermaid >}}
+{{</*/mermaid*/>}}
 ```
 
 {{<mermaid align="center">}}
@@ -49,7 +49,7 @@ graph TD
 A[開始] -->|条件1| B(条件2)
 B --> C{条件3}
 C -->|条件4| D[終了]
-{{< /mermaid >}}
+{{</mermaid>}}
 
 以上です。
 
