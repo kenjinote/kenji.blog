@@ -55,3 +55,4 @@ C -->|条件4| D[終了]
 
 ### 参考
 - [mermaid.js](https://mermaid.js.org/#/)
+- [mermaid.live](https://mermaid.live/)
