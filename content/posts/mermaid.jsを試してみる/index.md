@@ -5,7 +5,7 @@ tags: ["mermaid.js"]
 draft: false
 mermaid: true
 cover:
-  image: "img.png"
+  image: "img_2.png"
   relative: true
 ---
 
