@@ -7,6 +7,10 @@
 {{ partial "math.html" . }}
 {{ end }}
 
+{{ if or .Params.mermaid .Site.Params.mermaid }}
+<script src="{{"assets/mermaid/mermaid.min.js" | relURL}}"></script>
+{{ end }}
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&display=swap" rel="stylesheet">
