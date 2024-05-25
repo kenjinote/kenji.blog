@@ -8,7 +8,7 @@
 (function(window){
 'use strict'
 
-  const elementCode = '.language-mermaid'
+  const elementCode = '.mermaid'
   const loadMermaid = function(theme) {
     window.mermaid.initialize({theme})
     window.mermaid.init({theme}, document.querySelectorAll(elementCode))
