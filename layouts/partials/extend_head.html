@@ -7,15 +7,6 @@
 {{ partial "math.html" . }}
 {{ end }}
 
-{{ if or .Params.mermaid .Site.Params.mermaid }}
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10.3.0/dist/mermaid.min.js"></script>
-{{- $loadmermaid := resources.Get "js/load-mermaid.js" }}
-<script src="{{ $loadmermaid.RelPermalink }}"></script>
-<script>
-    window.initMermaid();
-</script>
-{{ end }}
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&display=swap" rel="stylesheet">
