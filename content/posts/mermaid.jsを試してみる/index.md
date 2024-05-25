@@ -131,12 +131,12 @@ sequenceDiagram
     participant model
     participant database
     user->>view: ID/PW入力
-    view->>controller: 認証リクエスト
+    view->>controller: ajax問い合わせ
     controller->>model: 認証リクエスト
-    model->>database: 認証リクエスト
-    database-->>model: 認証結果返却
-    model-->>controller: 認証結果返却
-    controller-->>view: 認証結果返却
+    model->>database: SQL発行
+    database-->>model: SQL結果返却
+    model-->>controller: 認証リクエスト結果返却
+    controller-->>view: ajax問い合わせ結果返却
     view-->>user: 認証結果表示
 {{</mermaid>}}
 
