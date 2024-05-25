@@ -22,13 +22,11 @@ GitHubやQiita、Notionなど、いろいろなサービスでも採用されて
 
 ```html
 {{ if or .Params.mermaid .Site.Params.mermaid }}
-<script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
-    let mermaidTheme = "default";
-    if (localStorage.getItem("pref-theme") === "dark") {
-      mermaidTheme = "dark";
-    }
-    mermaid.initialize({ startOnLoad: true, theme: mermaidTheme, });
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10.3.0/dist/mermaid.min.js"></script>
+{{- $loadmermaid := resources.Get "js/load-mermaid.js" }}
+<script src="{{ $loadmermaid.RelPermalink }}"></script>
+<script>
+    window.initMermaid();
 </script>
 {{ end }}
 ```
