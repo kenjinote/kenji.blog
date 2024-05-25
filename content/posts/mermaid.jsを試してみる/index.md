@@ -9,29 +9,39 @@ cover:
   relative: true
 ---
 
-## hugoでmermaid.jsを試してみます。
+## mermaid.jsとは
+
+mermaid.jsは、JavaScriptのライブラリで、テキストベースの独自の構文(Mermaid記法)を記述し、フローチャートやダイヤグラム、ガントチャートなど、複雑な図表をグラフィカルに表示できます。
+GitHubやQiita、Notionなど、いろいろなサービスでも採用されています。今回は、hugoでmermaid.jsを使えるようにしてみます。
+
+## hugoでmermaid.jsを使えるようにする
 
 手順は以下の通りです。
-1. layouts/partials/extend_head.htmlに以下を追加
+
+1. layouts/partials/extend_head.htmlに以下を追加。
 
 ```html
 {{ if or .Params.mermaid .Site.Params.mermaid }}
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
 {{ end }}
 ```
+※if文で`mermaid: true`とした場合のみ`mermaid.min.js`を読み込むようにしています。このライブラリは3MBほどあり意外と大きい。
 
 2. layouts/shortcodes/mermaid.htmlを作成
 
 ```html
 <div class="mermaid" align="{{ if .Get "align" }}{{ .Get "align" }}{{ else }}center{{ end }}">
-    {{ safeHTML .Inner }}
+  {{ safeHTML .Inner }}
 </div>
 ```
+
 3. 記事を書く
-記事の定義に下記を追加
+
+4. 記事の定義に下記を追加
 ```dtd
 marmaid: true
 ```
+
 記事の本文に下記を追加
 ```markdown
 {{</*mermaid align="center"*/>}}
