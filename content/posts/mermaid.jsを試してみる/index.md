@@ -74,14 +74,15 @@ C -->|条件4| D[終了]
 ```markdown
 {{</*mermaid align="center"*/>}}
 gantt
-title A Gantt Diagram
-dateFormat  MM-DD
-section Section
-A task           :a1, 05-25, 30d
-Another task     :after a1  , 20d
-section Another
-Task in sec      :04-01  , 12d
-another task      : 24d
+section Project
+要件定義 :           a, 2024-05-25, 5d
+基本設計 :done,      b, after a,    5d
+詳細設計 :done,      c, after b,    5d
+製造    :active,    d, after c,    10d
+単体試験 :crit,      e, after d,    5d
+結合試験 :           f, after e,    5d
+総合試験 :           g, after f,    5d
+リリース :milestone, h, after g,    1d
 {{</*/mermaid*/>}}
 ```
 
@@ -89,14 +90,15 @@ another task      : 24d
 
 {{<mermaid align="center">}}
 gantt
-title A Gantt Diagram
-dateFormat  MM-DD
-section Section
-A task           :a1, 05-25, 30d
-Another task     :after a1  , 20d
-section Another
-Task in sec      :04-01  , 12d
-another task      : 24d
+section Project
+要件定義 :           a, 2024-05-25, 5d
+基本設計 :done,      b, after a,    5d
+詳細設計 :done,      c, after b,    5d
+製造    :active,    d, after c,    10d
+単体試験 :crit,      e, after d,    5d
+結合試験 :           f, after e,    5d
+総合試験 :           g, after f,    5d
+リリース :milestone, h, after g,    1d
 {{</mermaid>}}
 
 以上です。
