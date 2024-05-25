@@ -52,10 +52,9 @@ marmaid: true
 ```markdown
 {{</*mermaid align="center"*/>}}
 graph TD
-
-A[開始] -->|条件1| B(条件2)
-B --> C{条件3}
-C -->|条件4| D[終了]
+    A[開始] -->|条件1| B(条件2)
+    B --> C{条件3}
+    C -->|条件4| D[終了]
 {{</*/mermaid*/>}}
 ```
 
@@ -63,10 +62,9 @@ C -->|条件4| D[終了]
 
 {{<mermaid align="center">}}
 graph TD
-
-A[開始] -->|条件1| B(条件2)
-B --> C{条件3}
-C -->|条件4| D[終了]
+    A[開始] -->|条件1| B(条件2)
+    B --> C{条件3}
+    C -->|条件4| D[終了]
 {{</mermaid>}}
 
 **ガントチャート**
@@ -74,15 +72,15 @@ C -->|条件4| D[終了]
 ```markdown
 {{</*mermaid align="center"*/>}}
 gantt
-section Project
-要件定義 :done,      a, 2024-05-25, 5d
-基本設計 :done,      b, after a,    5d
-詳細設計 :done,      c, after b,    5d
-製造    :active,    d, after c,    10d
-単体試験 :crit,      e, after d,    5d
-結合試験 :           f, after e,    5d
-総合試験 :           g, after f,    5d
-リリース :milestone, h, after g,    1d
+    section Project
+    要件定義 :done,      a, 2024-05-25, 5d
+    基本設計 :done,      b, after a,    5d
+    詳細設計 :done,      c, after b,    5d
+    製造    :active,    d, after c,    10d
+    単体試験 :crit,      e, after d,    5d
+    結合試験 :           f, after e,    5d
+    総合試験 :           g, after f,    5d
+    リリース :milestone, h, after g,    1d
 {{</*/mermaid*/>}}
 ```
 
@@ -90,15 +88,56 @@ section Project
 
 {{<mermaid align="center">}}
 gantt
-section Project
-要件定義 :done,      a, 2024-05-25, 5d
-基本設計 :done,      b, after a,    5d
-詳細設計 :done,      c, after b,    5d
-製造    :active,    d, after c,    10d
-単体試験 :crit,      e, after d,    5d
-結合試験 :           f, after e,    5d
-総合試験 :           g, after f,    5d
-リリース :milestone, h, after g,    1d
+    section Project
+    要件定義 :done,      a, 2024-05-25, 5d
+    基本設計 :done,      b, after a,    5d
+    詳細設計 :done,      c, after b,    5d
+    製造    :active,    d, after c,    10d
+    単体試験 :crit,      e, after d,    5d
+    結合試験 :           f, after e,    5d
+    総合試験 :           g, after f,    5d
+    リリース :milestone, h, after g,    1d
+{{</mermaid>}}
+
+
+**シーケンス図**
+
+```markdown
+{{</*mermaid align="center"*/>}}
+sequenceDiagram
+    participant user
+    participant view
+    participant controller
+    participant model
+    participant database
+    user->>view: ID/PW入力
+    view->>controller: 認証リクエスト
+    controller->>model: 認証リクエスト
+    model->>database: 認証リクエスト
+    database-->>model: 認証結果返却
+    model-->>controller: 認証結果返却
+    controller-->>view: 認証結果返却
+    view-->>user: 認証結果表示
+{{</*/mermaid*/>}}
+``` 
+
+**出力結果**
+
+{{<mermaid align="center">}}
+sequenceDiagram
+    participant user
+    participant view
+    participant controller
+    participant model
+    participant database
+    user->>view: ID/PW入力
+    view->>controller: 認証リクエスト
+    controller->>model: 認証リクエスト
+    model->>database: 認証リクエスト
+    database-->>model: 認証結果返却
+    model-->>controller: 認証結果返却
+    controller-->>view: 認証結果返却
+    view-->>user: 認証結果表示
 {{</mermaid>}}
 
 以上です。
