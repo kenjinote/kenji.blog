@@ -75,12 +75,12 @@ C -->|条件4| D[終了]
 {{</*mermaid align="center"*/>}}
 gantt
 title A Gantt Diagram
-dateFormat  YYYY-MM-DD
+dateFormat  MM-DD
 section Section
-A task           :a1, 2024-05-25, 30d
+A task           :a1, 05-25, 30d
 Another task     :after a1  , 20d
 section Another
-Task in sec      :2014-01-01  , 12d
+Task in sec      :04-01  , 12d
 another task      : 24d
 {{</*/mermaid*/>}}
 ```
@@ -89,14 +89,14 @@ another task      : 24d
 
 {{<mermaid align="center">}}
 gantt
-    title A Gantt Diagram
-    dateFormat  YYYY-MM-DD
-    section Section
-    A task           :a1, 2024-05-25, 30d
-    Another task     :after a1  , 20d
-    section Another
-    Task in sec      :2024-04-01  , 12d
-    another task      : 24d
+title A Gantt Diagram
+dateFormat  MM-DD
+section Section
+A task           :a1, 05-25, 30d
+Another task     :after a1  , 20d
+section Another
+Task in sec      :04-01  , 12d
+another task      : 24d
 {{</mermaid>}}
 
 以上です。
