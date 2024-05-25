@@ -2,17 +2,23 @@
 function switchTheme(theme) {
   switch (theme) {
     case 'light':
+{{ if or .Params.mermaid .Site.Params.mermaid }}
       document.body.dispatchEvent(new CustomEvent('light-theme-set'));
+{{ end }}
       document.body.classList.remove('dark');
       break;
     case 'dark':
+{{ if or .Params.mermaid .Site.Params.mermaid }}
       document.body.dispatchEvent(new CustomEvent('dark-theme-set'));
+{{ end }}
       document.body.classList.add('dark');
       break;
     // auto
     default:
       if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+{{ if or .Params.mermaid .Site.Params.mermaid }}
         document.body.dispatchEvent(new CustomEvent('dark-theme-set'));
+{{ end }}
         document.body.classList.add('dark');
       }
   }
