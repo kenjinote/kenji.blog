@@ -47,7 +47,7 @@ marmaid: true
 
 2. 記事の本文に下記を追加
 
-** フローチャート **
+**フローチャート**
 
 ```markdown
 {{</*mermaid align="center"*/>}}
@@ -59,7 +59,7 @@ C -->|条件4| D[終了]
 {{</*/mermaid*/>}}
 ```
 
-** 出力結果 **
+**出力結果**
 
 {{<mermaid align="center">}}
 graph TD
@@ -69,7 +69,7 @@ B --> C{条件3}
 C -->|条件4| D[終了]
 {{</mermaid>}}
 
-** ガントチャート **
+**ガントチャート**
 
 ```markdown
 {{</*mermaid align="center"*/>}}
@@ -85,7 +85,8 @@ another task      : 24d
 {{</*/mermaid*/>}}
 ```
 
-** 出力結果 **
+**出力結果**
+
 {{<mermaid align="center">}}
 gantt
     title A Gantt Diagram
@@ -94,7 +95,7 @@ gantt
     A task           :a1, 2024-05-25, 30d
     Another task     :after a1  , 20d
     section Another
-    Task in sec      :2014-01-01  , 12d
+    Task in sec      :2024-04-01  , 12d
     another task      : 24d
 {{</mermaid>}}
 
