@@ -54,9 +54,14 @@
   const init = ()=>{
     saveOriginalData()
     .catch( console.error )
-    document.body.addEventListener('toggle-theme', ()=>{
+    document.body.addEventListener('dark-theme-set', ()=>{
       resetProcessed()
-      .then(loadMermaid(isDarkTheme() ? 'dark' : 'default'))
+      .then(loadMermaid('dark'))
+      .catch(console.error)
+    })
+    document.body.addEventListener('light-theme-set', ()=>{
+      resetProcessed()
+      .then(loadMermaid('default'))
       .catch(console.error)
     })
   }

@@ -2,14 +2,17 @@
 function switchTheme(theme) {
   switch (theme) {
     case 'light':
+      document.body.dispatchEvent(new CustomEvent('light-theme-set'));
       document.body.classList.remove('dark');
       break;
     case 'dark':
+      document.body.dispatchEvent(new CustomEvent('dark-theme-set'));
       document.body.classList.add('dark');
       break;
     // auto
     default:
       if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.dispatchEvent(new CustomEvent('dark-theme-set'));
         document.body.classList.add('dark');
       }
   }
