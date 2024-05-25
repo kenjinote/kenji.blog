@@ -75,7 +75,7 @@ C -->|条件4| D[終了]
 {{</*mermaid align="center"*/>}}
 gantt
 section Project
-要件定義 :           a, 2024-05-25, 5d
+要件定義 :done,      a, 2024-05-25, 5d
 基本設計 :done,      b, after a,    5d
 詳細設計 :done,      c, after b,    5d
 製造    :active,    d, after c,    10d
@@ -91,7 +91,7 @@ section Project
 {{<mermaid align="center">}}
 gantt
 section Project
-要件定義 :           a, 2024-05-25, 5d
+要件定義 :done,      a, 2024-05-25, 5d
 基本設計 :done,      b, after a,    5d
 詳細設計 :done,      c, after b,    5d
 製造    :active,    d, after c,    10d
