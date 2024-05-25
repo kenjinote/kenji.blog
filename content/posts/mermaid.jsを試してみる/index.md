@@ -18,7 +18,7 @@ GitHubやQiita、Notionなど、いろいろなサービスでも採用されて
 
 手順は以下の通りです。
 
-1. layouts/partials/extend_head.htmlに以下を追加。
+1. layouts/partials/extend_footer.htmlに以下を追加。
 
 ```html
 {{ if or .Params.mermaid .Site.Params.mermaid }}
@@ -27,12 +27,113 @@ GitHubやQiita、Notionなど、いろいろなサービスでも採用されて
 <script src="{{ $loadmermaid.RelPermalink }}"></script>
 <script>
     window.initMermaid();
+    if (isDarkTheme()) {
+        setPrefTheme('dark');
+    } else {
+        setPrefTheme('light');
+    }
 </script>
 {{ end }}
 ```
 ※if文で`mermaid: true`とした場合のみ`mermaid.min.js`を読み込むようにしています。このライブラリは3MBほどあり意外と大きい。
 
-2. layouts/shortcodes/mermaid.htmlを作成
+3. assets/js/load-mermaid.jsを作成。この処理は初期化および動的にテーマが切り替えられた際、再描画するために使われます。
+
+```javascript
+(function(window){
+'use strict'
+
+  const elementCode = '.mermaid'
+  const loadMermaid = function(theme) {
+    window.mermaid.initialize({theme})
+    window.mermaid.init({theme}, document.querySelectorAll(elementCode))
+  }
+  const saveOriginalData = function(){
+    return new Promise((resolve, reject) => {
+      try {
+        var els = document.querySelectorAll(elementCode),
+            count = els.length;
+        els.forEach(element => {
+          element.setAttribute('data-original-code', element.innerHTML)
+          count--
+          if(count == 0){
+            resolve()
+          }
+        });
+      } catch (error) {
+       reject(error) 
+      }
+    })
+  }
+  const resetProcessed = function(){
+    return new Promise((resolve, reject) => {
+      try {
+        var els = document.querySelectorAll(elementCode),
+            count = els.length;
+        els.forEach(element => {
+          if(element.getAttribute('data-original-code') != null){
+            element.removeAttribute('data-processed')
+            element.innerHTML = element.getAttribute('data-original-code')
+          }
+          count--
+          if(count == 0){
+            resolve()
+          }
+        });
+      } catch (error) {
+       reject(error) 
+      }
+    })
+  } 
+
+  const init = ()=>{
+    saveOriginalData()
+    .catch( console.error )
+    document.body.addEventListener('dark-theme-set', ()=>{
+      resetProcessed()
+      .then(loadMermaid('dark'))
+      .catch(console.error)
+    })
+    document.body.addEventListener('light-theme-set', ()=>{
+      resetProcessed()
+      .then(loadMermaid('default'))
+      .catch(console.error)
+    })
+  }
+  window.initMermaid = init
+})(window);
+```
+
+3. header.htmlのテーマ切り替え時の処理を修正
+
+```javascript
+function switchTheme(theme) {
+  switch (theme) {
+    case 'light':
+{{ if or .Params.mermaid .Site.Params.mermaid }}
+      document.body.dispatchEvent(new CustomEvent('light-theme-set'));
+{{ end }}
+      document.body.classList.remove('dark');
+      break;
+    case 'dark':
+{{ if or .Params.mermaid .Site.Params.mermaid }}
+      document.body.dispatchEvent(new CustomEvent('dark-theme-set'));
+{{ end }}
+      document.body.classList.add('dark');
+      break;
+    // auto
+    default:
+      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+{{ if or .Params.mermaid .Site.Params.mermaid }}
+        document.body.dispatchEvent(new CustomEvent('dark-theme-set'));
+{{ end }}
+        document.body.classList.add('dark');
+      }
+  }
+}
+```
+
+4. layouts/shortcodes/mermaid.htmlを作成
 
 ```html
 <div class="mermaid" align="{{ if .Get "align" }}{{ .Get "align" }}{{ else }}center{{ end }}">
