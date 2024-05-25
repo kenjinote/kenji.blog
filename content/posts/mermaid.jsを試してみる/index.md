@@ -35,14 +35,20 @@ GitHubやQiita、Notionなど、いろいろなサービスでも採用されて
 </div>
 ```
 
-3. 記事を書く
+以上でmermaid.jsを使える準備が整いました。
 
-4. 記事の定義に下記を追加
+## mermaid.jsを使ってみる
+
+1. 記事の定義に下記を追加
+
 ```dtd
 marmaid: true
 ```
 
-記事の本文に下記を追加
+2. 記事の本文に下記を追加
+
+** フローチャート **
+
 ```markdown
 {{</*mermaid align="center"*/>}}
 graph TD
@@ -53,12 +59,43 @@ C -->|条件4| D[終了]
 {{</*/mermaid*/>}}
 ```
 
+** 出力結果 **
+
 {{<mermaid align="center">}}
 graph TD
 
 A[開始] -->|条件1| B(条件2)
 B --> C{条件3}
 C -->|条件4| D[終了]
+{{</mermaid>}}
+
+** ガントチャート **
+
+```markdown
+{{</*mermaid align="center"*/>}}
+gantt
+title A Gantt Diagram
+dateFormat  YYYY-MM-DD
+section Section
+A task           :a1, 2024-05-25, 30d
+Another task     :after a1  , 20d
+section Another
+Task in sec      :2014-01-01  , 12d
+another task      : 24d
+{{</*/mermaid*/>}}
+```
+
+** 出力結果 **
+{{<mermaid align="center">}}
+gantt
+    title A Gantt Diagram
+    dateFormat  YYYY-MM-DD
+    section Section
+    A task           :a1, 2024-05-25, 30d
+    Another task     :after a1  , 20d
+    section Another
+    Task in sec      :2014-01-01  , 12d
+    another task      : 24d
 {{</mermaid>}}
 
 以上です。
