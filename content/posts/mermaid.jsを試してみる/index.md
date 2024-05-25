@@ -22,7 +22,14 @@ GitHubやQiita、Notionなど、いろいろなサービスでも採用されて
 
 ```html
 {{ if or .Params.mermaid .Site.Params.mermaid }}
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    let mermaidTheme = "default";
+    if (localStorage.getItem("pref-theme") === "dark") {
+      mermaidTheme = "dark";
+    }
+    mermaid.initialize({ startOnLoad: true, theme: mermaidTheme, });
+</script>
 {{ end }}
 ```
 ※if文で`mermaid: true`とした場合のみ`mermaid.min.js`を読み込むようにしています。このライブラリは3MBほどあり意外と大きい。

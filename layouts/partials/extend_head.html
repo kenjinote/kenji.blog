@@ -8,7 +8,14 @@
 {{ end }}
 
 {{ if or .Params.mermaid .Site.Params.mermaid }}
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10.9.1/dist/mermaid.min.js"></script>
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+    let mermaidTheme = "default";
+    if (localStorage.getItem("pref-theme") === "dark") {
+      mermaidTheme = "dark";
+    }
+    mermaid.initialize({ startOnLoad: true, theme: mermaidTheme, });
+</script>
 {{ end }}
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
