@@ -251,5 +251,5 @@ sequenceDiagram
 以上です。
 
 ### 参考
-- [mermaid.js](https://mermaid.js.org/#/)
-- [mermaid.live](https://mermaid.live/)
+- [mermaid.js本家](https://mermaid.js.org/#/)
+- [mermaid構文をプレビューできるデモサイト](https://mermaid.live/)
