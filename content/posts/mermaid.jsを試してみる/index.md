@@ -103,6 +103,8 @@ GitHubやQiita、Notionなど、いろいろなサービスでも採用されて
   window.initMermaid = init
 })(window);
 ```
+こちら元となるコードは下記を参考にしました。
+- [Reinitialize with new theme #1945](https://github.com/mermaid-js/mermaid/issues/1945)
 
 3. header.htmlのテーマ切り替え時の処理を修正
 
