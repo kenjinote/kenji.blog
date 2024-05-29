@@ -11,7 +11,7 @@ cover:
 # Visual Studio Code おすすめ拡張機能一覧
 
 | 分類 | 名称 | 提供元 | 説明 |
-|----|----|-----|
+|----|----|-----|-----|
 | 仮想・コンテナ管理| Remote Devlopment | Microsoft  | SSH接続にて仮想コンテナ/WSLに接続して、リモート開発をサポートする |
 | 仮想・コンテナ管理 | Docker | Microsoft  | Dockerコンテナの管理をサポートする |
 | コード管理 | GitHub Pull Requests | GitHub | GitHubのPull RequestをVSCode上で管理する |
