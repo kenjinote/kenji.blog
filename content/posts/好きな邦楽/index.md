@@ -50,3 +50,5 @@ cover:
 {{<youtube ueq2QFIIpu0>}}
 20. Kamen Rider Black RX - Opening Song
 {{<youtube tV5l-Nt18o4>}}
+21. たしかなこと / 小田和正 - Covered by パクユナ
+{{<youtube q3myGl1PZgU>}}
