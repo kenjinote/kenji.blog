@@ -52,3 +52,5 @@ cover:
 {{<youtube tV5l-Nt18o4>}}
 21. たしかなこと / 小田和正 - Covered by パクユナ
 {{<youtube q3myGl1PZgU>}}
+22. 【Japanese healing song】Hana／Kosuke Atari（covered by Leah）
+{{<youtube FpdrS6YGP4o>}}
