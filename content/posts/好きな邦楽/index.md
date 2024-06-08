@@ -48,3 +48,5 @@ cover:
 {{<youtube 0Uhh62MUEic>}}
 19. 不可思議/wonderboy - Pellicule (Official Music Video)
 {{<youtube ueq2QFIIpu0>}}
+20. Kamen Rider Black RX - Opening Song
+{{<youtube tV5l-Nt18o4>}}
