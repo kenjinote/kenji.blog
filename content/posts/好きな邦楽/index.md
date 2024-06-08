@@ -44,3 +44,5 @@ cover:
 {{<youtube Vb50GwvHH14>}}
 17. テレサ・テン - 時の流れに身をまかせ
 {{<youtube 8g9B-iWsO-o>}}
+18. 宇多田ヒカル『One Last Kiss』
+{{<youtube 0Uhh62MUEic>}}
