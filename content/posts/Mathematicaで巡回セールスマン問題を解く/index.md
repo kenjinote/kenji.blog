@@ -10,7 +10,7 @@ cover:
 # Mathematicaで巡回セールスマン問題を解く
 
 ## 問題
-{{<twitter 1579806418982825984>}}
+{{<twitter user="hayamizu_lab" id="1579806418982825984">}}
 
 ## 解法
 
