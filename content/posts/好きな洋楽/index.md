@@ -40,3 +40,5 @@ cover:
 {{<youtube yKNxeF4KMsY>}}
 15. Eric Clapton - Tears In Heaven
 {{<youtube JxPj3GAYYZ0>}}
+16. B. J. Thomas - Raindrops Keep Fallin' on My Head (Stereo / Lyrics)
+{{<youtube _VyA2f6hGW4>}}
