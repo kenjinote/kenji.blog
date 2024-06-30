@@ -54,8 +54,5 @@ cover:
 {{<youtube q3myGl1PZgU>}}
 22. 【Japanese healing song】Hana／Kosuke Atari（covered by Leah）
 {{<youtube FpdrS6YGP4o>}}
-23. somewhere only we know (Gustixa & Rhianne)
-{{<youtube 92izkAK5OA0>}}
-24. Take Me Home, Country Roads
-{{<youtube 1vrEljMfXYo>}} 
+
 
