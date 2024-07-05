@@ -42,9 +42,7 @@ cover:
 {{<youtube JxPj3GAYYZ0>}}
 16. B. J. Thomas - Raindrops Keep Fallin' on My Head (Stereo / Lyrics)
 {{<youtube _VyA2f6hGW4>}}
-17. somewhere only we know (Gustixa & Rhianne)
-{{<youtube 92izkAK5OA0>}}
-18. Take Me Home, Country Roads
+17. Take Me Home, Country Roads
 {{<youtube 1vrEljMfXYo>}} 
-19. Simon & Garfunkel - Mrs. Robinson (Audio)
+18. Simon & Garfunkel - Mrs. Robinson (Audio)
 {{<youtube 9C1BCAgu2I8>}}
