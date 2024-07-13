@@ -54,5 +54,7 @@ cover:
 {{<youtube q3myGl1PZgU>}}
 22. 【Japanese healing song】Hana／Kosuke Atari（covered by Leah）
 {{<youtube FpdrS6YGP4o>}}
+23. 「真夜中のドア〜stay with me」/ 松原みき Official Lyric Video
+{{<youtube nuU2YHtxMik>}}
 
 
