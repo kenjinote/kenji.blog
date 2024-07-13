@@ -56,5 +56,5 @@ cover:
 {{<youtube FpdrS6YGP4o>}}
 23. 「真夜中のドア〜stay with me」/ 松原みき Official Lyric Video
 {{<youtube nuU2YHtxMik>}}
-
-
+24. Midnight Pretenders
+{{<youtube 7pPb5fmumNo>}}
