@@ -58,3 +58,5 @@ cover:
 {{<youtube nuU2YHtxMik>}}
 24. Midnight Pretenders
 {{<youtube 7pPb5fmumNo>}}
+25. Anri - Last Summer Whisper
+{{<youtube BlvOAd10kJo>}}
