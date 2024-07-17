@@ -60,3 +60,5 @@ cover:
 {{<youtube 7pPb5fmumNo>}}
 25. Anri - Last Summer Whisper
 {{<youtube BlvOAd10kJo>}}
+26. 1985 - The Blue Hearts
+{{<youtube sKarAUhTWMw>}}
