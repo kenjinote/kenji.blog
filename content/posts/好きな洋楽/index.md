@@ -46,3 +46,5 @@ cover:
 {{<youtube 1vrEljMfXYo>}} 
 18. Simon & Garfunkel - Mrs. Robinson (Audio)
 {{<youtube 9C1BCAgu2I8>}}
+19. Taylor Swift - Love Story (Live on Letterman)
+{{<youtube mNLVMDF9mUo>}}
