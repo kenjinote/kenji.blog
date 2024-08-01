@@ -62,3 +62,5 @@ cover:
 {{<youtube BlvOAd10kJo>}}
 26. 1985 - The Blue Hearts
 {{<youtube sKarAUhTWMw>}}
+27. BUMP OF CHICKEN - supernova
+{{<youtube 0EpQ40X_r0Q>}}
