@@ -66,3 +66,6 @@ cover:
 {{<youtube 0EpQ40X_r0Q>}}
 28. チューリップ　心の旅　1972
 {{<youtube AFBPJW7wsho>}}
+29. 小さな恋のうた
+{{<youtube u8EkSB9zSpE>}}
+
