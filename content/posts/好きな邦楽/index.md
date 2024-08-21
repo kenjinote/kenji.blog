@@ -70,4 +70,6 @@ cover:
 {{<youtube u8EkSB9zSpE>}}
 30. ASKA - はじまりはいつも雨 (Official Music Video)
 {{<youtube 74IKR0WeKXY>}}
+31. キリンジ - エイリアンズ
+{{<youtube w05Q_aZKkFw>}}
 
