@@ -54,7 +54,9 @@ cover:
 {{<youtube aeKCKIwDnwI>}}
 22. Something Just Like This
 {{<youtube Y1Nip-y0BcQ>}}
-23. Yesterday Once More
+23. フィーリング
+{{<youtube 27cedsZpN4w>}}
+24. Yesterday Once More
 {{<youtube -sltNGgjU_4>}}
 
 
