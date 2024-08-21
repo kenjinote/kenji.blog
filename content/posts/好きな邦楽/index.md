@@ -68,4 +68,6 @@ cover:
 {{<youtube AFBPJW7wsho>}}
 29. 小さな恋のうた
 {{<youtube u8EkSB9zSpE>}}
+30. ASKA - はじまりはいつも雨 (Official Music Video)
+{{<youtube 74IKR0WeKXY>}}
 
