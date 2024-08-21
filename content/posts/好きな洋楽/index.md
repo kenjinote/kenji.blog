@@ -60,5 +60,7 @@ cover:
 {{<youtube -sltNGgjU_4>}}
 25. Carpenters - Top Of The World
 {{<youtube 3hyFB6SA7b4>}}
+26. 青春の輝き / I Need To Be In Love [日本語訳付き]　 カーペンターズ
+{{<youtube EmFiOb0To7w>}}
 
 
