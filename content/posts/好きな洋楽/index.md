@@ -62,5 +62,7 @@ cover:
 {{<youtube 3hyFB6SA7b4>}}
 26. 青春の輝き / I Need To Be In Love [日本語訳付き]　 カーペンターズ
 {{<youtube EmFiOb0To7w>}}
+27. Bob Marley & The Wailers "Three Little Birds"
+{{<youtube HNBCVM4KbUM>}}
 
 
