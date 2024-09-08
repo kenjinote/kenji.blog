@@ -64,5 +64,14 @@ cover:
 {{<youtube EmFiOb0To7w>}}
 27. Bob Marley & The Wailers "Three Little Birds"
 {{<youtube HNBCVM4KbUM>}}
-
+28. Alan Walker - All Falls Down (feat. Noah Cyrus with Digital Farm Animals)
+{{<youtube 6RLLOEzdxsM>}}
+29. Alan Walker - Darkside (feat. Au/Ra and Tomine Harket)
+{{<youtube M-P4QBt-FWw>}}
+30. Alan Walker - Alone
+{{<youtube 1-xGerv5FOk>}}
+31. Alan Walker - Sing Me To Sleep
+{{<youtube 2i2khp_npdE>}}
+32. Alan Walker - Faded
+{{<youtube 60ItHLz5WEA>}}
 
