@@ -24,7 +24,14 @@ yt-dlpは、YouTube-dlのフォークであり、より多くの機能とサポ�
 yt-dlp.exeをコマンドプロンプトで実行し、YouTube動画のURLを指定します。
 
 ```
-yt-dlp.exe https://www.youtube.com/watch?v=VIDEO_ID
+yt-dlp.exe "https://www.youtube.com/watch?v=VIDEO_ID"
+```
+※引数は VIDEO_ID の部分だけでもOKです。
+
+音楽ファイルmp3としてダウンロードする場合は、以下のコマンドを実行します。
+
+```
+yt-dlp.exe --extract-audio --audio-format mp3 --embed-thumbnail --add-metadata "https://www.youtube.com/watch?v=VIDEO_ID"
 ```
 
 これで、コマンドを実行したカレントディレクトリに動画がダウンロードされます。
