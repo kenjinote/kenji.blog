@@ -48,6 +48,9 @@ cover:
 {{<youtube 0Uhh62MUEic>}}
 19. 不可思議/wonderboy - Pellicule (Official Music Video)
 {{<youtube ueq2QFIIpu0>}}
+
+<iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/jp/album/pellicule/1480825458?i=1480825460"></iframe>
+
 20. Kamen Rider Black RX - Opening Song
 {{<youtube tV5l-Nt18o4>}}
 21. たしかなこと / 小田和正 - Covered by パクユナ
