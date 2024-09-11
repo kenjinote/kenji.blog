@@ -39,4 +39,5 @@ reveal.jsは、HTMLとMarkdownを使用したプレゼンテーション作成�
 
 # 参考
 
-[これからのプレゼン資料は reveal.js を使おう](https://qiita.com/Targityen/items/40ae4795e2cb77c1adc6)
+- [これからのプレゼン資料は reveal.js を使おう](https://qiita.com/Targityen/items/40ae4795e2cb77c1adc6)
+- [Markdown 記法 サンプル 一覧](https://qiita.com/jkjoluvjlajelljicvjzojieoaid/items/01cd7ff819bc2e69b652)
