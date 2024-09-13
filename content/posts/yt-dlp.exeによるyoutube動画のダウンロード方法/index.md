@@ -8,12 +8,12 @@ cover:
   relative: true
 ---
 
-# yt-dlp.exeによるYouTube動画のダウンロード方法
+# yt-dlpとは
 
-yt-dlpは、YouTube動画をダウンロードするためのコマンドラインツールです。
-yt-dlpは、YouTube-dlのフォークであり、より多くの機能とサポートを提供しています。
+`yt-dlp`は、YouTube動画をダウンロードするためのコマンドラインツールです。
+動画をダウンロードするだけでなく、音楽ファイルとしてmp3形式でダウンロードすることもできます。
 
-## インストール
+## ダウンロードとインストール
 
 1. [yt-dlpのリリースページ](https://github.com/yt-dlp/yt-dlp/releases)から最新のyt-dlp.exeをダウンロードします。
 2. yt-dlp.exeを任意のフォルダに配置します。
