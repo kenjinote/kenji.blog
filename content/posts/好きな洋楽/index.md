@@ -76,3 +76,5 @@ cover:
 {{<youtube 60ItHLz5WEA>}}
 33. killing me softly with his song
 {{<youtube oKOtzIo-uYw>}}
+34. a-ha - Take On Me (Official Video)
+{{<youtube djV11Xbc914>}}
