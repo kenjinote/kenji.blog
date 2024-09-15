@@ -75,4 +75,6 @@ cover:
 {{<youtube 74IKR0WeKXY>}}
 31. キリンジ - エイリアンズ
 {{<youtube w05Q_aZKkFw>}}
+32. あの日の空よ - 南こうせつ
+{{<youtube xC7o4N3Zb1U>}}
 
