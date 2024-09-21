@@ -8,11 +8,20 @@ cover:
   relative: true
 ---
 Githubリポジトリにカスタムドメインを設定するには、ドメインのDNS設定を変更する必要があります。
-ここでは、お名前.comでドメインを管理していることを想定して説明します。
+ここでは、
+<a href="https://px.a8.net/svt/ejp?a8mat=3TJBXA+BKRHS2+50+2HHVNM" rel="nofollow">お名前.com</a>
+<img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=3TJBXA+BKRHS2+50+2HHVNM" alt="">
+でドメインを管理していることを想定して説明します。
 他のレジストラでもAレコードを書き換えることで同様の設定が可能です。
 
+
+
+
 ## お名前.comでDNSの設定を変更する
-ドメインのDNSの設定を変更するには、お名前.comの管理画面にログインします。
+ドメインのDNSの設定を変更するには、
+<a href="https://px.a8.net/svt/ejp?a8mat=3TJBXA+BKRHS2+50+2HHVNM" rel="nofollow">お名前.com</a>
+<img border="0" width="1" height="1" src="https://www19.a8.net/0.gif?a8mat=3TJBXA+BKRHS2+50+2HHVNM" alt="">
+の管理画面にログインします。
 ログイン後、ドメインの管理画面に移動します。
 ドメインの管理画面に移動したら、DNS設定を変更します。
 DNS設定を変更するには、以下のように設定します。
@@ -70,4 +79,11 @@ Addresses:  185.199.108.153
 4. Branchで公開するブランチを選択してSaveをクリックする
 5. Custom domainに取得したドメインを入力して、Saveをクリックする。
 6. 必要に応じて「Enforce HTTPS」にチェックを入れてHTTPS対応を行う
+
+
+[PR]
+<a href="https://px.a8.net/svt/ejp?a8mat=3TJBXA+BKRHS2+50+2HQGAP" rel="nofollow">
+<img border="0" width="468" height="60" alt="" src="https://www24.a8.net/svt/bgt?aid=231009310700&wid=003&eno=01&mid=s00000000018015072000&mc=1"></a>
+<img border="0" width="1" height="1" src="https://www14.a8.net/0.gif?a8mat=3TJBXA+BKRHS2+50+2HQGAP" alt="">
+
 
