@@ -41,3 +41,4 @@ draft: true
 ---
 
 - https://youtube.com/shorts/TFWt2_TKG7o?si=DR705sds7WmFmcaT
+- https://youtube.com/playlist?list=RDwuQLRxUYW40&playnext=1&si=G4ATJKLYid2rGi65
