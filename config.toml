@@ -3,7 +3,7 @@ languageCode = "ja"
 DefaultContentLanguage = "ja"
 timeZone = "Asia/Tokyo"
 title = "思い立ったが吉日"
-theme = "PaperMod"
+theme = "hugo-theme-stack"
 googleAnalytics = "GT-5R8HJJC"
 pygmentsUseClasses = true
 
