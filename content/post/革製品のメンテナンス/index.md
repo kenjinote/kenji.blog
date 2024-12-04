@@ -3,9 +3,7 @@ title: '革製品のメンテナンス'
 date: 2024-10-30T00:31:46+09:00
 tags: ["革製品", "趣味"]
 draft: fales
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # 最近購入した革製品のメンテナンス製品
