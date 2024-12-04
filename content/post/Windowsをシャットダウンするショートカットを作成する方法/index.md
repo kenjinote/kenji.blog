@@ -3,9 +3,7 @@ title: 'Windowsをシャットダウンするショートカットを作成す�
 date: 2023-04-11T17:03:32+09:00
 tags: ["Windows", "シャットダウン", "ショートカット"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 Windowsをシャットダウンさせるショートカットを作成する方法を紹介します。

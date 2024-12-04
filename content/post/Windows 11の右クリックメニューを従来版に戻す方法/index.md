@@ -3,9 +3,7 @@ title: 'Windows 11の右クリックメニューを従来版に戻す方法'
 date: 2024-03-30T13:13:36+09:00
 tags: ["Windows11", "エクスプローラー"]
 draft: true
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # Windows 11の右クリックメニューを従来版に戻す方法

@@ -3,9 +3,7 @@ title: 'なぜ数学や計算機が好きなんだろう'
 date: 2022-09-23T01:56:52+09:00
 tags: ["雑記"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 ## なぜ数学や計算機が好きなんだろうか考えてみました

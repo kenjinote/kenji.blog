@@ -3,9 +3,7 @@ title: '映画TODOリスト'
 date: 2023-04-17T00:34:13+09:00
 tags: ["映画", "TODO"]
 draft: false
-cover:
-  image: "image.jpg"
-  relative: true
+image: "image.jpg"
 ---
 
 # 見たい映画（見たらチェックつけていく）

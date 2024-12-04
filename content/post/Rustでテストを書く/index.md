@@ -3,9 +3,7 @@ title: 'Rustでテストを書く'
 date: 2022-10-01T02:00:59+09:00
 tags: ["Rust","テスト"]
 draft: false
-cover:
-  image: "images/rust_logo.png"
-  relative: true
+image: "images/rust_logo.png"
 ---
 
 Rustでテストを書くには、テスト関数の定義の1行上に`#[test]`属性を付けて関数を作成します。

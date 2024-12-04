@@ -3,9 +3,7 @@ title: 'プログラミング言語一覧'
 date: 2023-04-01T03:45:53+09:00
 tags: ["プログラミング言語"]
 draft: true
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # プログラミング言語一覧

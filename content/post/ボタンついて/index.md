@@ -3,9 +3,7 @@ title: 'ボタンについて'
 date: 2023-01-14T20:24:00+09:00
 tags: ["ボタン", "GUI"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # ボタンとは

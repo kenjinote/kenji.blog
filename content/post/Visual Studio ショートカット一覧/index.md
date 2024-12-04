@@ -3,9 +3,7 @@ title: 'Visual Studio ショートカット一覧'
 date: 2024-04-06T11:27:37+09:00
 tags: [ "Visual Studio", "ショートカット" ]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # Visual Studio ショートカット一覧

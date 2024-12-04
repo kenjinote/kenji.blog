@@ -3,9 +3,7 @@ title: 'SalesforceのSOQLを利用して日別のレコード作成数を取得�
 date: 2023-04-09T02:50:30+09:00
 tags: ["salesforce", "soql", "日付", "集計"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # SalesforceのSOQLを利用して日別のレコード作成数を取得する方法

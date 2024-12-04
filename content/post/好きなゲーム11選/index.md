@@ -3,10 +3,7 @@ title: '好きなゲーム11選'
 date: 2022-09-12T19:28:50+09:00
 tags: ["ゲーム"]
 draft: false
-cover:
-  image: "img_12.png"
-  relative: true
-  hidden: true
+image: "img_12.png"
 ---
 好きなゲームを思い出したら殿堂入りばかりになってしまいました。
 古いゲームが多いのでまだ遊んでない方はぜひ遊んでみてください。

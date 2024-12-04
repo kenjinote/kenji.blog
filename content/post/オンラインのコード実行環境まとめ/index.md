@@ -3,9 +3,7 @@ title: '【言語別】オンラインのコード実行環境まとめ'
 date: 2023-04-09T14:01:00+09:00
 tags: ["オンライン", "コード実行環境", "プログラミング"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 ## Python

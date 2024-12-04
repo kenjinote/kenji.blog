@@ -3,9 +3,7 @@ title: 'wslで「Temporary failure resolving～」と表示される場合の対
 date: 2024-03-31T16:57:33+09:00
 tags: ["wsl", "対処方法"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # wslで「Temporary failure resolving～」と表示される場合の対処方法

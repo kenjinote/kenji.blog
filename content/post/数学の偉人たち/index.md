@@ -3,9 +3,7 @@ title: '数学の偉人たち'
 date: 2022-09-22T23:06:37+09:00
 tags: ["数学者"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 ### フェルマー (P, de Fermat, 1601-1665)
 17世紀を代表するフランスの数学者。解析幾何、確率論、微分法などの基礎付を行った。また数論の始祖でもある。

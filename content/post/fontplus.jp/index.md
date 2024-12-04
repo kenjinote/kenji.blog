@@ -3,9 +3,7 @@ title: 'fontplus.jpについて'
 date: 2023-02-07T20:59:01+09:00
 tags: ["font","fontplus"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # 有償のWebフォントを使うためのサービス fontplus.jp

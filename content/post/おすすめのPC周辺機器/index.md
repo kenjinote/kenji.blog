@@ -3,9 +3,7 @@ title: 'おすすめのPC周辺機器'
 date: 2023-02-28T00:51:49+09:00
 tags: ["キーボード", "トラックボール", "デイスプレイ"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # 現役エンジニアおすすめ＆ほしいPC周辺機器

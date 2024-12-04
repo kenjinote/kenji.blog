@@ -3,9 +3,7 @@ title: '数学の歴史'
 date: 2023-07-22T15:25:10+09:00
 tags: ["数学", "歴史"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 ### 古代ギリシアの三大作図問題

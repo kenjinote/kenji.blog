@@ -3,9 +3,7 @@ title: 'ハンロンの剃刀'
 date: 2024-09-24T18:14:34+09:00
 tags: ["フレーズ", "表現"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 ## ハンロンの剃刀とは

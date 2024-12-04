@@ -3,9 +3,7 @@ title: 'Webページ内のすべてのチェックボックスを全チェック
 date: 2022-10-05T20:07:06+09:00
 tags: ["javascript", "自動化"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 Webページ内のチェックボックスを全チェックするには、F12でDevToolsを開き、コンソールに以下のコードを貼り付けて実行します。

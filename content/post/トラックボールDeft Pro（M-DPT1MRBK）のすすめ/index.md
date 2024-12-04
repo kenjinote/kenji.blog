@@ -3,9 +3,7 @@ title: 'トラックボールDeft Pro（M-DPT1MRBK）のすすめ'
 date: 2023-05-02T23:28:33+09:00
 tags: ["トラックボール", "Deft Pro", "M-DPT1MRBK", "Elecom"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # エレコム トラックボール Deft Pro M-DPT1MRBK について

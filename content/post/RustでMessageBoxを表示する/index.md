@@ -3,9 +3,7 @@ title: 'RustでMessageBoxを表示する'
 date: 2022-09-30T23:54:31+09:00
 tags: ["Rust","MessageBox"]
 draft: false
-cover:
-  image: "images/rust_logo.png"
-  relative: true
+image: "images/rust_logo.png"
 ---
 
 下記の手順でRustでMessageBoxを表示することができます。

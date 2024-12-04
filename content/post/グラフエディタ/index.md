@@ -3,9 +3,7 @@ title: 'グラフエディタ'
 date: 2022-10-13T23:31:11+09:00
 tags: ["tools", "グラフ"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 # グラフエディタ
 

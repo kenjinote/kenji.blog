@@ -3,10 +3,7 @@ title: 'カフェ音楽'
 date: 2022-09-08T08:39:03+09:00
 tags: ["カフェ", "音楽"]
 draft: false
-cover:
-  image: "images/img.png"
-  relative: true
-  hidden: true
+image: "images/img.png"
 ---
 **アップテンポ**
 

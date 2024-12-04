@@ -3,9 +3,7 @@ title: '今日の作業環境'
 date: 2022-09-04T14:29:09+09:00
 tags: ["雑記","子供"]
 draft: false
-cover:
-  image: "images/today_workplase.jpg"
-  relative: true
+image: "images/today_workplase.jpg"
 ---
 
 # 子供の机

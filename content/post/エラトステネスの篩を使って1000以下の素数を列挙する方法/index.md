@@ -4,9 +4,7 @@ date: 2023-04-09T12:54:24+09:00
 tags: ["エラトステネスの篩", "素数", "数学", "Rust"]
 draft: false
 math: true
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 ## エラトステネスの篩とは

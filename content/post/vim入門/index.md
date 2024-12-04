@@ -3,9 +3,7 @@ title: 'vim入門'
 date: 2024-04-19T22:06:34+09:00
 tags: ["vim", "テキストエディタ"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 ![img_1.png](img_1.png)

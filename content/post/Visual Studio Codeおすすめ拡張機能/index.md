@@ -3,9 +3,7 @@ title: 'Visual Studio Codeおすすめ拡張機能'
 date: 2024-05-29T17:20:19+09:00
 tags: ["Visual Studio Code", "VSCode", "拡張機能", "エクステンション"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # Visual Studio Code おすすめ拡張機能一覧

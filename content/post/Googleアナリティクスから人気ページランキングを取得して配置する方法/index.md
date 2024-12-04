@@ -3,9 +3,7 @@ title: 'Googleアナリティクスから人気ページランキングを取得
 date: 2023-04-10T20:26:57+09:00
 tags: ["Googleアナリティクス", "Ranklet", "HUGO"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 ## はじめに

@@ -3,9 +3,7 @@ title: '子供のそんたく'
 date: 2022-09-07T04:40:52+09:00
 tags: ["子供"]
 draft: false
-cover:
-  image: "images/img.png"
-  relative: true
+image: "images/img.png"
 ---
 おかあさんの体調わるくなって寝込んでいるとき、
 晩御飯の準備とかお風呂の準備とかで「これ、おかあさんにお願いしようか？」と娘(2歳)に確認すると

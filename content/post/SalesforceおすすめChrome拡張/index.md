@@ -3,9 +3,7 @@ title: 'SalesforceおすすめChrome拡張'
 date: 2022-05-02T10:39:36+09:00
 tags: ["Salesforce", "Chrome拡張"]
 draft: true
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 ### Salesforce DevTools

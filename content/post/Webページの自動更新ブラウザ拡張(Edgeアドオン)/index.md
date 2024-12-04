@@ -3,9 +3,7 @@ title: 'Webページの自動更新ブラウザ拡張(Edgeアドオン)'
 date: 2024-04-06T15:36:54+09:00
 tags: ["ブラウザ拡張", "Edgeアドオン", "自動更新"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 Webページを自動更新するEdgeのブラウザ拡張機能「タブの自動更新」を紹介します。
 

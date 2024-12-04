@@ -3,9 +3,7 @@ title: 'macOSで.DS_Storeを自動生成しないようにするコマンド'
 date: 2022-09-12T16:03:42+09:00
 tags: ["macOS"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 macOSで.DS_Storeを自動生成しないようにするコマンドは以下の通りです。
 ターミナルで実行してください。

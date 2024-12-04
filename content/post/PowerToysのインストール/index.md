@@ -3,9 +3,7 @@ title: 'コマンドプロンプトでPowerToysインストールする'
 date: 2023-09-30T21:23:00+09:00
 tags: ["cmd", "コマンドプロンプト", "PowerToys", "winget"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # コマンドプロンプトでPowerToysインストールする

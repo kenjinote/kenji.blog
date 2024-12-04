@@ -3,9 +3,7 @@ title: '好きな洋楽'
 date: 2024-01-05T00:14:22+09:00
 tags: ["洋楽", "音楽"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # おすすめ洋楽

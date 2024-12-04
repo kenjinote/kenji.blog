@@ -3,9 +3,7 @@ title: 'Windowsでパスの通った実行ファイルの場所を見つける�
 date: 2023-04-03T00:02:55+09:00
 tags: ["Windows", "パス", "実行ファイル", "コマンドプロンプト"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # Windowsでパスの通った実行ファイルの場所を見つける方法

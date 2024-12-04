@@ -3,9 +3,7 @@ title: 'プログラミングで使えるフォント集'
 date: 2024-03-30T02:21:31+09:00
 tags: ["プログラミング", "フォント"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 ## JetBrains Mono

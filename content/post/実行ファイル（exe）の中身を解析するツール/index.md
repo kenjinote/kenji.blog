@@ -3,9 +3,7 @@ title: '実行ファイル（exe）の中身を解析するツール'
 date: 2023-04-05T23:31:06+09:00
 tags: ["windows", "exe", "実行ファイル", "解析"]
 draft: false
-cover:
-  image: "img_1.png"
-  relative: true
+image: "img_1.png"
 ---
 
 # 実行ファイル（exe）とは

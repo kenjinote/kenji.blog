@@ -3,9 +3,7 @@ title: 'i18nとは？'
 date: 2023-04-07T00:42:02+09:00
 tags: ["Internationalization", "i18n", "用語"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # i18nとは？

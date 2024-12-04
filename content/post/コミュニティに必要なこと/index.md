@@ -3,9 +3,7 @@ title: 'コミュニティに必要なこと'
 date: 2022-09-23T01:37:43+09:00
 tags: ["コミュニティ", "雑記"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 # コミュニティに必要なこと
 

@@ -3,9 +3,7 @@ title: 'WinGetを使ってコマンドでアプリをインストールする'
 date: 2022-10-05T12:15:20+09:00
 tags: ["WinGet"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 ## 前提条件
 Windows 11 であること

@@ -3,9 +3,7 @@ title: 'HUGOで使えるショートコード'
 date: 2022-09-11T22:59:52+09:00
 tags: ["HUGO"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 # HUGOで使えるショートコード
 

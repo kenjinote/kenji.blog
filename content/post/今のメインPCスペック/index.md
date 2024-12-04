@@ -3,9 +3,7 @@ title: '今のメインPCスペック'
 date: 2022-09-08T01:55:00+09:00
 tags: ["PC"]
 draft: false
-cover:
-  image: "images/img.png"
-  relative: true
+image: "images/img.png"
 ---
 メインPCのスペックを書いておきます。
 | 項目名     | 値                                             |

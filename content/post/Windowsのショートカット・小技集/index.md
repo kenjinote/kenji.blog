@@ -3,9 +3,7 @@ title: 'Windowsのショートカット・小技集'
 date: 2022-09-18T23:49:29+09:00
 tags: ["Windows","小技","ショートカット"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 Windowsで普段使うちょっとした小技集です。Windowsを使い始めの方に読んでもらえれば幸いです。
 Windows 11を想定していますが、多くのものがWindows 10でも使えると思います。

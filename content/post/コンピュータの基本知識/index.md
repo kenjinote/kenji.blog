@@ -3,9 +3,7 @@ title: 'コンピュータの基本知識'
 date: 2024-09-19T01:10:20+09:00
 tags: ["コンピュータ", "基本知識"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # コンピュータの基本知識

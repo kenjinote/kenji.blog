@@ -3,9 +3,7 @@ title: 'Mathematicaで巡回セールスマン問題を解く'
 date: 2022-10-12T19:05:58+09:00
 tags: ["Mathematica", "巡回セールスマン問題", "アルゴリズム", "数学"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 # Mathematicaで巡回セールスマン問題を解く
 

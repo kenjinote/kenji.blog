@@ -3,9 +3,7 @@ title: '名言集'
 date: 2022-10-15T17:00:43+09:00
 tags: ["名言集"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 > 愚者は経験に学び、賢者は歴史に学ぶ (フォン・ビスマルク)

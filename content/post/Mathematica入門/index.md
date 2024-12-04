@@ -3,9 +3,7 @@ title: 'Mathematica入門'
 date: 2024-07-25T01:36:19+09:00
 tags: ["Mathematica", "数学", "アルゴリズム"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 # Mathematica入門
 

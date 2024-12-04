@@ -3,9 +3,7 @@ title: 'wxWidgetsを使ったサンプル'
 date: 2023-04-18T00:18:22+09:00
 tags: ["wxWidgets", "サンプル"]
 draft: false
-cover:
-  image: "img.png"
-  relative:
+image: "img.png"
 ---
 
 ## wxWidgetsとは

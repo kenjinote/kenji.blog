@@ -3,9 +3,7 @@ title: 'CLIテキストエディタnanoをWindowsにインストールする方�
 date: 2024-03-31T18:09:32+09:00
 tags: ["nano", "テキストエディタ"]
 draft: false
-cover:
-  image: "img_1.png"
-  relative: true
+image: "img_1.png"
 ---
 
 ## nano.exeをダウンロードする

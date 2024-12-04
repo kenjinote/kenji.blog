@@ -3,9 +3,7 @@ title: 'エンジニア初学者におすすめの書籍'
 date: 2024-05-05T16:03:33+09:00
 tags: ["エンジニア", "初学者", "書籍"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 1. リーダブルコード

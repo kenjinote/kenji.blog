@@ -3,9 +3,7 @@ title: 'わかるってなんだろう？'
 date: 2022-09-24T02:38:18+09:00
 tags: ["雑記"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 # わかるってなんだろう？
 

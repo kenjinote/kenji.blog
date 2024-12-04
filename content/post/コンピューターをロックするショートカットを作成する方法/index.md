@@ -3,9 +3,7 @@ title: 'コンピューターをロックするショートカットを作成す
 date: 2024-04-01T01:37:49+09:00
 tags: ["Windows", "コンピューターをロック", "ショートカット"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 コンピューターをロックさせるショートカットを作成する方法を紹介します。

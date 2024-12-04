@@ -3,9 +3,7 @@ title: 'ヘーゲルの弁証法'
 date: 2022-09-09T23:13:19+09:00
 tags: ["哲学","ヘーゲル","弁証法"]
 draft: false
-cover:
-  image: "images/img.png"
-  relative: true
+image: "images/img.png"
 ---
 ## ヘーゲルの弁証法とは
 

@@ -3,9 +3,7 @@ title: 'アインシュタインの名言'
 date: 2024-08-24T18:38:47+09:00
 tags: ["アインシュタイン", "名言", "哲学", "科学", "物理学"]
 draft: false
-cover:
-  image: "Solvay_conference_1927.jpg"
-  relative: true
+image: "Solvay_conference_1927.jpg"
 ---
 
 ```

@@ -3,10 +3,7 @@ title: 'いろんなバージョン情報ダイアログ集めてみた'
 date: 2024-03-02T21:32:11+09:00
 tags: ["バージョン情報", "Windows", "MacOS"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
-  hidden: true
+image: "img.png"
 ---
 
 # いろんなバージョン情報ダイアログ集めてみた

@@ -3,9 +3,7 @@ title: 'エクスプローラーの右クリックメニューに秀丸エディ
 date: 2024-04-03T00:00:46+09:00
 tags: ["秀丸エディタ", "エクスプローラー", "右クリックメニュー", "grep", "レジストリ"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 Window 10/11でエクスプローラーの右クリックメニューに秀丸エディタのgrepを追加する方法を紹介します。

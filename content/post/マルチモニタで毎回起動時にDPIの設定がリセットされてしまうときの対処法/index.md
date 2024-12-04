@@ -3,9 +3,7 @@ title: 'マルチモニタで毎回起動時にDPIの設定がリセットされ
 date: 2024-04-29T19:42:20+09:00
 tags: ["マルチモニタ", "DPI", "コントロールパネル"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 ※Windows 11での設定手順となります。

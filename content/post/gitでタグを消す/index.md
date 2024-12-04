@@ -3,9 +3,7 @@ title: 'gitでタグを消す'
 date: 2022-10-02T02:18:04+09:00
 tags: ["git"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 # ローカルのタグを消す
 

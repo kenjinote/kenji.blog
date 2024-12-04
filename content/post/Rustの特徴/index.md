@@ -3,9 +3,7 @@ title: 'Rustの特徴'
 date: 2022-10-03T22:47:20+09:00
 tags: ["Rust"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 # Rust（ラスト）の特徴
 

@@ -3,9 +3,7 @@ title: '七草粥のレシピ'
 date: 2024-01-06T22:22:00+09:00
 tags: ["七草粥", "料理"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # 七草

@@ -3,9 +3,7 @@ title: 'エクスプローラーの終了・再起動方法'
 date: 2024-03-30T15:40:24+09:00
 tags: ["エクスプローラー"]
 draft: false
-cover:
-  image: "img_2.png"
-  relative: true
+image: "img_2.png"
 ---
 
 ## タスクバーの右クリックから終了する方法

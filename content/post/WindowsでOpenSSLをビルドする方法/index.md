@@ -3,9 +3,7 @@ title: 'WindowsでOpenSSLをビルドする方法'
 date: 2023-04-07T21:06:32+09:00
 tags: ["Windows", "OpenSSL", "ビルド", "C++"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 # OpenSSLとは

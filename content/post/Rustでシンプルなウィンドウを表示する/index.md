@@ -3,9 +3,7 @@ title: 'Rustでシンプルなウィンドウを表示する'
 date: 2022-10-01T19:08:58+09:00
 tags: ["Rust","ウィンドウ"]
 draft: false
-cover:
-  image: "images/rust_logo.png"
-  relative: true
+image: "images/rust_logo.png"
 ---
 
 Rustでシンプルなウィンドウを表示する

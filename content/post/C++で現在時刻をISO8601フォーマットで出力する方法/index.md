@@ -3,9 +3,7 @@ title: 'C++で現在時刻をISO8601フォーマットで出力する方法'
 date: 2023-04-15T19:35:27+09:00
 tags: ["C++", "日時", "ISO8601"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 ### 前提

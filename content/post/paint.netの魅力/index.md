@@ -3,9 +3,7 @@ title: 'paint.netの魅力'
 date: 2022-09-14T19:33:31+09:00
 tags: ["paint.net"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 わたしが開発の作業を行う中でよく使っている画像編集ソフトpaint.netの紹介します。
 

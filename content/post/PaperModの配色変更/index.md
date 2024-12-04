@@ -3,9 +3,7 @@ title: 'PaperModの配色変更'
 date: 2022-09-07T15:30:21+09:00
 tags: ["HUGO", "PaperMod"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 PaperModテーマの配色を変更しました。変更方法は下記を参考にしました。
 

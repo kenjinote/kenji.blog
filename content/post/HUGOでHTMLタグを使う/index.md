@@ -3,9 +3,7 @@ title: 'HUGOでHTMLタグを使う'
 date: 2023-01-17T19:20:32+09:00
 tags: ["HUGO", "HTML"]
 draft: false
-cover:
-  image: "img.png"
-  relative: true
+image: "img.png"
 ---
 
 HUGOのデフォルトでは記事中のHTMLタグの使用ができなくなっていますが、config.tomlに下記の記述をするとできるようになります。

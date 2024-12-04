@@ -3,9 +3,7 @@ title: 'モチベーションを上げてくれる動画'
 date: 2022-09-08T02:22:52+09:00
 tags: ["モチベーション", "動画"]
 draft: false
-cover:
-  image: "images/img.png"
-  relative: true
+image: "images/img.png"
 ---
 
 ## 努力が認められなくてもいいじゃない
