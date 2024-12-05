@@ -1,6 +1,6 @@
 baseurl: https://kenji.blog/
 languageCode: ja-jp
-title: Example Site
+title: kenji's blog
 copyright: kenjinote
 
 # Theme i18n support
@@ -26,7 +26,7 @@ services:
         shortname: "kenji-blog"
     # GA Tracking ID
     googleAnalytics:
-        id:
+        id: "G-7T00BV6PNK"
 
 pagination:
     pagerSize: 5
