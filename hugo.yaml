@@ -51,7 +51,7 @@ params:
         lastUpdated: 2006/01/02 15:04 MST
 
     sidebar:
-        emoji: 🚀
+        emoji: 📝
         subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
             enabled: true
@@ -205,11 +205,11 @@ menu:
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com/kenjinote
+        - identifier: x
+          name: X
+          url: https://x.com/kenjinote
           params:
-              icon: brand-twitter
+              icon: brand-x
 
 related:
     includeNewer: true
