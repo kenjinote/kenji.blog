@@ -4,6 +4,7 @@ description: このブログの概要です。
 date: '2024-12-07'
 aliases:
   - about-us
+  - about-hugo
   - contact
 license: CC BY-NC-ND
 lastmod: '2024-12-07'
