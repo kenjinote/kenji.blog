@@ -12,7 +12,7 @@ links:
   - title: Stack
     description: Card-style theme designed for bloggers.
     website: https://stack.jimmycai.com/
-    image: stack.jpg
+    image: stack.png
 menu:
     main: 
         weight: -50
